@@ -1,0 +1,140 @@
+.contactform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d1116;
+  padding: 4rem;
+}
+.contactFormWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+}
+.contactFormTitle {
+  height: 3rem;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  padding: 2px;
+}
+.formHeading {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  background: linear-gradient(90deg, #007cf0 10.73%, #00dfd8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.formBox {
+  width: 100%;
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #111111;
+  box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
+    0px 12px 40px rgba(0, 223, 216, 0.1),
+    -12px 0px 40px rgba(198, 255, 221, 0.1),
+    12px 0px 40px rgba(0, 124, 240, 0.1);
+  border-radius: 8px;
+}
+.formBody {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 90%;
+  height: 95%;
+  padding: 20px;
+}
+.nameBox {
+  display: flex;
+  flex-direction: column;
+}
+.labels {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.inputs {
+  height: 2.3rem;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid #a9a9a9;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  text-indent: 1rem;
+  color: white;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.text {
+  color: white;
+  height: 10rem;
+  border: 1px solid #a9a9a9;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 10px;
+}
+.PostComments {
+  color: white;
+  width: 10rem;
+  height: 4rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  background: linear-gradient(94deg, #00dfd8 0%, #007cf0 99.99%, #007cf0 100%);
+  box-shadow: 12px 0px 40px 0px rgba(0, 124, 240, 0.1),
+    -12px 0px 40px 0px rgba(198, 255, 221, 0.1),
+    0px 12px 40px 0px rgba(0, 223, 216, 0.1),
+    0px -12px 40px 0px rgba(0, 223, 216, 0.1);
+}
+
+@media (max-width: 1100px) {
+  .details {
+    flex-direction: column;
+  }
+  .contact-form-wrapper {
+    gap: 0.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .contact-form-wrapper {
+    width: 80%;
+  }
+  .contact-form-wrapper {
+    gap: 0.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .contact-form-wrapper {
+    width: 95%;
+  }
+  .contact-form-wrapper {
+    gap: 0.5rem;
+  }
+}
+@media (max-width: 300px) {
+  .contact-form-wrapper {
+    width: 100%;
+  }
+  .form-body {
+    width: 100%;
+  }
+  .contact-form-wrapper {
+    gap: 0.5rem;
+  }
+}

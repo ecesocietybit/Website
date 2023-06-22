@@ -1,4 +1,5 @@
 import Navbar from './components/navbar/Navbar'
+import Form from './components/contact/Form'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar/>
         {children}
+      <Form/>
         </body>
     </html>
   )
