@@ -1,10 +1,9 @@
-import Image from 'next/image'
-import Navbar from './components/navbar/Navbar'
 
-export default function Home() {
+export default function Page() {
   return (
-    <main className=" min-h-screen p-4">
-      <Navbar/>
-    </main>
+    <div className=" min-h-screen w-full p-4 bg-[#0D1116] text-white">
+      
+      This is Home.
+    </div>
   )
 }

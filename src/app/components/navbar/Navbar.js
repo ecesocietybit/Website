@@ -1,19 +1,16 @@
 import React from 'react'
 import style from './Navbar.module.css'
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <nav className='flex justify-between'>
-        <div className={`${style.logo}`}>
-
-        </div>
-        <ul className='flex gap-4'>
+    <nav className={`${style.nav}`}>
+        <ul className={`flex gap-2 `}>
             <li>Home</li>
-            <li>Events</li>
-            <li>About Us</li>
-            <li>Team</li>
-            <li>Alumni</li>
-            <li>FAQ</li>
+            <li>About</li>
+            <li><Link href='/teams'>Team</Link></li>
+            <li>Event</li>
+            <li>Contact</li>
         </ul>
       
     </nav>
