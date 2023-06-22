@@ -1,0 +1,60 @@
+.card {
+  background: linear-gradient(
+    111.68deg,
+    rgba(221, 221, 221, 0.08) 78.43%,
+    rgba(255, 255, 255, 0.18) 102.04%
+  );
+  border: 2px solid rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+}
+
+.imgBg{
+  
+    background: linear-gradient(111.68deg, rgba(221, 221, 221, 0.15) 7.59%, rgba(221, 221, 221, 0.3) 102.04%);
+    border: 1.22951px solid rgba(255, 255, 255, 0.28);
+    backdrop-filter: blur(13.5246px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 122.951px;
+  }
+  
+
+.img{
+    border: 1.22951px solid rgba(255, 255, 255, 0.25);
+backdrop-filter: blur(3.07377px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 122.951px;
+}
+
+.imgBg::before{
+  content: '';
+  transform: translate(-7px,-7px);
+  display: block;
+  width: 110%;
+  height: 110%;
+  background: linear-gradient(111.68deg, rgba(221, 221, 221, 0.15) 7.59%, rgba(221, 221, 221, 0.3) 102.04%);
+  border: 1.22951px solid rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(13.5246px);
+  /* Note: backdrop-filter has minimal browser support */
+  
+  border-radius: 122.951px;
+}
+
+.imgBg:hover::before{
+  width: 120%;
+  height: 120%;
+  transform: translate(-15px,-15px);
+
+}
+
+.cardContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 2rem;
+  justify-items: center;
+  max-width: calc(4 * (250px + 2rem));
+  margin-inline: auto;
+}
+
