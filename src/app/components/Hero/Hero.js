@@ -11,7 +11,7 @@ function HeroSection() {
       <Image src={earth} alt="earth" className={`${styles.heroimgearth}`} />
       <Image
         src={satellite}
-        alt="satellite"
+        alt="sa"
         className={`${styles.heroimgsatellite}`}
       />
       <h1 className={`${styles.heading}`} style={{ marginBottom: "-16px" }}>
