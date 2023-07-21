@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: space-between;
   background: #0d1116;
+  z-index: 10;
 }
 .navbarContainer {
   display: flex;
@@ -12,6 +13,12 @@
   max-height: 87px;
   width: 87px;
   font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+.navbarLogo {
+  cursor: pointer;
+
 }
 .navbarLogo img {
   display: block;
