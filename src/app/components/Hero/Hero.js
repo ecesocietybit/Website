@@ -14,13 +14,14 @@ function HeroSection() {
         alt="sa"
         className={`${styles.heroimgsatellite}`}
       />
-      <h1 className={`${styles.heading}`} style={{ marginBottom: "-16px" }}>
-        Electronics & Communication
+      <h1 className={`${styles.heading}`}>
+        Electronics & Communication <br />
+        Engineering Society
       </h1>
-      <h1 className={`${styles.heading}`}> Engineering Society</h1>
+      {/* <h1 className={`${styles.heading}`}> Engineering Society</h1> */}
 
       <p className={`${styles.subtext}`}>
-        We are a team , an organisation, a family, a society.
+        We are a team, a society, a family and an organisation.
       </p>
     </div>
   );
