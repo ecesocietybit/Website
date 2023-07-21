@@ -15,13 +15,13 @@ const Navbar = () => {
       </div>
       <ul className={`${styles.navbarMenu}`}>
         <li>
-          <Link href="/Home">Home</Link>
+          <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/">Blogs</Link>
+          <Link href="/blogs">Blogs</Link>
         </li>
         <li>
-          <Link href="/members">Events</Link>
+          <Link href="/events">Events</Link>
         </li>
         <li>
           <Link href="/teams">Members</Link>
