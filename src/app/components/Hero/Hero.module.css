@@ -36,6 +36,8 @@
   font-size: 60px;
   font-weight: 900;
   margin-bottom: 160px;
+  text-wrap: balance;
+  max-width: 80%;
 
   background: -webkit-linear-gradient(
     left,

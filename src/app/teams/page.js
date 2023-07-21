@@ -25,6 +25,7 @@ export default function Page() {
               imgSrc={item.imgSrc} 
               lazyImgSrc={item.lazyImgSrc} 
               socials={item.socials}
+              key={item.name}
             />
             )
           })
