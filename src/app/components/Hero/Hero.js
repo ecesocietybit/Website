@@ -18,7 +18,6 @@ function HeroSection() {
         Electronics & Communication <br />
         Engineering Society
       </h1>
-      {/* <h1 className={`${styles.heading}`}> Engineering Society</h1> */}
 
       <p className={`${styles.subtext}`}>
         We are a team, a society, a family and an organisation.

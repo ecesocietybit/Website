@@ -12,6 +12,7 @@ const TeamCard = ({name, pos,imgSrc,socials}) => {
             className={`h-[101.75px] w-[101.75px] mx-auto object-cover object-top ${style.img}`}
             fill="true" 
             src={imgSrc}
+            alt={name}
             />
         </div>
       </div>
