@@ -1,53 +1,3 @@
-.navbar {
-  width: 100%;
-  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #0d1116;
-  z-index: 10;
-}
-.navbarContainer {
-  display: flex;
-  align-items: center;
-  max-height: 87px;
-  width: 87px;
-  font-size: 16px;
-  color: #fff;
-  text-align: center;
-}
-.navbarLogo {
-  cursor: pointer;
-
-}
-.navbarLogo img {
-  display: block;
-  max-height: 47px;
-  width: 47px;
-  margin: 0 auto;
-}
-
-.navbarMenu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 40px;
-}
-
-.navbarMenu li {
-  margin-right: 20px;
-}
-
-.navbarMenu li:last-child {
-  margin-right: 0;
-}
-
-.navbarMenu li a {
-  text-decoration: none;
-  color: #fff;
-}
-
 .navbarContact .contactButton {
   display: flex;
   width: 130px;
@@ -60,7 +10,6 @@
   flex-shrink: 0;
 
   color: #fff;
-  font-family: Inter;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -76,8 +25,4 @@
     -12px 0px 40px 0px rgba(198, 255, 221, 0.1),
     0px 12px 40px 0px rgba(0, 124, 240, 0.1),
     0px -12px 40px 0px rgba(0, 124, 240, 0.1);
-}
-
-@media (max-width: 768px) {
-  /* Add responsive styles for smaller screens if needed */
 }
