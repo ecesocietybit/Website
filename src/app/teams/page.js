@@ -1,3 +1,4 @@
+import Head from "next/head";
 import TeamCard from "../components/teamcard/TeamCard";
 import StyledText from "../components/text/StyledText";
 import style from "../components/teamcard/TeamCard.module.css";
@@ -5,6 +6,10 @@ import { TeamData2k20,TeamData2k21,TeamData2k22 } from "@/lib/data/TeamData";
 
 export default function Page() {
   return (
+    <>
+    <Head>
+      <title>Our Team</title>
+    </Head>
     <div className="min-h-screen w-full p-4 bg-[#0D1116] flex flex-col gap-28">
       <div>
         <StyledText
@@ -78,5 +83,6 @@ export default function Page() {
         </div>
       </div>
     </div>
+    </>
   );
 }
