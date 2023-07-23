@@ -36,25 +36,25 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex space-x-4">
           {" "}
-          <a href="#" className="text-white px-4">
+          <Link href="/" className="text-white px-4">
             Home
-          </a>
-          <a href="#" className="text-white px-4">
-            Blogs
-          </a>
-          <a href="#" className="text-white px-4">
-            Events
-          </a>
-          <a href="#" className="text-white px-4">
-            Members
-          </a>
-          <a href="#" className="text-white px-4">
+          </Link>
+          <Link href="/about" className="text-white px-4">
             About
-          </a>
+          </Link>
+          <Link href="/events" className="text-white px-4">
+            Events
+          </Link>
+          <Link href="/articles" className="text-white px-4">
+            Articles
+          </Link>
+          <Link href="/teams" className="text-white px-4">
+            Members
+          </Link>
         </div>
 
         <div className={`hidden md:flex space-x-4 ${styles.navbarContact}`}>
-          <a href="#" className={`${styles.contactButton}`}>
+          <a href="#contact" className={`${styles.contactButton}`}>
             Contact Us
           </a>
         </div>
@@ -74,21 +74,21 @@ const Navbar = () => {
         >
           <div className="flex flex-col space-y-2">
             <div className="flex flex-col space-y-2">
-              <a href="#" className="text-white">
+              <Link href="/" className="text-white">
                 Home
-              </a>
-              <a href="#" className="text-white">
-                Blogs
-              </a>
-              <a href="#" className="text-white">
-                Events
-              </a>
-              <a href="#" className="text-white">
-                Members
-              </a>
-              <a href="#" className="text-white">
+              </Link>
+              <Link href="/about" className="text-white">
                 About
-              </a>
+              </Link>
+              <Link href="/events" className="text-white">
+                Events
+              </Link>
+              <Link href="/articles" className="text-white">
+                Articles
+              </Link>
+              <Link href="/teams" className="text-white">
+                Members
+              </Link>
             </div>
             <button className="text-white">Contact Us</button>
           </div>
