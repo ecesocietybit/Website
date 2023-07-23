@@ -2,7 +2,7 @@ export const TeamData2k20=[
     {
         name:'Ritesh Kumar',
         pos:'President',
-        imgSrc:'',
+        imgSrc:'ritesh_kumar.png',
         lazyImgSrc:'',
         socials:{
             github:'RajRitesh',
@@ -12,33 +12,9 @@ export const TeamData2k20=[
         },
     },
     {
-        name:'Anjali Goswami',
-        pos:'Vice President',
-        imgSrc:'',
-        lazyImgSrc:'',
-        socials:{
-            github:'anjaligoswami',
-            email:'agcodes86400@gmail.com',
-            linkedin:'anjaligoswami20/',
-            insta:'anjaliigoswamii',
-        },
-    },
-    {
-        name:'Aman kumar',
-        pos:'Joint Treasurer',
-        imgSrc:'',
-        lazyImgSrc:'',
-        socials:{
-            github:'',
-            email:'amanchoudhary2912@gmail.com',
-            linkedin:'aman-kumar-915794280',
-            insta:'aman.kumar2912',
-        },
-    },
-    {
         name:'Shivam',
         pos:'Vice President ',
-        imgSrc:'',
+        imgSrc:'shivam_shandilya.png',
         lazyImgSrc:'',
         socials:{
             github:'Shivam-tech9696',
@@ -48,21 +24,21 @@ export const TeamData2k20=[
         },
     },
     {
-        name:'Tanweer Ansari',
-        pos:'Joint Secretary and Technical Head',
-        imgSrc:'',
+        name:'Anjali Goswami',
+        pos:'Vice President',
+        imgSrc:'anjali_goswami.png',
         lazyImgSrc:'',
         socials:{
-            github:'Tanweer52',
-            email:'ansaritanweer836@gmail.com',
-            linkedin:'tanweer-ansari-724721209/',
-            insta:'tanweer.ansari.1840',
+            github:'anjaligoswami',
+            email:'agcodes86400@gmail.com',
+            linkedin:'anjaligoswami20/',
+            insta:'anjaliigoswamii',
         },
     },
     {
         name:'Priyanshu Malviya',
         pos:'Secretary ',
-        imgSrc:'',
+        imgSrc:'priyanshu_malviya.png',
         lazyImgSrc:'',
         socials:{
             github:'',
@@ -72,21 +48,45 @@ export const TeamData2k20=[
         },
     },
     {
-        name:'Anjali Mardi',
-        pos:'Public Relation Officer',
-        imgSrc:'',
+        name:'Tanweer Ansari',
+        pos:'Joint Secretary and Technical Head',
+        imgSrc:'tanweer_ansari.png',
+        lazyImgSrc:'',
+        socials:{
+            github:'Tanweer52',
+            email:'ansaritanweer836@gmail.com',
+            linkedin:'tanweer-ansari-724721209/',
+            insta:'tanweer.ansari.1840',
+        },
+    },
+    {
+        name:'Birbal Saw',
+        pos:'Treasurer',
+        imgSrc:'birbal_saw.png',
         lazyImgSrc:'',
         socials:{
             github:'',
-            email:'anjalimardi763@gmail.com',
-            linkedin:'anjali-mardi-0460a0214',
-            insta:'_anjali_mardi_',
+            email:'birbalsaw2001@gmail.com',
+            linkedin:'birbal-saw',
+            insta:'_birbal_saw_',
+        },
+    },
+    {
+        name:'Aman kumar',
+        pos:'Joint Treasurer',
+        imgSrc:'aman_kumar.png',
+        lazyImgSrc:'',
+        socials:{
+            github:'',
+            email:'amanchoudhary2912@gmail.com',
+            linkedin:'aman-kumar-915794280',
+            insta:'aman.kumar2912',
         },
     },
     {
         name:'MD Faizan Yusuf',
         pos:'Event Co-ordinator ',
-        imgSrc:'',
+        imgSrc:'faizan_yusuf.png',
         lazyImgSrc:'',
         socials:{
             github:'',
@@ -94,74 +94,39 @@ export const TeamData2k20=[
             linkedin:'faizan-yusuf-795958225',
             insta:'yusuf_faizan_12',
         },
+    },
+    
+    {
+        name:'Gayetri Murmu',
+        pos:'Head Editor ',
+        imgSrc:'gayetri_murmu.png',
+        lazyImgSrc:'',
+        socials:{
+            github:'',
+            email:'yusuf17faizan@gmail.com',
+            linkedin:'gayetri-murmu-555a6321a',
+            insta:'gayetri_murmu',
+        },
+    },
+    {
+        name:'Anjali Mardi',
+        pos:'Public Relation Officer',
+        imgSrc:'anjali_mardi.png',
+        lazyImgSrc:'',
+        socials:{
+            github:'',
+            email:'anjalimardi763@gmail.com',
+            linkedin:'anjali-mardi-0460a0214',
+            insta:'_anjali_mardi_',
+        },
     }
 ]
 
 export const TeamData2k21 =[
     {
-        name:'Mohit Pandey ',
-        pos:'',
-        imgSrc:'',
-        lazyImgSrc:'',
-        socials:{
-            github:'MOHIT-PANDEY215',
-            email:'pandeymohit215@gmail.com',
-            linkedin:'mohit-pandey-5b0756197',
-            insta:'pandeymohit215',
-        },
-    },
-    {
-        name:'Aayushi Singh',
-        pos:'',
-        imgSrc:'',
-        lazyImgSrc:'',
-        socials:{
-            github:'',
-            email:'aayushisingh086@gmail.com',
-            linkedin:'aayushi-singh-5107bb256',
-            insta:'',
-        },
-    },
-    {
-        name:'Tushar kumar',
-        pos:'',
-        imgSrc:'',
-        lazyImgSrc:'',
-        socials:{
-            github:'',
-            email:'tusharkumar121002@gmail.com',
-            linkedin:'',
-            insta:'Tushar_1729',
-        },
-    },
-    {
-        name:'Samia Nishaat',
-        pos:'',
-        imgSrc:'',
-        lazyImgSrc:'',
-        socials:{
-            github:'',
-            email:'samiabksc@gmail.com',
-            linkedin:'samianishaat',
-            insta:'samianishaat',
-        },
-    },
-    {
-        name:'Priyanshu katyayni',
-        pos:'',
-        imgSrc:'',
-        lazyImgSrc:'',
-        socials:{
-            github:'lonewolf2299',
-            email:'priyanshukatyayni229@gmail.com',
-            linkedin:'priyanshu-katyayni-70b0a4233',
-            insta:'priyanshu._.13',
-        },
-    },
-    {
         name:'Rohit Kumar',
         pos:'',
-        imgSrc:'',
+        imgSrc:'rohit_kumar.png',
         lazyImgSrc:'',
         socials:{
             github:'rohitkumar9897',
@@ -171,21 +136,9 @@ export const TeamData2k21 =[
         },
     },
     {
-        name:'Dipanshu Ranjan',
-        pos:'',
-        imgSrc:'',
-        lazyImgSrc:'',
-        socials:{
-            github:'',
-            email:'dtdtstst1@gmail.com',
-            linkedin:'',
-            insta:'Dipanshu1133',
-        },
-    },
-    {
         name:'Aditya Bhardwaj',
         pos:'',
-        imgSrc:'',
+        imgSrc:'aditya_bhardwaj.png',
         lazyImgSrc:'',
         socials:{
             github:'adityaS49',
@@ -197,7 +150,7 @@ export const TeamData2k21 =[
     {
         name:'Akash kumar',
         pos:'',
-        imgSrc:'',
+        imgSrc:'akash_kumar.png',
         lazyImgSrc:'',
         socials:{
             github:'',
@@ -207,9 +160,71 @@ export const TeamData2k21 =[
         },
     },
     {
+        name:'Abhay Narayan',
+        pos:'',
+        imgSrc:'abhay_narayan.jpg',
+        lazyImgSrc:'',
+        socials:{
+            github:'naraynabhay',
+            email:'abhaynarayan07062002@gmail.com',
+            linkedin:'abhay-narayan-76114b1ba',
+            insta:'abhay_narayn_00',
+        },
+    },
+    {
+        name:'Priyanshu katyayni',
+        pos:'',
+        imgSrc:'priyanshu_katyayni.png',
+        lazyImgSrc:'',
+        socials:{
+            github:'lonewolf2299',
+            email:'priyanshukatyayni229@gmail.com',
+            linkedin:'priyanshu-katyayni-70b0a4233',
+            insta:'priyanshu._.13',
+        },
+    },
+    {
+        name:'Mohit Pandey ',
+        pos:'',
+        imgSrc:'mohit_pandey.png',
+        lazyImgSrc:'',
+        socials:{
+            github:'MOHIT-PANDEY215',
+            email:'pandeymohit215@gmail.com',
+            linkedin:'mohit-pandey-5b0756197',
+            insta:'pandeymohit215',
+        },
+    },
+    
+    {
+        name:'Tushar kumar',
+        pos:'',
+        imgSrc:'tushar_kumar.png',
+        lazyImgSrc:'',
+        socials:{
+            github:'',
+            email:'tusharkumar121002@gmail.com',
+            linkedin:'',
+            insta:'Tushar_1729',
+        },
+    },
+    {
+        name:'Samia Nishaat',
+        pos:'',
+        imgSrc:'samia_nishaat.png',
+        lazyImgSrc:'',
+        socials:{
+            github:'',
+            email:'samiabksc@gmail.com',
+            linkedin:'samianishaat',
+            insta:'samianishaat',
+        },
+    },
+     
+    {
         name:'Kheya Rani Das',
         pos:'',
-        imgSrc:'',
+        imgSrc:'kheya_das.png',
         lazyImgSrc:'',
         socials:{
             github:'kheya19',
@@ -219,21 +234,9 @@ export const TeamData2k21 =[
         },
     },
     {
-        name:'Rahul kumar',
-        pos:'',
-        imgSrc:'',
-        lazyImgSrc:'',
-        socials:{
-            github:'',
-            email:'01rahulkumaar@gmail.com',
-            linkedin:'rahul-kumar-482219238',
-            insta:'rahul.kumar11',
-        },
-    },
-    {
         name:'Aayushi',
         pos:'',
-        imgSrc:'',
+        imgSrc:'aayushi_arya.png',
         lazyImgSrc:'',
         socials:{
             github:'Aarya1527',
@@ -243,17 +246,41 @@ export const TeamData2k21 =[
         },
     },
     {
-        name:'Abhay Narayan',
+        name:'Dipanshu Ranjan',
         pos:'',
-        imgSrc:'',
+        imgSrc:'dipanshu_ranjan.png',
         lazyImgSrc:'',
         socials:{
-            github:'naraynabhay',
-            email:'abhaynarayan07062002@gmail.com',
-            linkedin:'abhay-narayan-76114b1ba',
-            insta:'abhay_narayn_00',
+            github:'',
+            email:'dtdtstst1@gmail.com',
+            linkedin:'',
+            insta:'Dipanshu1133',
         },
-    }
+    },
+    {
+        name:'Rahul kumar',
+        pos:'',
+        imgSrc:'rahul_kumar.png',
+        lazyImgSrc:'',
+        socials:{
+            github:'',
+            email:'01rahulkumaar@gmail.com',
+            linkedin:'rahul-kumar-482219238',
+            insta:'rahul.kumar11',
+        },
+    },
+    {
+        name:'Aayushi Singh',
+        pos:'',
+        imgSrc:'aayushi_singh.jpg',
+        lazyImgSrc:'',
+        socials:{
+            github:'',
+            email:'aayushisingh086@gmail.com',
+            linkedin:'aayushi-singh-5107bb256',
+            insta:'',
+        },
+    },
          
 ]
 
@@ -261,7 +288,7 @@ export const TeamData2k22 =[
     {
         name:'Shreya Paul',
         pos:'',
-        imgSrc:'',
+        imgSrc:'shreya_paul.png',
         lazyImgSrc:'',
         socials:{
             github:'shreyapaul01',
@@ -273,7 +300,7 @@ export const TeamData2k22 =[
     {
         name:'Om Kumar Soni',
         pos:'',
-        imgSrc:'',
+        imgSrc:'om_soni.png',
         lazyImgSrc:'',
         socials:{
             github:'omkumarsoni2919',
@@ -285,7 +312,7 @@ export const TeamData2k22 =[
     {
         name:'Shobhit Kashyap',
         pos:'',
-        imgSrc:'',
+        imgSrc:'shobhit_kashyap.png',
         lazyImgSrc:'',
         socials:{
             github:'imshobhitk',
@@ -297,7 +324,7 @@ export const TeamData2k22 =[
     {
         name:'Deepak kumar Rajak',
         pos:'',
-        imgSrc:'',
+        imgSrc:'deepak_rajak.png',
         lazyImgSrc:'',
         socials:{
             github:'Iamdeepak4551 ',
@@ -309,7 +336,7 @@ export const TeamData2k22 =[
     {
         name:'Amisha Kumari Soren ',
         pos:'',
-        imgSrc:'',
+        imgSrc:'amisha_kumari.png',
         lazyImgSrc:'',
         socials:{
             github:'',
@@ -321,7 +348,7 @@ export const TeamData2k22 =[
     {
         name:'Chahat',
         pos:'',
-        imgSrc:'',
+        imgSrc:'chahat_singh.png',
         lazyImgSrc:'',
         socials:{
             github:'chahat-git',
@@ -333,7 +360,7 @@ export const TeamData2k22 =[
     {
         name:'Ashish Kumar Mahto',
         pos:'',
-        imgSrc:'',
+        imgSrc:'ashish_kumar.png',
         lazyImgSrc:'',
         socials:{
             github:'ashish3180',
@@ -345,7 +372,7 @@ export const TeamData2k22 =[
     {
         name:'Deepak Sawaiyan',
         pos:'',
-        imgSrc:'',
+        imgSrc:'deepak_sewaiyan.png',
         lazyImgSrc:'',
         socials:{
             github:'Deepak200385',
@@ -357,7 +384,7 @@ export const TeamData2k22 =[
     {
         name:'Rajan kumar das ',
         pos:'',
-        imgSrc:'',
+        imgSrc:'rajan_kumar.png',
         lazyImgSrc:'',
         socials:{
             github:'',
@@ -369,7 +396,7 @@ export const TeamData2k22 =[
     {
         name:'Abhay Kumar',
         pos:'',
-        imgSrc:'',
+        imgSrc:'abhay_kumar.png',
         lazyImgSrc:'',
         socials:{
             github:'leanwithkumar',
