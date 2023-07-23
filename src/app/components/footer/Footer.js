@@ -10,7 +10,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <div className={`${style.footer} flex  flex-col w-full h-10vh`}>
+    <div className={`${style.footer} p-8 flex  flex-col w-full h-10vh`}>
         <div className={`${style.icons} flex  justify-center   w-100% ` }>
 
      <Link href='https://instagram.com/ecesocietybits?igshid=MzRlODBiNWFlZA== ' className={ `${style.link}`}>
