@@ -23,7 +23,7 @@ const Form = () => {
     setcomments("");
   };  
   return (
-    <section className={`${styles.contactform}`}>
+    <section className={`${styles.contactform}`} id="contact">
       <div className={`${styles.contactFormWrapper}`}>
         <div className={`${styles.contactFormTitle}`}>
           <h1 className={`${styles.formHeading}`}>Contact Us</h1>
