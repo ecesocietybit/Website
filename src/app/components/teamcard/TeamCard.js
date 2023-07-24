@@ -17,7 +17,8 @@ const TeamCard = ({name, pos,imgSrc,lazyImgSrc,socials}) => {
             className={`h-[101.75px] w-[101.75px] mx-auto object-cover object-top ${style.img}`}
             fill="true" 
             src={imgSrc}
-            blurdataurl={lazyImgSrc}
+            placeholder='blur'
+            blurDataURL={lazyImgSrc}
             alt={name}
             />
         </div>
