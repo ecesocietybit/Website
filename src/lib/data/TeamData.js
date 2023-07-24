@@ -272,7 +272,7 @@ export const TeamData2k21 =[
     {
         name:'Aayushi Singh',
         pos:'',
-        imgSrc:'aayushi_singh.jpg',
+        imgSrc:'aayushi_singh.png',
         lazyImgSrc:'',
         socials:{
             github:'',
@@ -281,6 +281,18 @@ export const TeamData2k21 =[
             insta:'',
         },
     },
+    {
+        name:'Esha Kumari',
+        pos:'',
+        imgSrc:'esha_kumari.png',
+        lazyImgSrc:'',
+        socials:{
+            github:'Esha-01',
+            email:'eshakumari2002@gmail.com',
+            linkedin:'esha-kumari-47b854232',
+            insta:'wassup_esha/',
+        },
+    }
          
 ]
 

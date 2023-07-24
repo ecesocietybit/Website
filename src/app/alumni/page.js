@@ -5,7 +5,12 @@ import { TeamData2k19 } from "@/lib/data/AlumniData";
 
 export default function Page() {
   return (
+    <>
+    <Head>
+      <title>Our Alumni</title>
+    </Head>
     <div className="min-h-screen w-full p-4 bg-[#0D1116] flex flex-col gap-28">
+        
       <div>
         <StyledText
           primary="#FF4D4D"
@@ -30,5 +35,6 @@ export default function Page() {
         </div>
       </div>
     </div>
+    </>
   );
 }
