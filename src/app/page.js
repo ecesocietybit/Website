@@ -2,6 +2,7 @@ import Head from "next/head";
 import HeroSection from "./components/Hero/Hero";
 import Form from "./components/contact/Form";
 import PostHead from "./components/postHead/PostHead";
+import EventCard from "./components/EventCard/EventCard";
 
 export default function Page() {
   return (
@@ -13,6 +14,7 @@ export default function Page() {
       
       <HeroSection />
       <PostHead/>
+      <EventCard/>
       <Form />
     </div>
     </>

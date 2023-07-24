@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Caladea:ital@1&family=Dancing+Script:wght@700&family=Merriweather:ital@1&family=PT+Serif&family=Poppins&display=swap');
+.eventBanner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.eventWrapper{
+    display: flex;
+    width: 80%;
+    gap: 1rem;
+    padding: 10px;
+    border: 1.22951px solid rgba(255, 255, 255, 0.28);
+    backdrop-filter: blur(20.5246px);
+    border-radius: 122.951px;
+    background: linear-gradient(111.68deg, rgba(221, 221, 221, 0.15) 7.59%, rgba(221, 221, 221, 0.3) 102.04%);
+    border-radius: 12px;
+}
+.imgBanner{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 400px;
+}
+.eventHeading{
+    font-family: 'Bacasime Antique', serif;
+    padding: 20px 10px 10px  10px;
+    font-size: 40px;
+    font-weight: 500;  
+}
+.eventPara{
+    padding: 10px;
+}
+.img{
+    border-radius: 10px;
+}
+.eventBottom{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 3rem;
+}
+.eventButton{
+    padding: 10px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.btn{
+background-color: black;
+color: white;
+width: 8rem;
+padding: 15px 5px;
+border-radius: 5px;
+border: 2px solid purple;
+/* box-shadow: rgba(227, 13, 13, 0.19) 0px 8px 20px, rgba(222, 13, 13, 0.23) 0px 6px 6px; */
+}
