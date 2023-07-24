@@ -84,15 +84,13 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
     </div>
       
       <div className={`${style.right} flex  flex-col`}  >
-      <p className={`${style.name} `}>
-        <StyledText
+      <StyledText
          primary="#007cf0"
          secondary="#00dfd8"
          className="text-[36px] font-bold flex flex-col items-center mb-4"
         >
         {name}
         </StyledText>
-      </p>
 
       <div className={`${style.subsidary} `}>
         <p className={`${style.dept} `}> {dept}</p>

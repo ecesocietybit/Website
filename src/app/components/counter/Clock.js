@@ -25,7 +25,7 @@ export default function Clock({ Days, Hours, Minutes, Seconds }) {
           <p>{Minutes[0]} </p>
           <p>{Minutes[1]} </p>
         </div>
-        <span className={`ml-[-10px] ${Styles.time}`}>Minutes</span>
+        <span className={`ml-[-14px] ${Styles.time}`}>Minutes</span>
       </div>
 
       {Days == 0 && (

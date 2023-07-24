@@ -17,21 +17,27 @@
     background: linear-gradient(111.68deg, rgba(221, 221, 221, 0.15) 7.59%, rgba(221, 221, 221, 0.3) 102.04%);
     border-radius: 12px;
 }
+.eventDetails{
+    width: 98%;
+}
 .imgBanner{
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 800px;
-    height: 400px;
+   height: auto;
+    min-width: 250px;
 }
 .eventHeading{
     font-family: 'Bacasime Antique', serif;
     padding: 20px 10px 10px  10px;
     font-size: 40px;
     font-weight: 500;  
+    color: white;
 }
 .eventPara{
+    color: white;
     padding: 10px;
 }
 .img{
@@ -44,7 +50,6 @@
     gap: 3rem;
 }
 .eventButton{
-    padding: 10px;
     display: flex;
    align-items: center;
    justify-content: center;
@@ -56,5 +61,32 @@ width: 8rem;
 padding: 15px 5px;
 border-radius: 5px;
 border: 2px solid purple;
+margin-top: -10px;
 /* box-shadow: rgba(227, 13, 13, 0.19) 0px 8px 20px, rgba(222, 13, 13, 0.23) 0px 6px 6px; */
+}
+@media(max-width:1000px){
+    .eventWrapper{
+        flex-direction: column;
+        width: 100%;
+    }
+    .eventBanner{
+        padding: 0;
+        gap: 0;
+    }
+    .imgBanner{
+        width: auto;
+    }
+    .eventHeading{
+        text-align: center;
+    }
+    .eventBottom{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media(max-width:600px){
+    .eventBottom{
+        flex-direction: column;
+        justify-content: center;
+    }
 }

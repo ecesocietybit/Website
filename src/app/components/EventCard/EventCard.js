@@ -3,7 +3,7 @@ import Countdown from "../counter/CountDown";
 import styles from "./eventCard.module.css";
 import Image from "next/image";
 
-const EventCard = () => {
+const EventCard = ({title,content,isUpcoming}) => {
   return (
     <div className={styles.eventBanner}>
       <div className={styles.eventWrapper}>
@@ -16,9 +16,9 @@ const EventCard = () => {
         </div>
         <div className={styles.eventDetails}>
           <div className={styles.eventHeading}>
-          <h3>Seminar on GATE Talks</h3></div>
+          <h3>{title}</h3></div>
           <div className={styles.eventPara}>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus quam quidem id aspernatur praesentium earum dolore omnis ipsa. Minus porro id ipsa alias eius officia ab a sed voluptates perferendis. Soluta, neque.</p>
+          <p>{content}</p>
           </div>
           <div className={styles.eventBottom}>
             <div className={styles.eventButton}>
@@ -26,9 +26,14 @@ const EventCard = () => {
               Read More
               </button>
             </div>
-            <div className={styles.counter}>
-            <Countdown/>
-            </div>
+            {
+              isUpcoming &&(
+
+                <div className={styles.counter}>
+                <Countdown/>
+                </div>
+              )
+            }
           </div>
         </div>
       </div>
