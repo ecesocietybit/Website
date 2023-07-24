@@ -4,27 +4,25 @@
   align-items: center;
   justify-content: center;
   background-color: #0d1116;
-  padding: 4rem;
+  margin-top: 24px;
 }
 .contactFormWrapper {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  width: 50%;
+
 }
 .contactFormTitle {
-  height: 3rem;
-  flex: 1;
   display: flex;
-  justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 24px;
+
   padding: 2px;
 }
 .formHeading {
   font-family: Poppins;
-  font-size: 36px;
+  /* font-size: 36px; */
+  margin-top: 1.2em;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0em;
@@ -33,6 +31,30 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+.contactHeader{
+  background: #111111;
+  box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
+    0px 12px 40px rgba(0, 223, 216, 0.1),
+    -12px 0px 40px rgba(198, 255, 221, 0.1),
+    12px 0px 40px rgba(0, 124, 240, 0.1);
+  border-radius: 8px;
+  padding: 20px 1.5em;
+}
+.icons{
+  margin-top: 20px;
+  gap: 2rem;
+
+}
+.iconsDivide{
+ color: white;
+}
+.link{
+   /* height: 2em;
+   width: 2em; */
+   /* margin-left: 1.2em;  */
+   cursor: pointer;
+}
+
 .formBox {
   width: 100%;
   flex: 7;
@@ -40,12 +62,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #111111;
-  box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
-    0px 12px 40px rgba(0, 223, 216, 0.1),
-    -12px 0px 40px rgba(198, 255, 221, 0.1),
-    12px 0px 40px rgba(0, 124, 240, 0.1);
-  border-radius: 8px;
+  
 }
 .formBody {
   display: flex;
