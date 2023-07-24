@@ -1,4 +1,4 @@
-.navbarContact .contactButton {
+ .contactButton {
   display: flex;
   width: 130px;
   height: 38px;
@@ -21,8 +21,8 @@
   border-image-slice: 1;
   border-radius: 4px;
   background: #000;
-  box-shadow: 12px 0px 40px 0px rgba(0, 223, 216, 0.1),
+  /* box-shadow: 12px 0px 40px 0px rgba(0, 223, 216, 0.1),
     -12px 0px 40px 0px rgba(198, 255, 221, 0.1),
     0px 12px 40px 0px rgba(0, 124, 240, 0.1),
-    0px -12px 40px 0px rgba(0, 124, 240, 0.1);
+    0px -12px 40px 0px rgba(0, 124, 240, 0.1); */
 }
