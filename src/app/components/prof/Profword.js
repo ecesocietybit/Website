@@ -4,10 +4,8 @@ import { ProfData } from "@/lib/data/ProfData";
 import ProfDetail from '../profdetail/ProfDetail';
 import StyledText from '../text/StyledText'
 const Profword = () => {
-    // console.log(ProfData);
   return (
     <div>
-      {/* <p className={`${style.word} text-center  `}> Ours Professors</p> */}
       <StyledText
           primary="#FF4D4D"
           secondary="#F9CB28"
@@ -21,6 +19,7 @@ const Profword = () => {
 
         return(
             <ProfDetail
+            key={items.name}
         imgsrc={items.imgsrc}
         name={items.name}
         pos={items.pos}

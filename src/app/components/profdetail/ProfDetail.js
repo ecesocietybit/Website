@@ -11,11 +11,11 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
   let maxLength=250;
   const ICON_SIZE = 28;
 
-  const handleReadMoreClick = (name) => {
+  const handleReadMoreClick = () => {
     setShowFullText(!showFullText);
   };
 
-    console.log(pos);
+    // console.log(pos);
   return (
     <div className={`${style.header} flex  text-[#fff] `}>
       
@@ -84,14 +84,16 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
     </div>
       
       <div className={`${style.right} flex  flex-col`}  >
-      {/* <p className={`${style.name} `}>{name}</p> */}
-      <StyledText
-          primary="#FF4D4D"
-          secondary="#F9CB28"
-          className="text-[36px] font-bold flex flex-col items-center mb-4"
+      <p className={`${style.name} `}>
+        <StyledText
+         primary="#007cf0"
+         secondary="#00dfd8"
+         className="text-[36px] font-bold flex flex-col items-center mb-4"
         >
-         {name}
+        {name}
         </StyledText>
+      </p>
+
       <div className={`${style.subsidary} `}>
         <p className={`${style.dept} `}> {dept}</p>
         <p className={`${style.college} `}>{college}</p>
@@ -101,7 +103,7 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
         {showFullText ? (
           <div>
         <p>{words}</p>
-        <button onClick={()=>{handleReadMoreClick(name)}} className={`${style.readbtn} `}>show less</button>
+        <button onClick={handleReadMoreClick} className={`${style.readbtn} `}>show less</button>
           </div>
         
       ) : (
