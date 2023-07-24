@@ -46,6 +46,7 @@ border-radius: 122.951px;
   width: 120%;
   height: 120%;
   transform: translate(-15px,-15px);
+  transition: 150ms ease-in-out;
 
 }
 

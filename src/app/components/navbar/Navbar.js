@@ -5,6 +5,7 @@ import Link from "next/link";
 import styles from "./Navbar.module.css";
 
 import { RiMenu3Line } from "react-icons/ri";
+import { AiOutlineClose } from "react-icons/ai";
 import Logo from "../../../../public/images/logo.png";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,6 +21,10 @@ const Navbar = () => {
     }
   };
 
+  useEffect(()=>{
+
+  },[isMenuOpen])
+
   useEffect(() => {
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
@@ -34,6 +39,7 @@ const Navbar = () => {
           <Image className={"w-[65px] mr-2"} src={Logo} alt="Logo" />
           ECE SOCIETY
         </div>
+        <div className="flex items-center">
         <div className="hidden md:flex space-x-4">
           {" "}
           <Link href="/" className="text-white px-4">
@@ -45,9 +51,9 @@ const Navbar = () => {
           <Link href="/events" className="text-white px-4">
             Events
           </Link>
-          <Link href="/articles" className="text-white px-4">
+          {/* <Link href="/articles" className="text-white px-4">
             Articles
-          </Link>
+          </Link> */}
           <Link href="/teams" className="text-white px-4">
             Members
           </Link>
@@ -58,21 +64,29 @@ const Navbar = () => {
             Contact Us
           </a>
         </div>
+        </div>
       </div>
 
       {/* Hamburger menu for smaller devices */}
-      <div className="md:hidden flex items-center">
-        <button className="text-white" onClick={toggleMenu}>
+      <div className="md:hidden flex  items-center">
+        <button className="text-white pr-4" onClick={toggleMenu}>
           <RiMenu3Line size={25} />
         </button>
+        {
+          isMenuOpen && (
+            <button className="text-white pr-4 z-50" onClick={toggleMenu}>
+          <AiOutlineClose size={25} />
+        </button>
+          )
+        }
       </div>
       {/* Drawer for smaller devices */}
       {isMenuOpen && (
         <div
           ref={menuRef}
-          className="md:hidden absolute top-0 right-0 left-0 p-4 bg-blue-500 "
+          className="md:hidden z-10  mx-auto pt-8 absolute top-0 right-0 left-0 p-8 bg-gray-900 "
         >
-          <div className="flex flex-col space-y-2">
+          <div className="flex flex-col space-y-2 text-lg">
             <div className="flex flex-col space-y-2">
               <Link href="/" className="text-white">
                 Home
@@ -83,14 +97,18 @@ const Navbar = () => {
               <Link href="/events" className="text-white">
                 Events
               </Link>
-              <Link href="/articles" className="text-white">
+              {/* <Link href="/articles" className="text-white">
                 Articles
-              </Link>
+              </Link> */}
               <Link href="/teams" className="text-white">
                 Members
               </Link>
             </div>
-            <button className="text-white">Contact Us</button>
+            <button className="text-white">
+            <a href="#contact" className={`${styles.contactButton} mt-4`}>
+            Contact Us
+          </a>
+            </button>
           </div>
         </div>
       )}
