@@ -11,7 +11,7 @@ const Profword = () => {
           secondary="#F9CB28"
           className="text-[36px] font-bold flex flex-col items-center mb-4"
         >
-         Ours Professors
+         Testimonials
         </StyledText>
       {
        ProfData.map((items)=>{
