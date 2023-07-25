@@ -14,6 +14,7 @@ const page = () => {
           title={item.title}
           content={item.content}
              isUpcoming={isUpcoming}
+             key={item.date}
           />
 
         )
