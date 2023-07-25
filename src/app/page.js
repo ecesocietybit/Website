@@ -4,7 +4,7 @@ import Form from "./components/contact/Form";
 import PostHead from "./components/postHead/PostHead";
 import LandingAbout from "./components/landingabout/LandingAbout";
 import Profword from "./components/prof/Profword";
-import { ProfData } from "@/lib/data/ProfData";
+
 export default function Page() {
   // console.log(ProfData);
   return (
