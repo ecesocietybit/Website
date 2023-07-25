@@ -1,5 +1,3 @@
-const currentDate = new Date().getTime();
-const past = currentDate < new Date('July 25, 2023 00:00:00').getTime() ? false : true;
 
 export const EventData = [
     {

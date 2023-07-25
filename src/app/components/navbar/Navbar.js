@@ -58,12 +58,11 @@ const Navbar = () => {
             Members
           </Link>
         </div>
-
-        <div className={`hidden md:flex space-x-4 ${styles.navbarContact}`}>
-          <a href="#contact" className={`${styles.contactButton}`}>
+        <Link href='/#contact' className={`hidden md:flex space-x-4`}>
+          <span className={`${styles.contactButton}`}>
             Contact Us
-          </a>
-        </div>
+          </span>
+        </Link>
         </div>
       </div>
 
@@ -104,11 +103,12 @@ const Navbar = () => {
                 Members
               </Link>
             </div>
-            <button className="text-white">
-            <a href="#contact" className={`${styles.contactButton} mt-4`}>
+            <Link href='/#contact' className="text-white">
+
+            <span className={`${styles.contactButton} mt-4`}>
             Contact Us
-          </a>
-            </button>
+          </span>
+            </Link>
           </div>
         </div>
       )}

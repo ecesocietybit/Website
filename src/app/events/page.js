@@ -1,6 +1,12 @@
 import React from 'react'
 import EventCard from '../components/EventCard/EventCard'
 import { EventData } from '@/lib/data/EventData'
+
+export const metadata = {
+  title: "Our Events",
+  description: "",
+};
+
 const page = () => {
   return (
     <div className='min-h-screen w-full p-4 bg-[#0D1116] flex flex-col gap-28'>
