@@ -9,6 +9,7 @@ const page = () => {
       <title>About Us</title>
     </Head>
     <About/>
+  
     </>
   )
 }

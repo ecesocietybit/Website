@@ -98,6 +98,8 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
       
 
       {/* <div className={`${style.subsidary} `}>
+
+      <div className={`${style.subsidary} `}>
         <p className={`${style.dept} `}> {dept}</p>
         <p className={`${style.college} `}>{college}</p>
       </div> */}

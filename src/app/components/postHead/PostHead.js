@@ -20,15 +20,14 @@ const PostHead = () => {
                     {item.imgSrc=item.imgSrc.replace('.jpg','.png')}
                     
                     return (
-
-                    <div className='w-full'>
+                    <div className='w-full' key={item.name}>
                         <TeamCard
                         name={item.name}
                         pos={item.pos}
                         imgSrc={'/teams/2K20/'+item.imgSrc}
-                        lazyImgSrc={'/teams/2K20/lazy/'+item.imgSrc}
+                        lazyImgSrc=   
+                         {'/teams/2K20/lazy/'+item.imgSrc}
                         socials={item.socials}
-                        key={item.name}
                     />
                     </div>
                     );

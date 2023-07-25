@@ -2,6 +2,7 @@ import TeamCard from "../components/teamcard/TeamCard";
 import StyledText from "../components/text/StyledText";
 import style from "../components/teamcard/TeamCard.module.css";
 import { TeamData2k19 } from "@/lib/data/AlumniData";
+import Head from "next/head";
 
 export default function Page() {
   return (
