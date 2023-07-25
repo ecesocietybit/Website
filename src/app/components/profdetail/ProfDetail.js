@@ -15,7 +15,7 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
     setShowFullText(!showFullText);
   };
 
-    // console.log(pos);
+    console.log(pos);
   return (
     <div className={`${style.header} flex  text-[#fff] `}>
       
@@ -29,7 +29,10 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
       /> 
      </div>
      <div className={`${style.leftDown}`}>
+     <div className={`flex flex-col `}>
      <p className={`${style.pos} `}>{pos}</p>
+     <p className={`${style.dept} `}>{dept}</p>
+     </div>
       <div className={`${style.socials}`}>
         {
           socials.github||socials.linkedin||socials.email||socials.insta ? (
@@ -84,18 +87,22 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
     </div>
       
       <div className={`${style.right} flex  flex-col`}  >
-      <StyledText
+      
+        <StyledText
          primary="#007cf0"
          secondary="#00dfd8"
          className="text-[36px] font-bold flex flex-col items-center mb-4"
         >
         {name}
         </StyledText>
+      
+
+      {/* <div className={`${style.subsidary} `}>
 
       <div className={`${style.subsidary} `}>
         <p className={`${style.dept} `}> {dept}</p>
         <p className={`${style.college} `}>{college}</p>
-      </div>
+      </div> */}
 
       <div className={`${style.word} `}>
         {showFullText ? (
