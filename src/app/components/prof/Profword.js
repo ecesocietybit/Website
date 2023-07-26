@@ -18,18 +18,16 @@ const Profword = () => {
         <div className='flex flex-col gap-8'>
       {
        ProfData.map((items)=>{
-        {console.log(items.imgsrc);}
-
         return(
             <ProfDetail
             key={items.name}
-        imgsrc={items.imgsrc}
-        name={items.name}
-        pos={items.pos}
-        words={items.word}
-        college={items.college}
-        dept={items.dept}
-        socials={items.socials}/>
+          imgsrc={items.imgsrc}
+          name={items.name}
+          pos={items.pos}
+          words={items.word}
+          college={items.college}
+          dept={items.dept}
+          socials={items.socials}/>
         
         )
        })

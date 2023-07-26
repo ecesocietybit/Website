@@ -5,8 +5,12 @@ import PostHead from "./components/postHead/PostHead";
 import LandingAbout from "./components/landingabout/LandingAbout";
 import Profword from "./components/prof/Profword";
 
+export const metadata = {
+  title: "ECE Society",
+  description: "",
+};
+
 export default function Page() {
-  // console.log(ProfData);
   return (
     <>
     <Head>
