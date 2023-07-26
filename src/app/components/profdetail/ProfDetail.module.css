@@ -21,6 +21,8 @@
 .left{
     margin-right: 5%;
     margin-left: 10%;
+    justify-content: center;
+    align-items: center;
 }
 .right{
     margin-right: 5%;

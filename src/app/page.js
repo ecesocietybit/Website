@@ -12,7 +12,7 @@ export default function Page() {
     <Head>
       <title>ECE Society</title>
     </Head>
-    <div className=" min-h-screen w-full p-4 bg-[#0D1116] text-white">
+    <div className=" min-h-screen w-full flex flex-col gap-12 p-4 bg-[#0D1116] text-white">
       
       <HeroSection />
       <LandingAbout/>

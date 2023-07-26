@@ -6,7 +6,7 @@ import StyledText from '../text/StyledText'
 
 const PostHead = () => {
   return (
-    <div className='w-4/5 mx-auto'>
+    <div className='w-4/5 my-8 mx-auto'>
         <StyledText
           primary="#FF4D4D"
           secondary="#F9CB28"

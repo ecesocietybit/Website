@@ -13,6 +13,9 @@ const Profword = () => {
         >
          Testimonials
         </StyledText>
+
+        
+        <div className='flex flex-col gap-8'>
       {
        ProfData.map((items)=>{
         {console.log(items.imgsrc);}
@@ -31,6 +34,7 @@ const Profword = () => {
         )
        })
     }
+    </div>
     </div>
   )
 }
