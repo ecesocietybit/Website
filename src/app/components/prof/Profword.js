@@ -13,12 +13,16 @@ const Profword = () => {
         >
          Testimonials
         </StyledText>
+
+        
+        <div className='flex flex-col gap-8'>
       {
        ProfData.map((items)=>{
         return(
             <ProfDetail
             key={items.name}
-          imgsrc={items.imgsrc}
+          imgsrc={'/prof/'+items.imgsrc}
+          lazyImgSrc={'/prof/lazy/'+items.imgsrc}
           name={items.name}
           pos={items.pos}
           words={items.word}
@@ -29,6 +33,7 @@ const Profword = () => {
         )
        })
     }
+    </div>
     </div>
   )
 }
