@@ -6,7 +6,7 @@ import {AiFillInstagram} from 'react-icons/ai'
 import style from './ProfDetail.module.css'
 import StyledText from '../text/StyledText'
 
-const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
+const ProfDetail = ({imgsrc,lazyImgSrc,name,pos,words,college,dept,socials}) => {
   const [showFullText, setShowFullText] = useState(false);
   let maxLength=250;
   const ICON_SIZE = 28;
@@ -18,13 +18,15 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
   return (
     <div className={`${style.header} flex  text-[#fff] `}>
       
-    <div className={`${style.left} flex  flex-col`}>
+    <div className={`${style.left} flex  flex-col `}>
      <div className={`${style.container} `}>
      <Image className={`${style.img} `}
        height={100}
        width={100}
         alt={name} 
         src={imgsrc}
+        blurDataURL={lazyImgSrc}
+        placeholder='blur'
       /> 
      </div>
      <div className={`${style.leftDown}`}>
@@ -42,7 +44,7 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
                 rel="noopener noreferrer"
                 href={`https://github.com/${socials.github}/`}
               >
-                <FaGithub size={ICON_SIZE} width={ICON_SIZE} />
+                <FaGithub size={ICON_SIZE} width={ICON_SIZE} className={`hover:scale-110 `} />
               </a>
             )}
 
@@ -52,7 +54,7 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
                 rel="noopener noreferrer"
                 href={`https://www.linkedin.com/in/${socials.linkedin}/`}
               >
-                <FaLinkedin size={ICON_SIZE} />
+                <FaLinkedin size={ICON_SIZE} className={`hover:scale-110 `} />
               </a>
             )}
             {socials.insta && (
@@ -61,7 +63,7 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
                 rel="noopener noreferrer"
                 href={`https://instagram.com/${socials.insta}/`}
               >
-                <AiFillInstagram size={ICON_SIZE} />
+                <AiFillInstagram size={ICON_SIZE} className={`hover:scale-110 `} />
               </a>
             )}
             {socials.email && (
@@ -70,13 +72,12 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
                 rel="noopener noreferrer"
                 href={`mailto:${socials.email}`}
               >
-                <FaEnvelope size={ICON_SIZE} />
+                <FaEnvelope size={ICON_SIZE}  className={`hover:scale-110 `}/>
               </a>
             )}
           </>
           ) :(
             <span>
-              Socially Invisible
             </span>
           )
         }
