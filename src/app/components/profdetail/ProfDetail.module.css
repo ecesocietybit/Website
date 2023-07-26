@@ -87,8 +87,9 @@
 }
 .readbtn{
     background-color: #637575;
-    border-radius: 3%;
-    padding: 1px 0.5px ;
+    width: 7rem;
+    padding: 8px 8px;
+    border-radius: 5px ;
 }
 @media(max-width:500px){
 
