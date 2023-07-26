@@ -80,6 +80,7 @@
 }
 .word{
     margin-top: 3%;
+    text-align: left;
 }
 .socials{
     display: flex;
@@ -89,12 +90,16 @@
 }
 .readbtn{
     background-color: #637575;
-    border-radius: 3%;
-    padding: 1px 0.5px ;
+    border-radius: 5%;
+    padding-top: 2px 3px 4px 5px;
+    background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 @media(max-width:500px){
 
     .header{
         flex-direction: column;
     } 
+    .word{
+        text-align: center;
+    }
 }

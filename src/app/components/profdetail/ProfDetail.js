@@ -43,7 +43,7 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
                 rel="noopener noreferrer"
                 href={`https://github.com/${socials.github}/`}
               >
-                <FaGithub size={ICON_SIZE} width={ICON_SIZE} />
+                <FaGithub size={ICON_SIZE} width={ICON_SIZE} className={`hover:scale-110 `} />
               </a>
             )}
 
@@ -53,7 +53,7 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
                 rel="noopener noreferrer"
                 href={`https://www.linkedin.com/in/${socials.linkedin}/`}
               >
-                <FaLinkedin size={ICON_SIZE} />
+                <FaLinkedin size={ICON_SIZE} className={`hover:scale-110 `} />
               </a>
             )}
             {socials.insta && (
@@ -62,7 +62,7 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
                 rel="noopener noreferrer"
                 href={`https://instagram.com/${socials.insta}/`}
               >
-                <AiFillInstagram size={ICON_SIZE} />
+                <AiFillInstagram size={ICON_SIZE} className={`hover:scale-110 `} />
               </a>
             )}
             {socials.email && (
@@ -71,7 +71,7 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
                 rel="noopener noreferrer"
                 href={`mailto:${socials.email}`}
               >
-                <FaEnvelope size={ICON_SIZE} />
+                <FaEnvelope size={ICON_SIZE}  className={`hover:scale-110 `}/>
               </a>
             )}
           </>

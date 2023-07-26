@@ -199,3 +199,6 @@
     flex-direction: column;
   } 
 }
+.items:hover{
+  color: aqua;
+}

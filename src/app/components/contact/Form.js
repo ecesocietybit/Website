@@ -45,7 +45,7 @@ const Form = () => {
          Contact Us
         </StyledText>
              </h1>
-             <h1 className={`pt-3 text-1xl text-white text-left `}>s-13 E.C.E Dept <br /> E.C.E Building B.I.T Sindri</h1>
+             <h1 className={`pt-3 text-1xl text-white text-left `}>S-13 E.C.E Dept <br /> E.C.E Building B.I.T Sindri</h1>
         </div>
         <div className={`${styles.contactLeftMail}`}>
                       <StyledText
@@ -56,9 +56,9 @@ const Form = () => {
          Email:
         </StyledText>
                 <Link href='ecesociety@bitsindri.ac.in' className={`${styles.link}  flex`}>
-                   <CgMail size={ICON_SIZE} width={ICON_SIZE} className={`${styles.items}`} />
-                   <p className={'text-xl'}>ecesociety@bitsindri.ac.in</p>
-                 </Link>
+                  <CgMail size={ICON_SIZE} width={ICON_SIZE} className={`${styles.items} hover:scale-110`} />
+                  <p className={'text-xl hover:scale-110 ml-2'}>    ecesociety@bitsindri.ac.in</p>
+                </Link>
         </div>
 
         <div className={`${styles.contactLeftSocial}`}>
@@ -73,15 +73,15 @@ const Form = () => {
         <div className={`flex  gap-3 `}>
 
             <Link href='https://instagram.com/ecesocietybits?igshid=MzRlODBiNWFlZA== ' className={`${styles.link}`}>
-            <AiFillInstagram size={ICON_SIZE} width={ICON_SIZE} className={`${styles.items}`} />
+            <AiFillInstagram size={ICON_SIZE} width={ICON_SIZE} className={`${styles.items} hover:scale-110`} />
             </Link>
 
             <Link href='https://www.linkedin.com/company/ece-society-bit-sindri/' className={`${styles.link}`}>
-            <BsLinkedin size={ICON_SIZE} width={ICON_SIZE} className={`${styles.items}`} />
+            <BsLinkedin size={ICON_SIZE} width={ICON_SIZE} className={`${styles.items} hover:scale-110`} />
             </Link>
 
             <Link href='https://github.com/ecesocietybit' className={`${styles.link}`}>
-              <FaGithub size={ICON_SIZE} width={ICON_SIZE} className={`${styles.items} `} />
+              <FaGithub size={ICON_SIZE} width={ICON_SIZE} className={`${styles.items}  hover:scale-110`} />
               </Link>
               </div>
            
