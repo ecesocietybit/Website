@@ -87,23 +87,23 @@ const Navbar = () => {
         >
           <div className="flex flex-col space-y-2 text-lg">
             <div className="flex flex-col space-y-2">
-              <Link href="/" className="text-white">
+              <Link href="/" onClick={toggleMenu} className="text-white">
                 Home
               </Link>
-              <Link href="/about" className="text-white">
+              <Link href="/about" onClick={toggleMenu} className="text-white">
                 About
               </Link>
-              <Link href="/events" className="text-white">
+              <Link href="/events" onClick={toggleMenu} className="text-white">
                 Events
               </Link>
-              {/* <Link href="/articles" className="text-white">
+              {/* <Link href="/articles" onClick={toggleMenu} className="text-white">
                 Articles
               </Link> */}
-              <Link href="/teams" className="text-white">
+              <Link href="/teams" onClick={toggleMenu} className="text-white">
                 Members
               </Link>
             </div>
-            <Link href='/#contact' className="text-white">
+            <Link href='/#contact' onClick={toggleMenu} className="text-white">
 
             <span className={`${styles.contactButton} mt-4`}>
             Contact Us

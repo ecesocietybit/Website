@@ -16,7 +16,7 @@ const ProfDetail = ({imgsrc,lazyImgSrc,name,pos,words,college,dept,socials}) => 
   };
 
   return (
-    <div className={`${style.header} flex  text-[#fff] `}>
+    <div className={`${style.header} flex  text-[#fff] py-8 px-4 `}>
       
     <div className={`${style.left} flex  flex-col `}>
      <div className={`${style.container} `}>
