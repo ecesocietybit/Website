@@ -15,7 +15,6 @@ const ProfDetail = ({ imgsrc, name, pos, words, dept, socials }) => {
     setShowFullText(!showFullText);
   };
 
-  console.log(pos);
   return (
     <div className={`${style.header} flex mb-8  text-[#fff] `}>
       <div className={`${style.left} flex  flex-col`}>

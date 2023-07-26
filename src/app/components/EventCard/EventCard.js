@@ -3,7 +3,13 @@ import Countdown from "../counter/CountDown";
 import styles from "./eventCard.module.css";
 import Image from "next/image";
 
-const EventCard = ({title,content,isUpcoming}) => {
+const EventCard = ({title,content,imgSrc,lazyImgSrc,date,isUpcoming}) => {
+  const datechange=(date)=>{
+    return (new Date(date).toDateString())
+
+  }
+  const dateWithoutTime = new Date(date).toDateString();
+
   return (
     <div className={styles.eventBanner}>
       <div className={styles.eventWrapper}>
@@ -11,12 +17,24 @@ const EventCard = ({title,content,isUpcoming}) => {
           <Image 
             className={styles.img} 
             width={350} height={350} 
-            alt="webinar"  
-            src="/images/webinar1.png"/>
+            alt={title}
+            placeholder='blur'
+            src={imgSrc}
+            blurDataURL={lazyImgSrc}
+            />
         </div>
         <div className={styles.eventDetails}>
           <div className={styles.eventHeading}>
-          <h3>{title}</h3></div>
+          <h3>{title}</h3>
+          {
+              !isUpcoming &&(
+                <p className="text-blue-200">
+                  {dateWithoutTime}
+                </p>
+              )
+            }
+          </div>
+          
           <div className={styles.eventPara}>
           <p>{content}</p>
           </div>
@@ -30,10 +48,11 @@ const EventCard = ({title,content,isUpcoming}) => {
               isUpcoming &&(
 
                 <div className={styles.counter}>
-                <Countdown/>
+                <Countdown date={date}/>
                 </div>
               )
             }
+            
           </div>
         </div>
       </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./Hero.module.css";
-import earth from "../../../../public/images/earth.svg";
-import satellite from "../../../../public/images/satellite.svg";
+import earth from "../../../../public/assets/earth.svg";
+import satellite from "../../../../public/assets/satellite.svg";
 
 function HeroSection() {
   return (
