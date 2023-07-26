@@ -1,6 +1,6 @@
 export const ProfData=[
     {
-        name:'Prof.M.G Tiary',
+        name:'Prof. M.G Tiary',
         pos:'Patron ',
         imgsrc:'mg_tiary.png',
         dept:'E.C.E Society',
