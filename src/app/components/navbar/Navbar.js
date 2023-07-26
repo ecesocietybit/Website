@@ -6,7 +6,7 @@ import styles from "./Navbar.module.css";
 
 import { RiMenu3Line } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
-import Logo from "../../../../public/images/logo.png";
+import Logo from "../../../../public/assets/logo.png";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef(null);

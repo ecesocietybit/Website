@@ -19,6 +19,9 @@ const page = () => {
           <EventCard
           title={item.title}
           content={item.content}
+          imgSrc={'/events/'+item.imgSrc}
+          lazyImgSrc={'/events/lazy/'+item.imgSrc}
+          date={item.date}
              isUpcoming={isUpcoming}
              key={item.date}
           />

@@ -4,7 +4,9 @@ import Styles from "./clock.module.css";
 export default function Clock({ Days, Hours, Minutes, Seconds }) {
   return (
     <div className={Styles.clock}>
-      <div className="flex flex-col items-center">
+      {
+        !(Days[0]==0&&Days[1]==0)&&(
+          <div className="flex flex-col items-center">
         <div className={`${Styles.counts} flex`}>
           <p>{Days[0]} </p>
           <p>{Days[1]} </p>
@@ -12,6 +14,8 @@ export default function Clock({ Days, Hours, Minutes, Seconds }) {
         </div>
         <span className={`ml-[-10px] ${Styles.time}`}>Days</span>
       </div>
+        )
+      }
       <div className="flex flex-col items-center">
         <div className={`${Styles.counts} flex`}>
           <p>{Hours[0]} </p>
@@ -28,9 +32,10 @@ export default function Clock({ Days, Hours, Minutes, Seconds }) {
         <span className={`ml-[-14px] ${Styles.time}`}>Minutes</span>
       </div>
 
-      {Days == 0 && (
+      {Days[0] == 0&&Days[1]==0 && (
         <div className="flex flex-col items-center">
           <div className={`${Styles.counts} flex`}>
+          <span className={Styles.colon}>:</span>
             <p>{Seconds[0]} </p>
             <p>{Seconds[1]} </p>
           </div>
