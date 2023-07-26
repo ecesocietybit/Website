@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Clock from './Clock';
 // import './CountDown.css';
 
-export default function Countdown() {
+export default function Countdown({date}) {
   const [Days, setDays] = useState([]);
   const [Hours, setHours] = useState([]);
   const [Minutes, setMinutes] = useState([]);
@@ -12,7 +12,7 @@ export default function Countdown() {
   let interval;
 
   const startTimer = () => {
-    const countDownDate = new Date('August 25, 2023 00:00:00').getTime();
+    const countDownDate = new Date(date).getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();

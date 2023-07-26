@@ -4,6 +4,11 @@ import StyledText from "../components/text/StyledText";
 import style from "../components/teamcard/TeamCard.module.css";
 import { TeamData2k20,TeamData2k21,TeamData2k22 } from "@/lib/data/TeamData";
 
+export const metadata = {
+  title: "Our Team",
+  description: "",
+};
+
 export default function Page() {
   return (
     <>
