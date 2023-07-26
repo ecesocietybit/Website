@@ -4,6 +4,11 @@ import style from "../components/teamcard/TeamCard.module.css";
 import { TeamData2k19 } from "@/lib/data/AlumniData";
 import Head from "next/head";
 
+export const metadata = {
+  title: "Our Alumni",
+  description: "",
+};
+
 export default function Page() {
   return (
     <>
