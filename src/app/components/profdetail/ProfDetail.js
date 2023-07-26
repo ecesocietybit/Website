@@ -6,7 +6,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import style from "./ProfDetail.module.css";
 import StyledText from "../text/StyledText";
 
-const ProfDetail = ({ imgsrc, name, pos, words, dept, socials }) => {
+const ProfDetail = ({imgsrc,lazyImgSrc,name,pos,words,college,dept,socials}) => {
   const [showFullText, setShowFullText] = useState(false);
   let maxLength = 250;
   const ICON_SIZE = 28;
@@ -16,74 +16,78 @@ const ProfDetail = ({ imgsrc, name, pos, words, dept, socials }) => {
   };
 
   return (
-    <div className={`${style.header} flex mb-8  text-[#fff] `}>
-      <div className={`${style.left} flex  flex-col`}>
-        <div className={`${style.container} `}>
-          <Image
-            className={`${style.img} `}
-            height={100}
-            width={100}
-            alt={name}
-            src={imgsrc}
-          />
-        </div>
-        <div className={`${style.leftDown}`}>
-          <div className={`flex flex-col `}>
-            <p className={`${style.pos} `}>{pos}</p>
-            <p className={`${style.dept} `}>{dept}</p>
-          </div>
-          <div className={`${style.socials}`}>
-            {socials.github ||
-            socials.linkedin ||
-            socials.email ||
-            socials.insta ? (
-              <>
-                {socials.github && (
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={`https://github.com/${socials.github}/`}
-                  >
-                    <FaGithub size={ICON_SIZE} width={ICON_SIZE} />
-                  </a>
-                )}
-
-                {socials.linkedin && (
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={`https://www.linkedin.com/in/${socials.linkedin}/`}
-                  >
-                    <FaLinkedin size={ICON_SIZE} />
-                  </a>
-                )}
-                {socials.insta && (
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={`https://instagram.com/${socials.insta}/`}
-                  >
-                    <AiFillInstagram size={ICON_SIZE} />
-                  </a>
-                )}
-                {socials.email && (
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={`mailto:${socials.email}`}
-                  >
-                    <FaEnvelope size={ICON_SIZE} />
-                  </a>
-                )}
-              </>
-            ) : (
-              <span>Socially Invisible</span>
+    <div className={`${style.header} flex  text-[#fff] `}>
+      
+    <div className={`${style.left} flex  flex-col `}>
+     <div className={`${style.container} `}>
+     <Image className={`${style.img} `}
+       height={100}
+       width={100}
+        alt={name} 
+        src={imgsrc}
+        blurDataURL={lazyImgSrc}
+        placeholder='blur'
+      /> 
+     </div>
+     <div className={`${style.leftDown}`}>
+     <div className={`flex flex-col `}>
+     <p className={`${style.pos} `}>{pos}</p>
+     <p className={`${style.dept} `}>{dept}</p>
+     </div>
+      <div className={`${style.socials}`}>
+        {
+          socials.github||socials.linkedin||socials.email||socials.insta ? (
+            <>
+            {socials.github && (
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={`https://github.com/${socials.github}/`}
+              >
+                <FaGithub size={ICON_SIZE} width={ICON_SIZE} className={`hover:scale-110 `} />
+              </a>
             )}
-          </div>
-        </div>
-      </div>
 
-      <div className={`${style.right} flex  flex-col`}>
+            {socials.linkedin && (
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={`https://www.linkedin.com/in/${socials.linkedin}/`}
+              >
+                <FaLinkedin size={ICON_SIZE} className={`hover:scale-110 `} />
+              </a>
+            )}
+            {socials.insta && (
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={`https://instagram.com/${socials.insta}/`}
+              >
+                <AiFillInstagram size={ICON_SIZE} className={`hover:scale-110 `} />
+              </a>
+            )}
+            {socials.email && (
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={`mailto:${socials.email}`}
+              >
+                <FaEnvelope size={ICON_SIZE}  className={`hover:scale-110 `}/>
+              </a>
+            )}
+          </>
+          ) :(
+            <span>
+            </span>
+          )
+        }
+      </div>
+     </div>
+ 
+    </div>
+      
+      <div className={`${style.right} flex  flex-col`}  >
+      
         <StyledText
           primary="#007cf0"
           secondary="#00dfd8"

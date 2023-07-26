@@ -2,11 +2,11 @@ export const ProfData=[
     {
         name:'Prof. M.G Tiary',
         pos:'Patron ',
-        imgsrc:'/prof/mg_tiary.jpg',
+        imgsrc:'mg_tiary.png',
         dept:'E.C.E Society',
         socials:{
             github:'',
-            email:'',
+            email:'mgtiary.ece@bitsindri.ac.in',
             linkedin:'',
             insta:'',
         },
@@ -16,13 +16,13 @@ export const ProfData=[
     {
         name:'Dr. Imiteyaz Ahmed',
         pos:'Prof-In-Charge',
-        imgsrc:'/prof/imetyazahmed.jpg',
+        imgsrc:'imetyazahmed.png',
         dept:'E.C.E Society',
         college:'B.I.T Sindri',
         socials:{
             github:'',
-            email:'',
-            linkedin:'',
+            email:'iahmad.ece@bitsindri.ac.in',
+            linkedin:'https://www.linkedin.com/in/imteyaz-ahmad-847b2296',
             insta:'',
         },
          word:'“Scientists investigate that which already is; engineers create that which has never been.” - Albert Einstein/nWelcome to the vibrant and dynamic world of the Electronics and Communication Engineering (ECE) Society! Aspiring engineers and technology enthusiasts, this platform is exclusively designed for you./n   Our society is dedicated to promoting knowledge, collaboration, and innovation in Electronics and Communication Engineering Field. Through various engaging events, workshops, seminars, and academic initiatives, we aim to create a conducive environment for all members to expand their horizons and excel in their respective fields./nI encourage everyone to actively participate in our society&apos;s activities, share your ideas, and contribute to the overall growth and success of the ECE community. This is a community of passionate students, faculty, and professionals who are united by a common love for electronics, communication, and innovation. Together, we can make a difference and create a positive impact in the world of technology./nAs the Professor-in-Charge, I am committed to supporting and guiding each member of our society to reach their full potential. Together with our dedicated team of faculty members, staff, and student leaders, we strive to provide an inclusive and enriching experience for all." '
