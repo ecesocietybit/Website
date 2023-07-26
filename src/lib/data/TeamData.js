@@ -144,7 +144,7 @@ export const TeamData2k21 =[
             github:'adityaS49',
             email:'aditya.s21@outlook.com',
             linkedin:'aditya-bhardwaj-01027b21b/',
-            insta:'_aditya.s21__/',
+            insta:'_aditya.s21__',
         },
     },
     {
@@ -168,7 +168,7 @@ export const TeamData2k21 =[
             github:'naraynabhay',
             email:'abhaynarayan07062002@gmail.com',
             linkedin:'abhay-narayan-76114b1ba',
-            insta:'abhay_narayn_00',
+            insta:'abhay_narayan_00',
         },
     },
     {
@@ -290,7 +290,7 @@ export const TeamData2k21 =[
             github:'Esha-01',
             email:'eshakumari2002@gmail.com',
             linkedin:'esha-kumari-47b854232',
-            insta:'wassup_esha/',
+            insta:'wassup_esha',
         },
     }
          
@@ -318,7 +318,7 @@ export const TeamData2k22 =[
             github:'omkumarsoni2919',
             email:'myomkumarsoni@gmail.com',
             linkedin:'om-soni-67a918256',
-            insta:'omkumarsoni19 ',
+            insta:'omkumarsoni19',
         },
     },
     {
@@ -342,7 +342,7 @@ export const TeamData2k22 =[
             github:'Iamdeepak4551 ',
             email:'iamdeepak4551@gmail.com',
             linkedin:'deepak-kumar-rajak-41a9bb222',
-            insta:'Iamdeepak4551 ',
+            insta:'Iamdeepak4551',
         },
     },
     {

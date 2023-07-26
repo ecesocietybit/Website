@@ -1,14 +1,14 @@
-"use client"
-import Image from 'next/image';
-import React, { useState } from 'react'
-import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
-import {AiFillInstagram} from 'react-icons/ai'
-import style from './ProfDetail.module.css'
-import StyledText from '../text/StyledText'
+"use client";
+import Image from "next/image";
+import React, { useState } from "react";
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
+import style from "./ProfDetail.module.css";
+import StyledText from "../text/StyledText";
 
 const ProfDetail = ({imgsrc,lazyImgSrc,name,pos,words,college,dept,socials}) => {
   const [showFullText, setShowFullText] = useState(false);
-  let maxLength=250;
+  let maxLength = 250;
   const ICON_SIZE = 28;
 
   const handleReadMoreClick = () => {
@@ -89,43 +89,50 @@ const ProfDetail = ({imgsrc,lazyImgSrc,name,pos,words,college,dept,socials}) => 
       <div className={`${style.right} flex  flex-col`}  >
       
         <StyledText
-         primary="#007cf0"
-         secondary="#00dfd8"
-         className="text-[36px] font-bold flex flex-col items-center mb-4"
+          primary="#007cf0"
+          secondary="#00dfd8"
+          className="text-[36px] font-bold flex flex-col items-center mb-4"
         >
-        {name}
+          {name}
         </StyledText>
-      
 
-      {/* <div className={`${style.subsidary} `}>
+        {/* <div className={`${style.subsidary} `}>
 
       <div className={`${style.subsidary} `}>
         <p className={`${style.dept} `}> {dept}</p>
         <p className={`${style.college} `}>{college}</p>
       </div> */}
 
-      <div className={`${style.word} `}>
-        {showFullText ? (
-          <div>
-        <p>{words}</p>
-        <button onClick={handleReadMoreClick} className={`${style.readbtn} `}>show less</button>
-          </div>
-        
-      ) : (
-        <div>
-
-        <p>
-          {words.length > maxLength ? `${words.slice(0, maxLength)}...` : words}
-          </p>
-          <button onClick={handleReadMoreClick} className={`${style.readbtn} `}>Read More</button>
+        <div className={`${style.word} `}>
+          {showFullText ? (
+            <div className="flex flex-col items-center justify-center gap-4">
+              <p>{words}</p>
+              <button
+                onClick={handleReadMoreClick}
+                className={`${style.readbtn} `}
+              >
+                show less
+              </button>
+            </div>
+          ) : (
+            <div className="flex flex-col items-center justify-center gap-4">
+              <p>
+                {words.length > maxLength
+                  ? `${words.slice(0, maxLength)}...`
+                  : words}
+              </p>
+              <button
+                onClick={handleReadMoreClick}
+                className={`${style.readbtn} `}
+              >
+                Read More
+              </button>
+            </div>
+          )}
         </div>
-        
-      )}
-      </div>
-
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProfDetail
+export default ProfDetail;
