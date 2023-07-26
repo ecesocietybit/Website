@@ -15,7 +15,7 @@ const Profword = () => {
         </StyledText>
 
         
-        <div className='flex flex-col gap-8'>
+        <div className='flex flex-col gap-8 '>
       {
        ProfData.map((items)=>{
         return(
