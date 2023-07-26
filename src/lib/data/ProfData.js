@@ -2,7 +2,7 @@ export const ProfData=[
     {
         name:'Prof.M.G Tiary',
         pos:'Patron ',
-        imgsrc:'/prof/mg_tiary.jpg',
+        imgsrc:'mg_tiary.png',
         dept:'E.C.E Society',
         socials:{
             github:'',
@@ -16,7 +16,7 @@ export const ProfData=[
     {
         name:'Dr. Imiteyaz Ahmed',
         pos:'Prof-In-Charge',
-        imgsrc:'/prof/imetyazahmed.jpg',
+        imgsrc:'imetyazahmed.png',
         dept:'E.C.E Society',
         college:'B.I.T Sindri',
         socials:{

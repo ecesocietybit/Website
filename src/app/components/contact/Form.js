@@ -108,7 +108,7 @@ const Form = () => {
                 <label className={`${styles.labels}`} htmlFor="message">Message</label>
                 <textarea className={`${styles.text}`} id="message" name="message" value={comments} placeholder="Write a message here" onChange={(e) => { setcomments(e.target.value) }}></textarea>
               </div>
-              <button className={`${styles.PostComments}`} type="submit">Post Comments</button>
+              <button className={`${styles.PostComments}`} type="submit">Send Mail</button>
             </form>
         </div >
         

@@ -164,7 +164,7 @@
   }
  
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
  
   .contactform{
     display: flex;
@@ -172,6 +172,7 @@
     justify-content: center;
   } 
   .contactLeft{
+    padding: 2rem;
     width: 90%;
   }
   .contactRight{
@@ -194,7 +195,7 @@
 }
 @media(max-width:500px){
 
-  .ccontactform{
+  .contactform{
     display: flex;
     flex-direction: column;
   } 

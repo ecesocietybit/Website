@@ -6,7 +6,7 @@ import {AiFillInstagram} from 'react-icons/ai'
 import style from './ProfDetail.module.css'
 import StyledText from '../text/StyledText'
 
-const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
+const ProfDetail = ({imgsrc,lazyImgSrc,name,pos,words,college,dept,socials}) => {
   const [showFullText, setShowFullText] = useState(false);
   let maxLength=250;
   const ICON_SIZE = 28;
@@ -25,6 +25,8 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
        width={100}
         alt={name} 
         src={imgsrc}
+        blurDataURL={lazyImgSrc}
+        placeholder='blur'
       /> 
      </div>
      <div className={`${style.leftDown}`}>
@@ -76,7 +78,6 @@ const ProfDetail = ({imgsrc,name,pos,words,college,dept,socials}) => {
           </>
           ) :(
             <span>
-              Socially Invisible
             </span>
           )
         }

@@ -21,7 +21,8 @@ const Profword = () => {
         return(
             <ProfDetail
             key={items.name}
-          imgsrc={items.imgsrc}
+          imgsrc={'/prof/'+items.imgsrc}
+          lazyImgSrc={'/prof/lazy/'+items.imgsrc}
           name={items.name}
           pos={items.pos}
           words={items.word}
