@@ -33,7 +33,7 @@ const Form = () => {
     setcomments("");
   };
   return (
-    <section className={`${styles.contactform}`}>
+    <section id="contact" className={`${styles.contactform}`}>
        <div  className={`${styles.contactLeft}`}>
         <div className={`${styles.contactLeftHead}`}>
              <h1 className={`${styles.contactHeading}  `}>
@@ -57,7 +57,7 @@ const Form = () => {
         </StyledText>
                 <Link href='ecesociety@bitsindri.ac.in' className={`${styles.link}  flex`}>
                   <CgMail size={ICON_SIZE} width={ICON_SIZE} className={`${styles.items} hover:scale-110`} />
-                  <p className={'text-xl hover:scale-110 ml-2'}>    ecesociety@bitsindri.ac.in</p>
+                  <p className={'text-xl ml-2'}>    ecesociety@bitsindri.ac.in</p>
                 </Link>
         </div>
 

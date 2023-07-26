@@ -8,7 +8,7 @@ export const TeamData2k20=[
             github:'RajRitesh',
             email:'riteshkumarmehra41@gmail.com',
             linkedin:'ritesh-kumar-39a471208/',
-            insta:'https://www.instagram.com/ritesh_mehra_41/',
+            insta:'ritesh_mehra_41',
         },
     },
     {

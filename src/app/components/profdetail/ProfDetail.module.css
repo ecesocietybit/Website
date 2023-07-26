@@ -1,7 +1,5 @@
 
 .header{
-    /* background-color: #0D1116; */
-    /* border: 4px solid white; */
     margin-left: 8%;
     margin-right: 8%;
     margin-top: 2%;
@@ -11,12 +9,10 @@
         rgba(221, 221, 221, 0.08) 78.43%,
         rgba(255, 255, 255, 0.18) 102.04%
       );
-      /* border: 2px solid rgba(255, 255, 255, 0.28); */
+    
       backdrop-filter: blur(5px);
       border-radius: 15px;
     
-    /* backdrop-filter: blur; */
-    padding: 10px;
 }
 .left{
     margin-right: 5%;
@@ -90,8 +86,10 @@
 }
 .readbtn{
     background-color: #637575;
-    border-radius: 5%;
-    padding-top: 2px 3px 4px 5px;
+    border-radius: 5px;
+    width: 7rem;
+    padding: 8px 8px;
+    margin-top: 1rem;
     background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 @media(max-width:640px){
