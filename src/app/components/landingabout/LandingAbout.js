@@ -14,7 +14,7 @@ const LandingAbout = () => {
         <h1 className={`text-5xl mt-20 max-[900px]:mt-0 font-semibold text-left`}>About ECE Society</h1>
         </StyledText>
 
-        <p className='text-lg mt-5 font-normal pt-2 '>
+        <p className={`text-lg mt-5 font-normal pt-2  ${style.text}`}>
         The ECE Society is the official society of the Department of Electronics and Communication Engineering, BIT Sindri. This society aims to promote Scientific thinking among the students and provide a holistic environment for students where they can freely explore the latest cutting-edge technologies in the field of electronics and Software solutions to real-life problems
           </p>
       </div>

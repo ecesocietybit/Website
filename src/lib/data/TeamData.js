@@ -98,14 +98,26 @@ export const TeamData2k20=[
     
     {
         name:'Gayetri Murmu',
-        pos:'Head Editor ',
+        pos:'Head Editor',
         imgSrc:'gayetri_murmu.png',
         lazyImgSrc:'',
         socials:{
             github:'',
-            email:'yusuf17faizan@gmail.com',
+            email:'gayetrimurmu8@gmail.com',
             linkedin:'gayetri-murmu-555a6321a',
             insta:'gayetri_murmu',
+        },
+    },
+    {
+        name:'Rashmi Pradhan',
+        pos:'Alumni-In-Charge',
+        imgSrc:'rashmi_pradhan.png',
+        lazyImgSrc:'',
+        socials:{
+            github:'',
+            email:'rashmipravaindia@gmail.com',
+            linkedin:'rashmi-p-b487a3118',
+            insta:'',
         },
     },
     {
