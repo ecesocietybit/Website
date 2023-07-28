@@ -5,3 +5,8 @@
 
 }
 
+@media(max-width:460px){
+    .box{
+        gap:6rem;
+    }
+}

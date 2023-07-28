@@ -55,10 +55,15 @@ const Form = () => {
         >
          Email:
         </StyledText>
-                <Link href='ecesociety@bitsindri.ac.in' className={`${styles.link}  flex`}>
+                <a
+                className={`${styles.link}  flex flex-col`}
+                target="_blank"
+                rel="noopener noreferrer"
+                href={`mailto:ecesociety@bitsindri.ac.in`}
+              >
                   <CgMail size={ICON_SIZE} width={ICON_SIZE} className={`${styles.items} hover:scale-110`} />
-                  <p className={'text-xl ml-2'}>    ecesociety@bitsindri.ac.in</p>
-                </Link>
+                  <p className={'text-xl'}>    ecesociety@bitsindri.ac.in</p>
+                  </a>
         </div>
 
         <div className={`${styles.contactLeftSocial}`}>
@@ -70,7 +75,7 @@ const Form = () => {
           Social Media:
         </StyledText></div>
 
-        <div className={`flex  gap-3 `}>
+        <div className={`flex  gap-6 `}>
 
             <Link href='https://instagram.com/ecesocietybits?igshid=MzRlODBiNWFlZA== ' className={`${styles.link}`}>
             <AiFillInstagram size={ICON_SIZE} width={ICON_SIZE} className={`${styles.items} hover:scale-110`} />

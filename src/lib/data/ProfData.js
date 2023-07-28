@@ -14,7 +14,7 @@ export const ProfData=[
         word:'"The true power of an engineer is not in what they have learned, but in how they apply what they have learned. Be the engineer who makes a difference and brings visions to life.&apos"I am delighted to extend my warmest greetings to all of you as we proudly unveil the new and improved website of the Department of Electronics and Communication Engineering (ECE)! Our department has always been committed to fostering an exceptional learning environment and promoting cutting-edge research in the field of Electronics and Communication Engineering. With the launch of this website, we aim to enhance communication, provide valuable information, and strengthen the sense of community within our department.At the Department of ECE, we understand the significance of research and development in advancing technology and addressing real-world challenges. Our research endeavours span a wide range of areas, including telecommunications, embedded systems, signal processing, microelectronics, and more. We encourage both faculty and students to actively engage in research projects and collaborate with industry partners to bring innovations to life.As the head of this department, I am strive to promote a culture of inclusivity, diversity, and mutual respect. We embrace and celebrate differences among individuals, recognizing that it enriches our learning environment and contributes to a vibrant academic community.'
     },
     {
-        name:'Dr. Imiteyaz Ahmed',
+        name:'Dr. Imteyaz Ahmed',
         pos:'Prof-In-Charge',
         imgsrc:'imetyazahmed.png',
         dept:'E.C.E Society',

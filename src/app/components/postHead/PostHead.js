@@ -15,7 +15,7 @@ const PostHead = () => {
           Post Bearers
         </StyledText>
         <div className={`${style.container}`}>
-        <div className='flex gap-8 p-8'>
+        <div className={`flex gap-8 p-8 ${style.box}`}>
             {TeamData2k20.map((item) => {
                     {item.imgSrc=item.imgSrc.replace('.jpg','.png')}
                     
