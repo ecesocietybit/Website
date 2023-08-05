@@ -162,7 +162,7 @@ export const TeamData2k21 =[
     {
         name:'Abhay Narayan',
         pos:'',
-        imgSrc:'abhay_narayan.jpg',
+        imgSrc:'abhay_narayan.png',
         lazyImgSrc:'',
         socials:{
             github:'naraynabhay',
