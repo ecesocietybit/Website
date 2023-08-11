@@ -6,7 +6,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import style from "./ProfDetail.module.css";
 import StyledText from "../text/StyledText";
 
-const ProfDetail = ({imgsrc,lazyImgSrc,name,pos,words,college,dept,socials}) => {
+const ProfDetail = ({imgsrc,lazyImgSrc,name,pos,words,dept,socials}) => {
   const [showFullText, setShowFullText] = useState(false);
   let maxLength = 250;
   const ICON_SIZE = 28;
@@ -21,8 +21,7 @@ const ProfDetail = ({imgsrc,lazyImgSrc,name,pos,words,college,dept,socials}) => 
     <div className={`${style.left} flex  flex-col `}>
      <div className={`${style.container} `}>
      <Image className={`${style.img} `}
-       height={100}
-       width={100}
+        fill
         alt={name} 
         src={imgsrc}
         blurDataURL={lazyImgSrc}
