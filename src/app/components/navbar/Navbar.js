@@ -65,28 +65,27 @@ const Navbar = () => {
     <nav id="navbar" className="flex sticky z-30 top-0 justify-between items-center py-2 px-4 bg-[#0D1116]">
       <div className="flex items-center justify-between w-full">
         <div className="text-white font-regular text-base mr-4 flex items-center">
-          <Image className={"w-[65px] mr-2"} src={Logo} alt="Logo" />
+          <Image className={"w-[65px]  mr-2"} src={Logo} alt="Logo" />
           <h1 id="title">
 
-          ECE SOCIETY
+          <span className="font-semibold">ECE SOCIETY</span>
           </h1>
         </div>
         <div className="flex items-center">
         <div id="navList" className="hidden md:flex space-x-4">
-          {" "}
-          <Link href="/" className="text-white px-4">
+          <Link href="/" className="text-white px-4 hover:text-[#00dfd8]">
             Home
           </Link>
-          <Link href="/about" className="text-white px-4">
+          <Link href="/about" className="text-white px-4  hover:text-[#00dfd8]">
             About
           </Link>
-          <Link href="/events" className="text-white px-4">
+          <Link href="/events" className="text-white px-4  hover:text-[#00dfd8]">
             Events
           </Link>
           {/* <Link href="/articles" className="text-white px-4">
             Articles
           </Link> */}
-          <Link href="/teams" className="text-white px-4">
+          <Link href="/teams" className="text-white px-4  hover:text-[#00dfd8]">
             Members
           </Link>
         </div>
