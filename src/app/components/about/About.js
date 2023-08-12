@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './About.module.css'
-
+import Gallery from '../Gallery/Gallery'
+import StyledText from '../text/StyledText'
 const About = () => {
   return (
     <section className={`p-4 pt-28 md:pt-16 sm:pt-12  min-h-screen w-full bg-[#0D1116] text-white flex flex-col justify-center `}>
@@ -14,7 +15,15 @@ const About = () => {
           The ECE Society organizes various webinars, seminars, and Alumni Talks where students learn from the experience of our distinguished Alumni working in diverse fields, ranging from Indian Administration to tech giants like amazon, google, and many more.
           </p>
       </div>
+      <StyledText
+      primary="#007cf0"
+      secondary="#00dfd8"
+      className="text-[36px] font-bold flex flex-col items-center  mb-4"
+     >
+   Glimpses
+    </StyledText>
 
+      <Gallery/>
 
       <div className={`${style.about} mx-auto mt-12 mb-6 sm:mt-8 sm:mb-4 w-2/3`}>
         <h1 className={`text-3xl font-semibold text-center`}>Aims and Objectives</h1>
@@ -25,6 +34,7 @@ const About = () => {
           </p>
       </div>
     </section>
+    
   )
 }
 
