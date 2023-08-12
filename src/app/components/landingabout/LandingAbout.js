@@ -7,8 +7,8 @@ const LandingAbout = () => {
         <section className={`p-4 ${style.head} py-28 max-[900px]:py-0  md:pt-16 sm:pt-12 w-full bg-[#0D1116] text-white flex flex-col justify-start `}>
       <div className={`${style.about} ml-24 mt-20 max-[900px]:mt-0 sm:mt-8 sm:mb-4 w-2/3`}>
         <StyledText
-          primary="#FF4D4D"
-          secondary="#F9CB28"
+          primary="#007cf0"
+          secondary="#00dfd8"
           className="text-[36px] font-bold flex  mb-4"
          >
         <h1 className={`text-5xl mt-20 max-[900px]:mt-0 font-semibold text-left`}>About ECE Society</h1>
