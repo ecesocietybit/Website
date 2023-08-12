@@ -2,14 +2,16 @@
     background-size: cover;
     background-position: center;
     height: 400px;
-    width: 300px;
+    width: 400px;
     overflow: hidden;
     position: relative;
     box-shadow: 0 1em 2em rgb(0 0 0 / 0.2);
+    border-radius: 2.5%;
+    border: 0.5px solid white;
 }
 .underline{
     background-color: hsl(203, 100%, 57%);
-    height: 10px;
+    height: 5px;
     width: 150px;
     padding-bottom:0.8em ;
     margin-left: 1.2em;

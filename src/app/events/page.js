@@ -3,7 +3,7 @@ import EventCard from '../components/EventCard/EventCard'
 import { EventData } from '@/lib/data/EventData'
 import PastCard from '../components/EventCard/PastCard';
 import { PastEvent } from '@/lib/data/PastEvent';
-
+import style from "./page.module.css"
 export const metadata = {
   title: "Our Events",
   description: "",
@@ -33,7 +33,7 @@ const page = () => {
       })
     }
 
-   <div className='flex flex-wrap w-4/5 mx-auto'>
+   <div className= {`flex flex-wrap justify-center gap-12 w-4/5 mx-auto ${style.pastCard}`}>
    {
        PastEvent.map((item)=>{
         return(
