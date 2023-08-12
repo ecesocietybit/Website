@@ -7,8 +7,8 @@ const Profword = () => {
   return (
     <div>
       <StyledText
-          primary="#FF4D4D"
-          secondary="#F9CB28"
+          primary="#007cf0"
+          secondary="#00dfd8"
           className="text-[36px] font-bold flex flex-col items-center mb-4"
         >
          Testimonials

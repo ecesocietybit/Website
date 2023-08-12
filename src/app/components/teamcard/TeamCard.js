@@ -14,7 +14,7 @@ const TeamCard = ({name, pos,imgSrc,lazyImgSrc,socials}) => {
     )
   }
   return (
-    <div className={`border-2 border-white flex flex-col justify-center items-center w-[270px] h-[350px] text-[#fff] p-4 relative overflow-hidden rounded-2xl ${style.card}`}>
+    <div className={`border-2 border-white flex flex-col justify-center items-center w-[300px] h-[375px] text-[#fff] p-4 relative overflow-hidden rounded-2xl ${style.card}`}>
       <div className={`${style.imgBg} h-[150px] w-[150px] `}>
         <div >
             <Image
