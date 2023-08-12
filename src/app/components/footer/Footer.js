@@ -13,25 +13,25 @@ const Footer = () => {
     <div className={`${style.footer} p-8 flex  flex-col w-full h-10vh`}>
         <div className={`${style.icons} flex  justify-center   w-100% ` }>
 
-     {/* <Link href='https://instagram.com/ecesocietybits?igshid=MzRlODBiNWFlZA== ' className={ `${style.link}`}>
+     <Link href='https://instagram.com/ecesocietybits?igshid=MzRlODBiNWFlZA== ' className={ `${style.link}`}>
         <AiFillInstagram className={ `${style.items}`}/>
-     </Link> */}
+     </Link>
 
-     {/* <Link href='https://www.instagram.com'  className={ `${style.link}`}>
+     <Link href='https://www.instagram.com'  className={ `${style.link}`}>
         <FaFacebook className={ `${style.items}`}/>
-     </Link> */}
+     </Link>
 
-     {/* <Link href='https://github.com/ecesocietybit'  className={ `${style.link}`}>
+     <Link href='https://github.com/ecesocietybit'  className={ `${style.link}`}>
         <FaGithub className={ `${style.items}`}/>
-     </Link> */}
+     </Link>
 
-     {/* <Link href='ecesociety@bitsindri.ac.in'  className={ `${style.link}`}>
+     <Link href='ecesociety@bitsindri.ac.in'  className={ `${style.link}`}>
         <CgMail className={ `${style.items}`}/>
-     </Link> */}
+     </Link>
 
-     {/* <Link href='https://www.linkedin.com/company/ece-society-bit-sindri/'  className={ `${style.link}`}>
+     <Link href='https://www.linkedin.com/company/ece-society-bit-sindri/'  className={ `${style.link}`}>
         <BsLinkedin className={ `${style.items}`}/>
-     </Link> */}
+     </Link>
 
 
       </div>
