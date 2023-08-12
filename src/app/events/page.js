@@ -12,7 +12,7 @@ export const metadata = {
 const page = () => {
   return (
     <div className='min-h-screen w-full p-4 bg-[#0D1116] flex flex-col gap-28'>
-    {
+    {/* {
       EventData.map((item)=>{
         const currentDate = new Date().getTime();
       const past = currentDate < new Date(item.date).getTime() ? false : true;
@@ -31,18 +31,20 @@ const page = () => {
 
         )
       })
-    }
+    } */}
 
    <div className= {`flex flex-wrap justify-center gap-12 w-4/5 mx-auto ${style.pastCard}`}>
    {
-       PastEvent.map((item)=>{
+       EventData.map((item)=>{
         return(
           <PastCard
           title={item.title}
           content={item.content}
           imgSrc={'/events/'+item.imgSrc}
           lazyImgSrc={'/events/lazy/'+item.imgSrc}
-          link={'/events/'+item.link}/>
+          link={'/events/pdf/'+item.imgSrc}
+          key={item.date}
+          />
         )
        })
     }

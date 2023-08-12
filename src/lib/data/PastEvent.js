@@ -10,14 +10,14 @@ export const PastEvent=[
         title:'SHASTRARTH',
         imgSrc:'shastrarth.png',
         lazyImgSrc:'',
-        content:'Science Debate based',
+        content:'Science Debate competition',
         link:'',
     },
     {
         title:'PRASTUTI',
         imgSrc:'prastuti.png',
         lazyImgSrc:'',
-        content:'PPT presentation compet',
+        content:'PPT presentation competition',
         link:'',
     },
     {
@@ -38,7 +38,7 @@ export const PastEvent=[
         title:'MATLAB WORKSHOP',
         imgSrc:'workshop_matlab.png',
         lazyImgSrc:'',
-        content:'Workshop by our prof',
+        content:'Workshop on matlab by our professor',
         link:'',
     },
     {
@@ -52,7 +52,7 @@ export const PastEvent=[
         title:'MODEL EXHIBITION',
         imgSrc:'parikshit.png',
         lazyImgSrc:'',
-        content:'Model making compet',
+        content:'Model making competetion',
         link:'',
     },
     {
