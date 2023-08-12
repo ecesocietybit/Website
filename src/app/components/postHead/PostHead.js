@@ -8,8 +8,8 @@ const PostHead = () => {
   return (
     <div className='w-4/5 my-8 mx-auto'>
         <StyledText
-          primary="#FF4D4D"
-          secondary="#F9CB28"
+          primary="#007cf0"
+          secondary="#00dfd8"
           className="text-[36px] font-bold flex flex-col items-center mb-4"
         >
           Post Bearers
