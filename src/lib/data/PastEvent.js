@@ -1,0 +1,66 @@
+export const PastEvent=[
+    {
+        title:'PARIKSHIT',
+        imgSrc:'parikshit.png',
+        lazyImgSrc:'',
+        content:'This is a science quiz',
+        link:'',
+    },
+    {
+        title:'SHASTRARTH',
+        imgSrc:'shastrarth.png',
+        lazyImgSrc:'',
+        content:'Science Debate based',
+        link:'',
+    },
+    {
+        title:'PRASTUTI',
+        imgSrc:'prastuti.png',
+        lazyImgSrc:'',
+        content:'PPT presentation compet',
+        link:'',
+    },
+    {
+        title:'5G AND BEYOND',
+        imgSrc:'5G_and_beyond.png',
+        lazyImgSrc:'',
+        content:'A webinar on 5G',
+        link:'',
+    },
+    {
+        title:'KNOW YOUR INDUSTRIES',
+        imgSrc:'know_your_industries.png',
+        lazyImgSrc:'',
+        content:'A panel discussion on industries',
+        link:'',
+    },
+    {
+        title:'MATLAB WORKSHOP',
+        imgSrc:'workshop_matlab.png',
+        lazyImgSrc:'',
+        content:'Workshop by our prof',
+        link:'',
+    },
+    {
+        title:'SEMICONDUCTOR WEBINAR',
+        imgSrc:'webinar_semiconductor.png',
+        lazyImgSrc:'',
+        content:'A session on semiconductor',
+        link:'',
+    },
+    {
+        title:'MODEL EXHIBITION',
+        imgSrc:'parikshit.png',
+        lazyImgSrc:'',
+        content:'Model making compet',
+        link:'',
+    },
+    {
+        title:'NPTEL SEMINAR ',
+        imgSrc:'parikshit.png',
+        lazyImgSrc:'',
+        content:'NPTEL courses discussion',
+        link:'',
+    },
+    
+]
