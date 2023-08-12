@@ -46,16 +46,24 @@ border-radius: 122.951px;
   height: 120%;
   transform: translate(-15px,-15px);
   transition: 150ms ease-in-out;
-
 }
 
-.cardContainer{
+/* .cardContainer{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
   gap: 5rem;
   justify-items: center;
   max-width: calc(4 * (250px + 2rem));
   margin-inline: auto;
+} */
+
+.cardContainer{
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-inline: auto;
+  gap: 2.5rem;
 }
 
 .socials {

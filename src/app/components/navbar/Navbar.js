@@ -62,7 +62,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav id="navbar" className="flex sticky z-30 top-0 justify-between items-center py-2 px-4 bg-[#0D1116]">
+    <nav id="navbar" className="flex sticky z-30 top-0 justify-between items-center py-1 px-4 bg-[#0D1116]">
       <div className="flex items-center justify-between w-full">
         <div className="text-white font-regular text-base mr-4 flex items-center">
           <Image className={"w-[65px]  mr-2"} src={Logo} alt="Logo" />
@@ -73,20 +73,20 @@ const Navbar = () => {
         </div>
         <div className="flex items-center">
         <div id="navList" className="hidden md:flex space-x-4">
-          <Link href="/" className="text-white px-4 hover:text-[#00dfd8]">
+          <Link href="/" className="text-white px-4 hover:text-[#007cf0]  hover:font-bold">
             Home
           </Link>
-          <Link href="/about" className="text-white px-4  hover:text-[#00dfd8]">
+          <Link href="/about" className="text-white px-4  hover:text-[#007cf0]  hover:font-bold">
             About
           </Link>
-          <Link href="/events" className="text-white px-4  hover:text-[#00dfd8]">
+          <Link href="/events" className="text-white px-4  hover:text-[#007cf0]  hover:font-bold">
             Events
           </Link>
           {/* <Link href="/articles" className="text-white px-4">
             Articles
           </Link> */}
-          <Link href="/teams" className="text-white px-4  hover:text-[#00dfd8]">
-            Members
+          <Link href="/teams" className="text-white px-4  hover:text-[#007cf0]  hover:font-bold">
+            Team
           </Link>
         </div>
         <Link href='/#contact' className={`hidden md:flex space-x-4`}>

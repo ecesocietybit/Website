@@ -87,13 +87,14 @@ const ProfDetail = ({imgsrc,lazyImgSrc,name,pos,words,dept,socials}) => {
       
       <div className={`${style.right} flex  flex-col`}  >
       
-        <StyledText
+        {/* <StyledText
           primary="#007cf0"
           secondary="#00dfd8"
           className="text-[36px] font-bold flex flex-col items-center mb-4"
         >
           {name}
-        </StyledText>
+        </StyledText> */}
+        <h1 className="self-start text-[36px] font-bold">{name}</h1>
 
         {/* <div className={`${style.subsidary} `}>
 
