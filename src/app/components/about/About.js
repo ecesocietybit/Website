@@ -31,7 +31,7 @@ const About = () => {
         
           {
             AboutTextPara.map((item)=>(
-              <p className={`text-lg mt-5 w-2/3 max-[400px]:w-[100%] font-normal`}>
+              <p className={`text-lg mt-5 w-2/3 max-[400px]:w-[100%] font-normal`} key={item.text}>
               {croppedText(item.text)}
               <button onClick={toggleShowFullText} className="text-blue-500 text-[16px] rounded ">
           {showFullText ? 'See Less' : 'See More'}
