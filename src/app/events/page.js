@@ -3,7 +3,7 @@ import EventCard from '../components/EventCard/EventCard'
 import { EventData } from '@/lib/data/EventData'
 import PastCard from '../components/EventCard/PastCard';
 import { PastEvent } from '@/lib/data/PastEvent';
-import style from "./page.module.css"
+import style from "../components/EventCard/PastCard.module.css"
 export const metadata = {
   title: "Our Events",
   description: "",

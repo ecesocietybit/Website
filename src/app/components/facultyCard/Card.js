@@ -1,22 +1,39 @@
 import Image from 'next/image'
 import React from 'react'
+import style from './Card.module.css'
 
-const Card = ({name,desg,imgSrc}) => {
+const Card = ({name,desg,imgSrc,email,mobile}) => {
   return (
-    <div className='flex flex-row  w-4/5 '>
-        <div className='mx-auto'>
+    <div className={`${style.infocardContainer} px-4 justify-evenly`}>
+       <div className='flex items-center'>
+       <div className={`${style.imgBg} h-[150px] w-[150px] `}>
+        <div >
+            <Image
+            className={`h-[101.75px] w-[101.75px] mx-auto object-cover object-top ${style.img}`}
+            fill
+            sizes='(max-width:768px) 100vw,700px'
+            src={imgSrc}
+            alt={name}
+            />
+        </div>
+      </div>
+       </div>
+        {/* <div className={style.main}>
         <Image 
-        width={400}
-        height={400}
-        className='w-2/3 h-2/3'
+        
+        height={300}
+        width={200}
+        className={style.image} 
         alt={name} 
         src={imgSrc}
        /> 
-        </div>
-        <div className='flex flex-col justify-center'>
-          <h2>{name}</h2>
-          <p>{desg}</p>
-          <div>{}</div>
+        </div> */}
+        <div className={style.text}>
+          <h2 className={style.name}> <p className={style.detail}></p>{name}</h2>
+          <h4 className={style.desg}>{desg}</h4>
+          <a className={style.mail} href= "mailto:{email}"> <p className={style.detail}>Email:</p>{email}</a>
+          <div className={style.mobile}> <p className={style.detail}>Mobile:</p>{mobile}</div>
+          <div className={style.link}> <a href="" >Download</a></div>
         </div>
     </div>
   )
