@@ -4,6 +4,7 @@ import { EventData } from '@/lib/data/EventData'
 import PastCard from '../components/EventCard/PastCard';
 import { PastEvent } from '@/lib/data/PastEvent';
 import style from "../components/EventCard/PastCard.module.css"
+import StyledText from '../components/text/StyledText';
 export const metadata = {
   title: "Our Events",
   description: "",
@@ -12,9 +13,16 @@ export const metadata = {
 const page = () => {
   const currentDate= new Date().getTime();
   return (
-    <div className='min-h-screen w-full p-4 bg-[#0D1116] flex flex-col gap-28'>
+    <div className='min-h-screen w-full p-4 bg-[#0D1116] flex flex-col gap-4'>
+    <StyledText
+          primary="#FF4D4D"
+          secondary="#F9CB28"
+          className="text-[36px] font-bold flex flex-col items-center mb-4"
+        >
+          Our Events
+        </StyledText>
 
-   <div className= {`flex flex-wrap justify-center gap-12 w-4/5 mx-auto ${style.pastCard}`}>
+   <div className= {`flex flex-wrap justify-center gap-12 px-8 mx-auto ${style.pastCard}`}>
    {
        EventData.map((item)=>{
         const eventDate = new Date(item.date).getTime();
