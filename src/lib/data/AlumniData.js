@@ -4,7 +4,6 @@ export const TeamData2K18=[
         pos:'President',
         company:'Technical Solutions Engineer at Google',
         imgSrc:'shailesh_aanand.png',
-        lazyImgSrc:'',
         socials:{
             github:'shaileshaanand',
             email:'anaandshailu@gmail.com',
@@ -17,7 +16,6 @@ export const TeamData2K18=[
         pos:'Vice President',
         company:'M.Tech(VLSI) at IIT HYD',
         imgSrc:'abhishek_ranjan.png',
-        lazyImgSrc:'',
         socials:{
             github:'',
             email:'abhi.ranjan5115@gmail.com',
@@ -30,7 +28,6 @@ export const TeamData2K18=[
         pos:'Vice President',
         company:'Analyst at JPMorgan Chase & Co.',
         imgSrc:'nandani_kumari.png',
-        lazyImgSrc:'',
         socials:{
             github:'',
             email:'',
@@ -43,7 +40,6 @@ export const TeamData2K18=[
         pos:'Secretary',
         company:'Software Engineer at Samsung Research, Bangalore',
         imgSrc:'abhishek_pandey.png',
-        lazyImgSrc:'',
         socials:{
             github:'',
             email:'abhishekp9912@gmail.com',
@@ -56,7 +52,6 @@ export const TeamData2K18=[
         pos:'Technical Head',
         company:'R&D Engineer at SAMSUNG',
         imgSrc:'chahat_raj.png',
-        lazyImgSrc:'',
         socials:{
             github:'',
             email:'chahatraj8@gmail.com',
@@ -69,7 +64,6 @@ export const TeamData2K18=[
         pos:'Student Co-ordinator',
         company:'Integration Engineer at Ericsson India',
         imgSrc:'abhishek_soren.png',
-        lazyImgSrc:'',
         socials:{
             github:'',
             email:'abhishekrs19@gmail.com',
@@ -82,7 +76,6 @@ export const TeamData2K18=[
         pos:'Head Editor',
         company:'Manager at Tata Steel Limited',
         imgSrc:'anshu_kumari.png',
-        lazyImgSrc:'',
         socials:{
             github:'',
             email:'anshurajputvk18@gmail.com',
@@ -95,7 +88,6 @@ export const TeamData2K18=[
         pos:'Treasurer',
         company:'M.Tech(ISS) at IIT HYD',
         imgSrc:'abhinav_prakash.png',
-        lazyImgSrc:'',
         socials:{
             github:'',
             email:'',
@@ -104,15 +96,14 @@ export const TeamData2K18=[
         },
     },
     {
-        name:'Adarsh Kumar',
+        name:'Adarsh Kumar Sinha',
         pos:'',
-        company:'',
+        company:'Software Engineer at Samsung',
         imgSrc:'',
-        lazyImgSrc:'',
         socials:{
-            github:'',
-            email:'',
-            linkedin:'',
+            github:'sirAdarsh',
+            email:'aksinha.dhn@gmail.com',
+            linkedin:'adarsh-kumar-sinha-2a32b515a',
             insta:'',
         },
     },
@@ -124,7 +115,6 @@ export const TeamData2k19=[
         pos:'President',
         company:'Management Trainee Technical at Tata Steel Limited',
         imgSrc:'shubhada_mandavi.png',
-        lazyImgSrc:'',
         socials:{
             github:'',
             email:'shubhadamandavi12@gmail.com',
@@ -137,7 +127,6 @@ export const TeamData2k19=[
         pos:' Vice President',
         company:' Trainee Decision scientist at Mu Sigma ',
         imgSrc:'',
-        lazyImgSrc:'',
         socials:{
             github:'',
             email:'',
@@ -150,7 +139,6 @@ export const TeamData2k19=[
         pos:'Vice President',
         company:'',
         imgSrc:'sana_nowshad.png',
-        lazyImgSrc:'',
         socials:{
             github:'',
             email:'sananowshad2000@gmail.com',
@@ -163,7 +151,6 @@ export const TeamData2k19=[
         pos:'Secretary',
         company:'M.Tech(VLSI) at IIT BHU',
         imgSrc:'harsh_tiwary.png',
-        lazyImgSrc:'',
         socials:{
             github:'',
             email:'harshaktiwari3010@gmail.com',
@@ -176,7 +163,6 @@ export const TeamData2k19=[
         pos:'Treasurer',
         company:'Software Developer Trainee at Hitachi GlobalLogic',
         imgSrc:'himanshu_jaiswal.png',
-        lazyImgSrc:'',
         socials:{
             github:'',
             email:'himanshu832jaiswal@gmail.com',
@@ -189,7 +175,6 @@ export const TeamData2k19=[
         pos:'Technical Head',
         company:'',
         imgSrc:'zeeshan_ashraf.png',
-        lazyImgSrc:'',
         socials:{
             github:'zeeshan-2k1',
             email:'ashraf2k1zeeshan@gmail.com',
@@ -202,7 +187,6 @@ export const TeamData2k19=[
         pos:'Head Editor',
         company:'Cloud Engineer at Capgemini',
         imgSrc:'nitish_kumar.png',
-        lazyImgSrc:'',
         socials:{
             github:'',
             email:'nitishkumar7488232676@gmail.com',
@@ -215,7 +199,6 @@ export const TeamData2k19=[
         pos:'PRO',
         company:'',
         imgSrc:'',
-        lazyImgSrc:'',
         socials:{
             github:'',
             email:'',
@@ -228,7 +211,6 @@ export const TeamData2k19=[
         pos:'Event Coordinator',
         company:'',
         imgSrc:'ritwik_anand.png',
-        lazyImgSrc:'',
         socials:{
             github:'',
             email:'',
@@ -241,7 +223,6 @@ export const TeamData2k19=[
         pos:'Alumni In-Charge',
         company:'',
         imgSrc:'gaurav_kumar.png',
-        lazyImgSrc:'',
         socials:{
             github:'',
             email:'',

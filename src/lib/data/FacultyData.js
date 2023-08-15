@@ -9,7 +9,7 @@ export const FacultyData = [
     },
     {
         name:'Ramjee Prasad',
-        desg:'Professor Emeritus',
+        desg:' Adjunct Professor',
         imgSrc:'ramjee_prasad.png',
         email:'ramjee@btech.au.dk',
         mobile:'+4540614248'

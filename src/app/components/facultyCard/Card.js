@@ -1,40 +1,56 @@
 import Image from 'next/image'
 import React from 'react'
 import style from './Card.module.css'
+import { AiFillMobile, AiOutlineArrowDown } from 'react-icons/ai'
+import { BsFillArrowDownCircleFill, BsFillTelephoneFill } from 'react-icons/bs'
+import { FaEnvelope } from 'react-icons/fa'
+import StyledText from '../text/StyledText'
 
-const Card = ({name,desg,imgSrc,email,mobile}) => {
+const ICON_SIZE=20
+
+const Card = ({ name, desg, imgSrc, pdfSrc, email, mobile }) => {
   return (
-    <div className={`${style.infocardContainer} px-4 justify-evenly`}>
-       <div className='flex items-center'>
-       <div className={`${style.imgBg} h-[150px] w-[150px] `}>
-        <div >
+    <div className={`${style.infocardContainer} px-4 py-2 justify-evenly`}>
+      <div className='flex items-center'>
+        <div className={`${style.imgBg} h-[150px] w-[150px] `}>
+          <div >
             <Image
-            className={`h-[101.75px] w-[101.75px] mx-auto object-cover object-top ${style.img}`}
-            fill
-            sizes='(max-width:768px) 100vw,700px'
-            src={imgSrc}
-            alt={name}
+              className={`h-[101.75px] w-[101.75px] mx-auto object-cover object-top ${style.img}`}
+              fill
+              sizes='(max-width:768px) 100vw,700px'
+              src={imgSrc}
+              alt={name}
             />
+          </div>
         </div>
       </div>
-       </div>
-        {/* <div className={style.main}>
-        <Image 
-        
-        height={300}
-        width={200}
-        className={style.image} 
-        alt={name} 
-        src={imgSrc}
-       /> 
-        </div> */}
-        <div className={style.text}>
-          <h2 className={style.name}> <p className={style.detail}></p>{name}</h2>
-          <h4 className={style.desg}>{desg}</h4>
-          <a className={style.mail} href= "mailto:{email}"> <p className={style.detail}>Email:</p>{email}</a>
-          <div className={style.mobile}> <p className={style.detail}>Mobile:</p>{mobile}</div>
-          <div className={style.link}> <a href="" >Download</a></div>
+      <div className={style.text}>
+        <span>
+        <h2 className={`text-lg font-bold`}> 
+          {name}
+        </h2>
+        <p className={`text-base`}>
+          {desg}
+        </p>
+        </span>
+        <a className={`${style.mail} flex gap-2`} href="mailto:{email}"> 
+          <FaEnvelope className='hover:fill-[#F9CB28]' size={ICON_SIZE} />
+         <p className='text-sm'> {email}</p>
+        </a>
+        <p className={`${style.mobile} flex gap-2 text-sm`}> 
+          <BsFillTelephoneFill className='hover:fill-[#F9CB28]' size={ICON_SIZE} />
+          +91-
+          {mobile}
+        </p>
+        <div className={`${style.link} flex `}>
+           <div className={` bg-[#000000] border-[#42c5cf] flex gap-2 items-center border px-3 py-2 cursor-pointer`}>
+           <a href={pdfSrc} target="_blank" rel="noopener noreferrer"  >
+            BIODATA
+            </a>
+            <BsFillArrowDownCircleFill className='hover:fill-[#42c5cf]' size={ICON_SIZE} />
+           </div>
         </div>
+      </div>
     </div>
   )
 }

@@ -64,11 +64,11 @@ const Navbar = () => {
   return (
     <nav id="navbar" className="flex sticky z-30 top-0 justify-between items-center py-1 px-4 bg-[#0D1116]">
       <div className="flex items-center justify-between w-full">
-        <div className="text-white font-regular text-base mr-4 flex items-center">
+        <div className="text-white font-regular text-base mr-4 flex items-center cursor-pointer">
           <Image className={"w-[65px]  mr-2"} src={Logo} alt="Logo" />
           <h1 id="title">
 
-          <span className="font-semibold">ECE SOCIETY</span>
+          <span className="font-semibold hover:text-[#007cf0]">ECE SOCIETY</span>
           </h1>
         </div>
         <div className="flex items-center">
