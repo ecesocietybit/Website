@@ -16,7 +16,7 @@ export const ProfData=[
     {
         name:'Dr. Imteyaz Ahmed',
         pos:'Prof-In-Charge',
-        imgsrc:'imetyazahmed.png',
+        imgsrc:'imteyaz_ahmad.png',
         dept:'E.C.E Society',
         college:'B.I.T Sindri',
         socials:{

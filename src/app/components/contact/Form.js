@@ -40,12 +40,12 @@ const Form = () => {
              <StyledText
           primary="#007cf0"
           secondary="#00dfd8"
-          className=" font-bold  "
+          className="text-[36px] font-bold  mb-4"
         >
          Contact Us
         </StyledText>
              </h1>
-             <h1 className={`pt-3 text-1xl text-white text-left `}>S-13 E.C.E Dept <br /> E.C.E Building B.I.T Sindri</h1>
+             <h1 className={`pt-3 text-1xl text-white  `}>S-13 E.C.E Dept <br /> E.C.E Building B.I.T Sindri</h1>
         </div>
         <div className={`${styles.contactLeftMail}`}>
                       <StyledText
@@ -56,18 +56,18 @@ const Form = () => {
          Email:
         </StyledText>
                 <a
-                className={`${styles.link}  flex flex-col`}
+                className={`${styles.link}  flex gap-2 justify-center sm:justify-start `}
                 target="_blank"
                 rel="noopener noreferrer"
                 href={`mailto:ecesociety@bitsindri.ac.in`}
               >
-                  <CgMail size={ICON_SIZE} width={ICON_SIZE} className={`${styles.items} hover:scale-110`} />
-                  <p className={'text-xl'}>    ecesociety@bitsindri.ac.in</p>
+                  <CgMail size={ICON_SIZE} width={ICON_SIZE} className={`${styles.items} hover:scale-110 `} />
+                  <p className={'text-lg'}>    ecesociety@bitsindri.ac.in</p>
                   </a>
         </div>
 
         <div className={`${styles.contactLeftSocial}`}>
-           <div className={`text-2xl text-left`}>      <StyledText
+           <div className={`text-2xl`}>      <StyledText
           primary="#007cf0"
           secondary="#00dfd8"
           className="text-[36px] font-bold mb-4"
@@ -75,7 +75,7 @@ const Form = () => {
           Social Media:
         </StyledText></div>
 
-        <div className={`flex  gap-6 `}>
+        <div className={`flex  gap-6 justify-center sm:justify-start `}>
 
             <Link href='https://instagram.com/ecesocietybits?igshid=MzRlODBiNWFlZA== ' className={`${styles.link}`}>
             <AiFillInstagram size={ICON_SIZE} width={ICON_SIZE} className={`${styles.items} hover:scale-110`} />

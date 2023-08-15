@@ -82,11 +82,17 @@ const Navbar = () => {
           <Link href="/events" className="text-white px-4  hover:text-[#007cf0]  hover:font-bold">
             Events
           </Link>
+          <Link href="/faculty" className="text-white px-4  hover:text-[#007cf0]  hover:font-bold">
+            Faculty
+          </Link>
           {/* <Link href="/articles" className="text-white px-4">
             Articles
           </Link> */}
           <Link href="/teams" className="text-white px-4  hover:text-[#007cf0]  hover:font-bold">
             Team
+          </Link>
+          <Link href="/alumni" className="text-white px-4  hover:text-[#007cf0]  hover:font-bold">
+            Alumni
           </Link>
         </div>
         <Link href='/#contact' className={`hidden md:flex space-x-4`}>
@@ -116,7 +122,7 @@ const Navbar = () => {
           ref={menuRef}
           className="md:hidden z-10  mx-auto pt-8 absolute top-0 right-0 left-0 p-8 bg-gray-900 "
         >
-          <div id="navList" className="flex flex-col space-y-2 text-lg">
+          <div id="navList" className="flex flex-col space-y-2 text-lg w-[90%] items-end">
             <div className="flex flex-col space-y-2">
               <Link href="/" onClick={toggleMenu} className="text-white">
                 Home
@@ -127,12 +133,18 @@ const Navbar = () => {
               <Link href="/events" onClick={toggleMenu} className="text-white">
                 Events
               </Link>
-              {/* <Link href="/articles" onClick={toggleMenu} className="text-white">
-                Articles
-              </Link> */}
-              <Link href="/teams" onClick={toggleMenu} className="text-white">
-                Members
-              </Link>
+              <Link href="/faculty" className="text-white hover:text-[#007cf0]  hover:font-bold">
+            Faculty
+          </Link>
+          {/* <Link href="/articles" className="text-white px-4">
+            Articles
+          </Link> */}
+          <Link href="/teams" className="text-white  hover:text-[#007cf0]  hover:font-bold">
+            Team
+          </Link>
+          <Link href="/alumni" className="text-white  hover:text-[#007cf0]  hover:font-bold">
+            Alumni
+          </Link>
             </div>
             <Link href='/#contact' onClick={toggleMenu} className="text-white">
 
