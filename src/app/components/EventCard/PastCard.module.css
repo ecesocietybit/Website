@@ -1,8 +1,8 @@
 .card{
     background-size: cover;
     background-position: center;
-    height: 400px;
-    width: 400px;
+    height: 340px;
+    width: 340px;
     overflow: hidden;
     position: relative;
     box-shadow: 0 1em 2em rgb(0 0 0 / 0.2);
