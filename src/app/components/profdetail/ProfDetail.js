@@ -106,8 +106,8 @@ const ProfDetail = ({imgsrc,lazyImgSrc,name,pos,words,dept,socials}) => {
 
         <div className={`${style.word} `}>
           {showFullText ? (
-            <div className="flex flex-col items-center justify-center gap-4 mx-auto w-4/5">
-              <p className="text-lg">{words}
+            <div className="flex flex-col items-center justify-center gap-4 mx-auto w-full">
+              <p className={`${style.para} text-lg`}>{words}
               <button
                 onClick={handleReadMoreClick}
                 className="text-blue-500 text-[16px] rounded "

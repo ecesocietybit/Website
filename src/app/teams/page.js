@@ -18,8 +18,8 @@ export default function Page() {
     <div className="min-h-screen w-full p-4 bg-[#0D1116] flex flex-col gap-28">
       <div>
         <StyledText
-          primary="#FF4D4D"
-          secondary="#F9CB28"
+          primary="#007cf0"
+          secondary="#00dfd8"
           className="text-[36px] font-bold flex flex-col items-center mb-4"
         >
           Batch 2K20
@@ -43,8 +43,8 @@ export default function Page() {
       </div>
       <div>
         <StyledText
-          primary="#FF4D4D"
-          secondary="#F9CB28"
+          primary="#007cf0"
+          secondary="#00dfd8"
           className="text-[36px] font-bold flex flex-col items-center mb-4"
         >
           Batch 2K21
@@ -66,8 +66,8 @@ export default function Page() {
       </div>
       <div>
         <StyledText
-          primary="#FF4D4D"
-          secondary="#F9CB28"
+          primary="#007cf0"
+          secondary="#00dfd8"
           className="text-[36px] font-bold flex flex-col items-center mb-4"
         >
           Batch 2K22

@@ -34,16 +34,16 @@ const Card = ({ name, desg, imgSrc, pdfSrc, email, mobile }) => {
         </p>
         </span>
         <a className={`${style.mail} flex gap-2`} href="mailto:{email}"> 
-          <FaEnvelope className='hover:fill-[#F9CB28]' size={ICON_SIZE} />
+          <FaEnvelope className='hover:fill-[#00dfd8]' size={ICON_SIZE} />
          <p className='text-sm'> {email}</p>
         </a>
-        <p className={`${style.mobile} flex gap-2 text-sm`}> 
-          <BsFillTelephoneFill className='hover:fill-[#F9CB28]' size={ICON_SIZE} />
+        <p className={`${style.mobile} flex gap-2 text-sm cursor-pointer`}> 
+          <BsFillTelephoneFill className='hover:fill-[#00dfd8] ' size={ICON_SIZE} />
           +91-
           {mobile}
         </p>
         <div className={`${style.link} flex `}>
-           <div className={` bg-[#000000] border-[#42c5cf] flex gap-2 items-center border px-3 py-2 cursor-pointer`}>
+           <div className={` bg-[#000000] border-[#42c5cf] flex gap-2 items-center border px-3 py-2 cursor-pointer rounded-full`}>
            <a href={pdfSrc} target="_blank" rel="noopener noreferrer"  >
             BIODATA
             </a>

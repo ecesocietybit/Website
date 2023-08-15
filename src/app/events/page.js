@@ -15,8 +15,8 @@ const page = () => {
   return (
     <div className='min-h-screen w-full p-4 bg-[#0D1116] flex flex-col gap-4'>
     <StyledText
-          primary="#FF4D4D"
-          secondary="#F9CB28"
+          primary="#007cf0"
+          secondary="#00dfd8"
           className="text-[36px] font-bold flex flex-col items-center mb-4"
         >
           Our Events
