@@ -45,13 +45,13 @@ export const EventData = [
     },
     {
         title:'MODEL EXHIBITION',
-        imgSrc:'parikshit.png',
+        imgSrc:'model_exhibition.png',
         content:'Model making competetion',
         date:'July 28, 2023 00:00:00'
     },
     {
         title:'NPTEL SEMINAR ',
-        imgSrc:'parikshit.png',
+        imgSrc:'nptel.png',
         content:'NPTEL courses discussion',
         date:'July 28, 2023 00:00:00'
     },
