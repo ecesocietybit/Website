@@ -28,7 +28,7 @@ const page = () => {
       {
         FacultyData.map((items)=>{
           return(
-              <div className={style.card}>
+              <div className={style.card} key={items.imgSrc}>
               <Card
               name={items.name}
               desg={items.desg}
