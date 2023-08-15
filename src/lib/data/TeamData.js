@@ -340,17 +340,6 @@ export const TeamData2k22 =[
         },
     },
     {
-        name:'Chahat',
-        pos:'',
-        imgSrc:'chahat_singh.png',
-        socials:{
-            github:'chahat-git',
-            email:'nairasingh151@gmail.com',
-            linkedin:'chahat-singh-a709b4251',
-            insta:'chahatsingh2351',
-        },
-    },
-    {
         name:'Ashish Kumar Mahto',
         pos:'',
         imgSrc:'ashish_kumar.png',

@@ -41,6 +41,9 @@
     /* top: -25%; */
 
 }
+.para{
+    text-wrap:balance;
+}
 .leftDown{
     display: flex;
     flex-direction: column;

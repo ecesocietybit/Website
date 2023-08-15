@@ -36,6 +36,13 @@ export const FacultyData = [
         mobile:'9110986849'
     },
     {
+        name:'Mr. Jagveer singh verma',
+        desg:'Assistant Professor',
+        imgSrc:'jagveer_verma.png',
+        email:'jagvirverma.ece@bitsindri.ac.in',
+        mobile:'9977500078'
+    },
+    {
         name:'Ms. Sabita Nayak',
         desg:'Assistant Professor',
         imgSrc:'sabita_nayak.png',
@@ -77,13 +84,7 @@ export const FacultyData = [
         email:'nishant.ece@bitsindri.ac.in',
         mobile:'9583084811'
     },
-    {
-        name:'Mr. Jagveer singh verma',
-        desg:'Assistant Professor',
-        imgSrc:'jagveer_verma.png',
-        email:'jagvirverma.ece@bitsindri.ac.in',
-        mobile:'9977500078'
-    },
+    
 
     {
         name:'Dr. Prashant Kumar Singh',

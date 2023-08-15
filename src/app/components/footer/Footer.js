@@ -6,35 +6,35 @@ import {FaFacebook} from 'react-icons/fa'
 import {BsLinkedin} from 'react-icons/bs'
 import Link from 'next/link'
 
-const ICON_SIZE=28
+const ICON_SIZE=24
 
 const Footer = () => {
   return (
-    <div className={`${style.footer} py-4 flex  flex-col w-full h-10vh`}>
+    <div className={`${style.footer} py-4 flex  flex-col gap-2 w-full h-10vh`}>
         <div className={`${style.icons} flex  justify-center w-100% ` }>
 
      <Link href='https://instagram.com/ecesocietybits?igshid=MzRlODBiNWFlZA== ' className={ `${style.link}`}>
-        <AiFillInstagram size={ICON_SIZE} className={`hover:fill-[#F9CB28]`}/>
+        <AiFillInstagram size={ICON_SIZE} className={`hover:fill-[#00dfd8]`}/>
      </Link>
 
      <Link href='https://www.instagram.com'  className={ `${style.link}`}>
-        <FaFacebook size={ICON_SIZE} className={`hover:fill-[#F9CB28]`}/>
+        <FaFacebook size={ICON_SIZE} className={`hover:fill-[#00dfd8]`}/>
      </Link>
 
      <Link href='https://github.com/ecesocietybit'  className={ `${style.link}`}>
-        <FaGithub size={ICON_SIZE} className={`hover:fill-[#F9CB28]`}/>
+        <FaGithub size={ICON_SIZE} className={`hover:fill-[#00dfd8]`}/>
      </Link>
 
      <Link href='ecesociety@bitsindri.ac.in'  className={ `${style.link}`}>
-        <FaEnvelope size={ICON_SIZE} className={`hover:fill-[#F9CB28]`}/>
+        <FaEnvelope size={ICON_SIZE} className={`hover:fill-[#00dfd8]`}/>
      </Link>
 
      <Link href='https://www.linkedin.com/company/ece-society-bit-sindri/'  className={ `${style.link}`}>
-        <BsLinkedin size={ICON_SIZE} className={` hover:fill-[#F9CB28]`}/>
+        <BsLinkedin size={ICON_SIZE} className={` hover:fill-[#00dfd8]`}/>
      </Link>
       </div>
       <div className={`${style.copyright}`}>
-      <h6>
+      <h6 className='font-light text-sm'>
           © {new Date().getFullYear()} ECE Society BIT Sindri. All rights
           reserved.
         </h6>

@@ -40,10 +40,11 @@ const About = () => {
         </p>
             ))
           }
-          
-          <Link href="/about#glimpses">
-          <AnimatedScrollButton />
-          </Link>  
+          <AnimatedScrollButton
+           onClick={() =>
+            document.getElementById('glimpses').scrollIntoView({behavior: "smooth"})
+          }
+           /> 
       </div>
       
       <StyledText
