@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        md: "768px", // Medium devices
+        md: "900px", // Medium devices
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -74,3 +74,12 @@
         transition: 600ms;
     }
 }
+
+
+@media(max-width:500px){
+
+    .pastCard{
+        margin: 0;
+        width: 100%;
+    }
+}
