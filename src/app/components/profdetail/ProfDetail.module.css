@@ -15,19 +15,20 @@
     
 }
 .left{
-    margin-right: 5%;
-    margin-left: 10%;
+    /* margin-right: 5%;
+    margin-left: 10%; */
     justify-content: center;
     align-items: center;
 }
 .right{
-    margin-right: 5%;
+    /* margin-right: 5%; */
     text-align: center;
+    width: 65%;
 }
 .container{
     height: 180px;
     width: 180px;
-    /* margin-left: 5%; */
+    margin-left: 5%;
     margin-top: 4%;
     position: relative;
 }
@@ -52,6 +53,7 @@
     line-height: 1.2em;
     font-size: 2.4em;
     margin-top: 8%;
+    margin-inline: auto;
 }
 .subsidary{
     margin-top: 1%;

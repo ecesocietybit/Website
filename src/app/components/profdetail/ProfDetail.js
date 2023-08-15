@@ -16,12 +16,13 @@ const ProfDetail = ({imgsrc,lazyImgSrc,name,pos,words,dept,socials}) => {
   };
 
   return (
-    <div className={`${style.header} flex  text-[#fff] py-8 px-4 `}>
+    <div className={`${style.header} flex justify-evenly items-center gap-8 text-[#fff] py-8 px-4 `}>
       
-    <div className={`${style.left} flex  flex-col `}>
+    <div className={`${style.left} flex  flex-col sm:self-start `}>
      <div className={`${style.container} `}>
      <Image className={`${style.img} `}
         fill
+        sizes='(max-width:768px) 100vw,700px'
         alt={name} 
         src={imgsrc}
         blurDataURL={lazyImgSrc}
@@ -94,7 +95,7 @@ const ProfDetail = ({imgsrc,lazyImgSrc,name,pos,words,dept,socials}) => {
         >
           {name}
         </StyledText> */}
-        <h1 className="self-start text-[36px] font-bold">{name}</h1>
+        <h1 className="self-start text-[36px] font-bold mx-auto">{name}</h1>
 
         {/* <div className={`${style.subsidary} `}>
 
@@ -105,28 +106,30 @@ const ProfDetail = ({imgsrc,lazyImgSrc,name,pos,words,dept,socials}) => {
 
         <div className={`${style.word} `}>
           {showFullText ? (
-            <div className="flex flex-col items-center justify-center gap-4">
-              <p>{words}</p>
+            <div className="flex flex-col items-center justify-center gap-4 mx-auto w-4/5">
+              <p className="text-lg">{words}
               <button
                 onClick={handleReadMoreClick}
-                className={`${style.readbtn} `}
+                className="text-blue-500 text-[16px] rounded "
               >
                 show less
               </button>
+              </p>
             </div>
           ) : (
             <div className="flex flex-col items-center justify-center gap-4">
-              <p>
+              <p className="text-lg">
                 {words.length > maxLength
                   ? `${words.slice(0, maxLength)}...`
                   : words}
-              </p>
+              
               <button
                 onClick={handleReadMoreClick}
-                className={`${style.readbtn} `}
+                className="text-blue-500 text-[16px] rounded "
               >
                 Read More
               </button>
+              </p>
             </div>
           )}
         </div>

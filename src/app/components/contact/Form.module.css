@@ -84,6 +84,7 @@
    width: 2em; */
    /* margin-left: 1.2em;  */
    cursor: pointer;
+   /* justify-content: center; */
 }
 
 .formBox {
@@ -170,10 +171,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   } 
   .contactLeft{
     padding: 2rem;
     width: 90%;
+    text-align: center;
+    justify-content: center;
   }
   .contactRight{
     width: 90%;
