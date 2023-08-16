@@ -96,6 +96,7 @@ const page = () => {
                   name={items.name}
                   desg={items.desg}
                   imgSrc={"/prof/" + items.imgSrc}
+               lazyImgSrc={"/prof/lazy/"+items.imgSrc}
                   pdfSrc={
                     "/prof/biodata/" + items.imgSrc.replace(".png", ".pdf")
                   }

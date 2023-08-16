@@ -8,7 +8,7 @@ import StyledText from '../text/StyledText'
 
 const ICON_SIZE=20
 
-const Card = ({ name, desg, imgSrc, pdfSrc, email, mobile }) => {
+const Card = ({ name, desg, imgSrc,lazyImgSrc, pdfSrc, email, mobile }) => {
   return (
     <div className={`${style.infocardContainer} px-4 py-2 justify-evenly`}>
       <div className='flex items-center'>
@@ -18,6 +18,8 @@ const Card = ({ name, desg, imgSrc, pdfSrc, email, mobile }) => {
               className={`h-[101.75px] w-[101.75px] mx-auto object-cover object-top ${style.img}`}
               fill
               sizes='(max-width:768px) 100vw,700px'
+              blurDataURL={lazyImgSrc}
+              placeholder='blur'
               src={imgSrc}
               alt={name}
             />
