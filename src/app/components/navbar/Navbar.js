@@ -83,7 +83,7 @@ const Navbar = () => {
             Events
           </Link>
           <Link href="/faculty" className="text-white px-4  hover:text-[#007cf0]  hover:font-bold">
-            Faculty
+            Department
           </Link>
           {/* <Link href="/articles" className="text-white px-4">
             Articles
@@ -134,7 +134,7 @@ const Navbar = () => {
                 Events
               </Link>
               <Link href="/faculty" className="text-white hover:text-[#007cf0]  hover:font-bold">
-            Faculty
+          Department
           </Link>
           {/* <Link href="/articles" className="text-white px-4">
             Articles
