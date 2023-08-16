@@ -1,35 +1,43 @@
  export const GalleryData = [
     {
         id:1,
-        title:'Prakshit',
+        event:'TechUtsav 23',
+        event:'TechUtsav 23',
+        title:'Organising Body',
         imgSrc:'1.png',
     },
     {
         id:2,
-        title:'Shashrath',
+        event:'TechUtsav 23',
+        title:'Shastrarth',
         imgSrc:'2.png',
     },
     {    id:3,
-        title: 'Image3',
+        event:'TechUtsav 23',
+        title: 'Model Exhibition',
         imgSrc:'3.png'
     },
     {
         id:4,
-        title: 'Image3',
+        event:'TechUtsav 23',title: 'Model Exhibition',
         imgSrc:'4.png'
     },
     {    id:5,
-        title: 'Image3',
+        event:'TechUtsav 23',title: 'Prize Distribution',
         imgSrc:'5.png'
+    },
+    {    id:8,
+        event:'TechUtsav 23',title: 'Prize Distribution',
+        imgSrc:'8.png'
     },
     {   
         id:6,
-        title: 'Image3',
+        event:'TechUtsav 23',title: 'Prize Distribution',
         imgSrc:'6.png'
     },
     {   
         id:7,
-        title: 'Image3',
+        event:'TechUtsav 23',title: 'ECE Society Family',
         imgSrc:'7.png'
     },
 

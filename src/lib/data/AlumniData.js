@@ -32,7 +32,7 @@ export const TeamData2K18=[
             github:'',
             email:'',
             linkedin:'nandani-kumari-784a221b0',
-            insta:'',
+            insta:'heyyynans',
         },
     },
     {
@@ -56,7 +56,7 @@ export const TeamData2K18=[
             github:'',
             email:'chahatraj8@gmail.com',
             linkedin:'chahat-raj-8127201a2',
-            insta:'',
+            insta:'chahat_raj_pandey',
         },
     },
     {
@@ -92,14 +92,14 @@ export const TeamData2K18=[
             github:'',
             email:'',
             linkedin:'abhinavprakash1999',
-            insta:'',
+            insta:'abhi.p58',
         },
     },
     {
         name:'Adarsh Kumar Sinha',
         pos:'',
         company:'Software Engineer at Samsung',
-        imgSrc:'',
+        imgSrc:'adarsh_sinha.png',
         socials:{
             github:'sirAdarsh',
             email:'aksinha.dhn@gmail.com',
@@ -126,12 +126,12 @@ export const TeamData2k19=[
         name:'Amritanshu Satyam  ',
         pos:' Vice President',
         company:' Trainee Decision scientist at Mu Sigma ',
-        imgSrc:'',
+        imgSrc:'amritanshu.png',
         socials:{
             github:'',
-            email:'',
+            email:'amritanshusatyam@gmail.com',
             linkedin:'https://www.linkedin.com/in/amritanshu2102',
-            insta:'',
+            insta:'amritanshu_satyam',
         },
     },
     {
@@ -143,7 +143,7 @@ export const TeamData2k19=[
             github:'',
             email:'sananowshad2000@gmail.com',
             linkedin:'sana-nowshad-6ba7371a2',
-            insta:'',
+            insta:'shiny_armour_',
         },
     },
     {
@@ -179,7 +179,7 @@ export const TeamData2k19=[
             github:'zeeshan-2k1',
             email:'ashraf2k1zeeshan@gmail.com',
             linkedin:'zeeshan-ashraf-38897b1a6',
-            insta:'',
+            insta:'__zeero_cool__',
         },
     },
     {
@@ -194,18 +194,18 @@ export const TeamData2k19=[
             insta:'mehranitish59',
         },
     },
-    {
-        name:'Shruti Anshumali',
-        pos:'PRO',
-        company:'',
-        imgSrc:'',
-        socials:{
-            github:'',
-            email:'',
-            linkedin:'',
-            insta:'',
-        },
-    },
+    // {
+    //     name:'Shruti Anshumali',
+    //     pos:'PRO',
+    //     company:'',
+    //     imgSrc:'',
+    //     socials:{
+    //         github:'',
+    //         email:'',
+    //         linkedin:'',
+    //         insta:'',
+    //     },
+    // },
     {
         name:'Ritwik Anand',
         pos:'Event Coordinator',

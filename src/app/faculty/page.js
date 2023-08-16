@@ -82,8 +82,8 @@ const page = () => {
 
       <div className="min-h-screen w-4/5 flex flex-col mx-auto mb-4">
         <StyledText
-          primary="#FF4D4D"
-          secondary="#F9CB28"
+          primary="#007cf0"
+          secondary="#00dfd8"
           className="text-[36px] font-bold flex flex-col items-center mb-4"
         >
           Our Faculty

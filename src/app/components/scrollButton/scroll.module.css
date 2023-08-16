@@ -20,7 +20,7 @@
     cursor: pointer;
     border-radius: 20px;
     position: relative;
-    transition: all 0.2s;
+    transition: all 0.7s;
     padding: 2rem 1.3rem;
   }
   
@@ -32,13 +32,14 @@
   .cursor {
     height: 14px;
     width: 4px;
-    animation: scrollDown 2.1s infinite forwards;
+    animation: scrollDown 2s infinite forwards;
     animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
     position: absolute;
     border-radius: 20px;
     top: 1.2rem;
     transition: background-color 0.2s;
     cursor: pointer;
+    z-index: 100;
   }
   
   .mouse:hover .cursor {
@@ -48,7 +49,7 @@
   
   @keyframes scrollDown {
     0% {
-    top:25%;
+    top:0;
      opacity:100%;
     }
     100% {

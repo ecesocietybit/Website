@@ -50,6 +50,7 @@ function GridGallery() {
               key={String(index)}
               src={item.imgSrc}
               title={item.title}
+              event={item.event}
               id={item.id}
             />
           );
@@ -61,7 +62,9 @@ function GridGallery() {
 
 export default GridGallery;
 
-function GridImage({ src,  title, id }) {
+function GridImage({ src,event,  title, id }) {
+  {console.log(event.toUpperCase());
+  event=event.toUpperCase()}
   return (
     <div className={styles.wrapper}>
       <svg width="0" height="0">
@@ -88,7 +91,12 @@ function GridImage({ src,  title, id }) {
 
           />
         </div>
-        <div className={styles.text}>{title}</div>
+        <div className={`${styles.text}  `}>
+          <span className='w-full flex flex-col gap-1 rounded py-3 bg-slate-900/40'>
+          <h2 className='font-bold text-[30px]'>{event}</h2>
+          {title}
+          </span>
+          </div>
       </div>
     </div>
   );
