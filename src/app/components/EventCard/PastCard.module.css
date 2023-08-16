@@ -21,7 +21,7 @@
     width: 100%;
     height: 50%;
     position: absolute;
-    top: 80%;
+    top: 85%;
     transition:  ease 550ms;
     transition-delay: 300ms;
     background: linear-gradient(
@@ -29,23 +29,24 @@
         rgb(0 0 0 / 0.65) 15%,
         rgb(0 0 0 / 1)
       );
-
-}
+      padding: 1.2rem 0 1.2rem 1.5rem;
+    }
 .cardTitle{
-    padding-top: 1.6em;
-    padding-bottom: 0.8em;
-     font-size: 1.2em;
-     padding-left: 1.2em;
+    /* padding-top: 1.6em;
+    padding-bottom: 0.8em; */
+     font-size: 1.2rem;
+     font-weight: 600;
+     /* padding-left: 1.2em; */
 }
 .cardBody p {
     margin-bottom: 1.25em;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    padding-left: 1.2em;
+    /* padding-left: 1.2em; */
 }
 .button{
-    margin-left: 1.4em;
+    /* margin-left: 1.4em; */
     cursor: pointer;
     font-size: 0.75rem;
     font-weight: 700;
@@ -58,21 +59,16 @@
     border-radius: 0.25rem;
 }
 
-.card:hover {
+/* .card:hover {
     transform: scale(1.05);
-}
+} */
 .card:hover  {
     .cardBody{
         transition: 1000ms;
-        top: 50%;
+        top:55%;
+        
     }
-    .card{
-        scale: 1.2;
-    }
-    .underline{
-        transform: scaleX(100%);
-        transition: 600ms;
-    }
+    
 }
 
 
