@@ -4,6 +4,7 @@ import { AboutTextPara } from '@/lib/data/GalleryData'
 import StyledText from '../text/StyledText'
 import GridGallery from '../Gallery/Gallery'
 import AnimatedScrollButton from '../scrollButton/AnimatedScrollButton'
+import style from "./About.module.css"
 import Link from 'next/link'
 
 const About = () => {
@@ -40,11 +41,13 @@ const About = () => {
         </p>
             ))
           }
-          <AnimatedScrollButton
+          <span className={style.scroll}>
+          <AnimatedScrollButton 
            onClick={() =>
             document.getElementById('glimpses').scrollIntoView({behavior: "smooth"})
           }
            /> 
+          </span>
       </div>
       
       <StyledText
