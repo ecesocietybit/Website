@@ -46,10 +46,10 @@ const Card = ({ name, desg, imgSrc,lazyImgSrc, pdfSrc, email, mobile }) => {
         </p>
         <div className={`${style.link} flex `}>
            <div className={` bg-[#000000] border-[#42c5cf] flex gap-2 items-center border px-3 py-2 cursor-pointer rounded-full`}>
-           <a href={pdfSrc} target="_blank" rel="noopener noreferrer"  >
+           <a className='flex items-center justify-center gap-2 ' href={pdfSrc} target="_blank" rel="noopener noreferrer"  >
             BIODATA
-            </a>
             <BsFillArrowDownCircleFill className='hover:fill-[#42c5cf]' size={ICON_SIZE} />
+            </a>
            </div>
         </div>
       </div>

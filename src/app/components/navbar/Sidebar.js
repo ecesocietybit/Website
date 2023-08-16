@@ -14,9 +14,6 @@ const Sidebar = () => {
         <AiFillInstagram size={ICON_SIZE} className={`hover:fill-[#00dfd8]`}/>
      </Link>
 
-     <Link href='https://www.instagram.com'  className={ `${style.link}`}>
-        <FaFacebook size={ICON_SIZE} className={`hover:fill-[#00dfd8]`}/>
-     </Link>
 
      <Link href='https://github.com/ecesocietybit'  className={ `${style.link}`}>
         <FaGithub size={ICON_SIZE} className={`hover:fill-[#00dfd8]`}/>

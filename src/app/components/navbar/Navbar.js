@@ -85,7 +85,7 @@ const Navbar = () => {
             Events
           </Link>
           <Link href="/faculty" className="transition ease-in-out delay-150 text-white px-4 font-bold  hover:text-[#007cf0]  ">
-            Faculty
+            Department
           </Link>
           {/* <Link href="/articles" className="text-white px-4">
             Articles
@@ -136,7 +136,7 @@ const Navbar = () => {
                 Events
               </Link>
               <Link href="/faculty" onClick={toggleMenu} className="transition ease-in-out delay-150 font-bold text-white hover:text-[#007cf0]  ">
-            Faculty
+          Department
           </Link>
           {/* <Link href="/articles" className="text-white px-4">
             Articles

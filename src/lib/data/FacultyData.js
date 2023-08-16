@@ -102,3 +102,29 @@ export const FacultyData = [
     },
 
 ]
+
+
+export const Views = [
+        {
+            
+            details:`The Electronics and Communication Engineering department commenced its journey in 1957, eight years after the establishment of BIT Sindri. Since then, BIT Sindri became an institution that led the way in India’s rapid expansion of the telecom industry.
+
+            The department offers a four-year B. Tech course for undergraduates ingraining challenges and innovation across many fields. It was established as a platform to showcase and enhance technical excellence in all the Areas of electronics and communication engineering. It provides industrial exposure to Engaging topics like 5G research and technology to initiate overall development.
+            
+            To enhance the enthusiasm of innovative minds, the ELECTRONICS AND COMMUNICATION ENGINEERING SOCIETY has been Established this year to host numerous seminars, cultural fests, quizzes, competitions, workshops, and various technical activities. This action was Intended to draw in curious minds and offer a road map for their future.`
+        },
+        {
+            title:'Vision',
+            details:`To be recognized as a center of academic excellence for globally competent, professionally, and socially responsible electronics & Communication engineers and entrepreneurs.`
+        },
+        {
+            title:'Mission',
+            details:`To prepare students for a successful career by blending theoretical knowledge and practical skills with employability and entrepreneurial traits by offering UG, PG, and Doctoral programs in the Electronics & Communication Engineering domains.
+
+            To establish a state-of-the-art laboratory and research facilities for academic excellence and promotion of quality teaching as well as a learning process.
+            
+            To inculcate team spirit and leadership qualities and produce socially acceptable engineers with ethical and human values.
+            
+            To contribute to the country and society at large by enhancing the interaction between academia and industries for addressing the need of mankind.`
+        }
+] 
