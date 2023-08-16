@@ -31,6 +31,7 @@ const page = () => {
             <PastCard
             title={item.title}
             content={item.content}
+            date={item.date}
             imgSrc={'/events/'+item.imgSrc}
             lazyImgSrc={'/events/lazy/'+item.imgSrc}
             link={'/events/pdf/'+item.imgSrc}
