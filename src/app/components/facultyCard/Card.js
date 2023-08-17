@@ -10,10 +10,10 @@ const ICON_SIZE=20
 
 const Card = ({ name, desg, imgSrc,lazyImgSrc, pdfSrc, email, mobile }) => {
   return (
-    <div className={`${style.infocardContainer} px-4 py-2 justify-evenly`}>
-      <div className='flex items-center'>
+    <div className={`${style.infocardContainer} px-4 py-2 justify-evenly `}>
+      <div className='flex items-center justify-center'>
         <div className={`${style.imgBg} h-[150px] w-[150px] `}>
-          <div >
+          <div  >
             <Image
               className={`h-[101.75px] w-[101.75px] mx-auto object-cover object-top ${style.img}`}
               fill
@@ -35,7 +35,7 @@ const Card = ({ name, desg, imgSrc,lazyImgSrc, pdfSrc, email, mobile }) => {
           {desg}
         </p>
         </span>
-        <a className={`${style.mail} flex gap-2`} href="mailto:{email}"> 
+        <a className={`${style.mail} flex gap-2`} href={`mailto:${email}`}> 
           <FaEnvelope className='hover:fill-[#00dfd8]' size={ICON_SIZE} />
          <p className='text-sm'> {email}</p>
         </a>
