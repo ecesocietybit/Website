@@ -6,7 +6,7 @@
     
 }
 .icons{
-  
+ display: none;
    gap: 2rem;
 }
 .link{
@@ -14,4 +14,10 @@
 }
 .copyright{
     text-align: center;
+}
+
+@media(max-width:676px){
+    .icons{
+        display: flex;
+    }
 }
