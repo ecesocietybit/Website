@@ -41,8 +41,8 @@ const Form = () => {
         value={apikey}
       />
       
-      {/* <input type="hidden" name="redirect" value="https://ecesociety.bitsindri.ac.in/formSuccess"></input> */}
-      <input type="hidden" name="redirect" value="http://localhost:3000/formSuccess"></input>
+      <input type="hidden" name="redirect" value="https://ecesociety.bitsindri.ac.in/formSuccess"></input>
+      {/* <input type="hidden" name="redirect" value="http://localhost:3000/formSuccess"></input> */}
       <div className={`${styles.nameBox}`}>
         <label className={`${styles.labels}`} htmlFor="name">
           Name
