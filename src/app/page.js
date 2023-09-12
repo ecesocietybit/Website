@@ -4,6 +4,7 @@ import Form from "./components/contact/Form";
 import PostHead from "./components/postHead/PostHead";
 import LandingAbout from "./components/landingabout/LandingAbout";
 import Profword from "./components/prof/Profword";
+import Contact from "./components/contact/Contact";
 
 export const metadata = {
   title: "ECE Society",
@@ -22,7 +23,7 @@ export default function Page() {
       <LandingAbout/>
       <Profword />
       <PostHead/>
-      <Form />
+      <Contact/>
     </div>
     </>
   )
