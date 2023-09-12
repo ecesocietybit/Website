@@ -6,7 +6,34 @@ import styles from "./Navbar.module.css";
 
 import { RiMenu3Line } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
-import Logo from "../../../../public/assets/logo.png";
+
+const links=[
+  {
+    href:"/",
+    label:"Home",
+  },
+  {
+    href:"/about",
+    label:"About",
+  },
+  {
+    href:"/events",
+    label:"Events",
+  },
+  {
+    href:"/faculty",
+    label:"Department",
+  },
+  {
+    href:"/teams",
+    label:"Team",
+  },
+  {
+    href:"/alumni",
+    label:"Alumni",
+  },
+]
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef(null);
@@ -66,42 +93,41 @@ const Navbar = () => {
       <div className="flex items-center justify-between w-full">
         <Link href='/'>
         <div className="text-white font-regular text-base mr-4 flex items-center cursor-pointer">
-          <Image className={"w-[65px]  mr-2"} src={Logo} alt="Logo" />
+          <div className="relative min-w-[65px] min-h-[65px] mr-2">
+            <Image 
+            fill 
+            src={`/assets/logo.png`} 
+            sizes='(max-width:768px) 10vw,70px'
+            alt="Logo"
+            />
+          </div>
           <h1 id="title">
-
-          <span className="transition ease-in-out delay-100 font-semibold hover:text-[#007cf0]">ECE SOCIETY</span>
+            <span 
+              className="transition ease-in-out delay-100 font-semibold hover:text-[#007cf0]"
+            >
+              ECE SOCIETY
+            </span>
           </h1>
         </div>
         </Link>
         <div className="flex items-center">
-        <div id="navList" className="hidden md:flex space-x-4">
-          <Link href="/" className="transition ease-in-out delay-150 font-bold text-white px-4 hover:text-[#007cf0]  ">
-            Home
+          <div id="navList" className="hidden md:flex space-x-4">
+            {
+              links.map((item)=>{
+                return(
+                  <Link href={item.href} key={`${item.href}${item.label}`} className="transition ease-in-out delay-150 font-bold text-white px-4 hover:text-[#007cf0]  ">
+                    {item.label}
+                  </Link>
+                )
+              })
+            }
+
+          </div>
+          <Link href='/#contact' className={`hidden md:flex space-x-4`}>
+            <span className={`${styles.contactButton} transition ease-in-out delay-150`}>
+              Contact Us
+            </span>
           </Link>
-          <Link href="/about" className="transition ease-in-out delay-150 text-white px-4 font-bold  hover:text-[#007cf0]  ">
-            About
-          </Link>
-          <Link href="/events" className="transition ease-in-out delay-150 text-white px-4 font-bold  hover:text-[#007cf0]  ">
-            Events
-          </Link>
-          <Link href="/faculty" className="transition ease-in-out delay-150 text-white px-4 font-bold  hover:text-[#007cf0]  ">
-            Department
-          </Link>
-          {/* <Link href="/articles" className="text-white px-4">
-            Articles
-          </Link> */}
-          <Link href="/teams" className="transition ease-in-out delay-150 text-white px-4 font-bold  hover:text-[#007cf0]  ">
-            Team
-          </Link>
-          <Link href="/alumni" className="transition ease-in-out delay-150 text-white px-4 font-bold  hover:text-[#007cf0]  ">
-            Alumni
-          </Link>
-        </div>
-        <Link href='/#contact' className={`hidden md:flex space-x-4`}>
-          <span className={`${styles.contactButton} transition ease-in-out delay-150`}>
-            Contact Us
-          </span>
-        </Link>
         </div>
       </div>
 
@@ -126,27 +152,17 @@ const Navbar = () => {
         >
           <div id="navList" className="flex flex-col space-y-2 text-lg w-[90%] items-end">
             <div className="flex flex-col space-y-2">
-              <Link href="/" onClick={toggleMenu} className="transition ease-in-out delay-150 font-bold text-white">
-                Home
-              </Link>
-              <Link href="/about" onClick={toggleMenu} className="transition ease-in-out delay-150 font-bold text-white">
-                About
-              </Link>
-              <Link href="/events" onClick={toggleMenu} className="transition ease-in-out delay-150 font-bold text-white">
-                Events
-              </Link>
-              <Link href="/faculty" onClick={toggleMenu} className="transition ease-in-out delay-150 font-bold text-white hover:text-[#007cf0]  ">
-          Department
-          </Link>
-          {/* <Link href="/articles" className="text-white px-4">
-            Articles
-          </Link> */}
-          <Link href="/teams" onClick={toggleMenu} className="transition ease-in-out delay-150 font-bold text-white  hover:text-[#007cf0]  ">
-            Team
-          </Link>
-          <Link href="/alumni" onClick={toggleMenu} className="transition ease-in-out delay-150 font-bold text-white  hover:text-[#007cf0]  ">
-            Alumni
-          </Link>
+
+              {
+              links.map((item)=>{
+                return(
+                  <Link href={item.href} onClick={toggleMenu} key={`${item.href}${item.label}`} className="transition ease-in-out delay-150 font-bold text-white hover:text-[#007cf0]">
+                    {item.label}
+                  </Link>
+                  )
+                })
+              }
+
             </div>
             <Link href='/#contact' onClick={toggleMenu} className="transition ease-in-out delay-150 text-white">
 
