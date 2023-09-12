@@ -10,20 +10,20 @@ const Sidebar = () => {
   return (
     <div className={`${style.icons} flex flex-col fixed right-0 min-h-screen items-end gap-5 bottom-0 justify-center m-4 w-100% ` }>
 
-     <Link href='https://instagram.com/ecesocietybits?igshid=MzRlODBiNWFlZA== ' className={ `${style.link}`}>
+     <Link href='https://instagram.com/ecesocietybits?igshid=MzRlODBiNWFlZA== ' target="_blank" className={ `${style.link}`}>
         <AiFillInstagram size={ICON_SIZE} className={`hover:fill-[#00dfd8]`}/>
      </Link>
 
 
-     <Link href='https://github.com/ecesocietybit'  className={ `${style.link}`}>
+     <Link href='https://github.com/ecesocietybit'  target="_blank"  className={ `${style.link}`}>
         <FaGithub size={ICON_SIZE} className={`hover:fill-[#00dfd8]`}/>
      </Link>
 
-     <Link href='ecesociety@bitsindri.ac.in'  className={ `${style.link}`}>
+     <Link href='ecesociety@bitsindri.ac.in'  target="_blank"  className={ `${style.link}`}>
         <FaEnvelope size={ICON_SIZE} className={`hover:fill-[#00dfd8]`}/>
      </Link>
 
-     <Link href='https://www.linkedin.com/company/ece-society-bit-sindri/'  className={ `${style.link}`}>
+     <Link href='https://www.linkedin.com/company/ece-society-bit-sindri/'  target="_blank"  className={ `${style.link}`}>
         <BsLinkedin size={ICON_SIZE} className={` hover:fill-[#00dfd8]`}/>
      </Link>
       </div>
