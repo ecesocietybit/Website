@@ -362,17 +362,6 @@ export const TeamData2k22 =[
         },
     },
     {
-        name:'Rajan kumar das ',
-        pos:'',
-        imgSrc:'rajan_kumar.png',
-        socials:{
-            github:'',
-            email:'rajankumard50@gmail.com',
-            linkedin:'rajan-kumar-das-96026b25b',
-            insta:'',
-        },
-    },
-    {
         name:'Abhay Kumar',
         pos:'',
         imgSrc:'abhay_kumar.png',
