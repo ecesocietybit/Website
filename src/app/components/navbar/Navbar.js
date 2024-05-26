@@ -105,7 +105,7 @@ const Navbar = () => {
             <span 
               className="transition ease-in-out delay-100 font-semibold hover:text-[#007cf0]"
             >
-              ECE
+              ECE SOCIETY
             </span>
           </h1>
         </div>
