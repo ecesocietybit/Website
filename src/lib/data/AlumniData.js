@@ -232,3 +232,129 @@ export const TeamData2k19=[
     },
 ]
 
+export const TeamData2k20=[
+    {
+        name:'Ritesh Kumar',
+        pos:'President',
+        company:'',
+        imgSrc:'ritesh_kumar.png',
+        socials:{
+            github:'RajRitesh',
+            email:'riteshkumarmehra41@gmail.com',
+            linkedin:'ritesh-kumar-39a471208/',
+            insta:'ritesh_mehra_41',
+        },
+    },
+    {
+        name:'Shivam',
+        pos:'Vice President ',
+        imgSrc:'shivam_shandilya.png',
+        socials:{
+            github:'Shivam-tech9696',
+            email:'shivam.shandilya9696@gmail.com',
+            linkedin:'shivam-shandilya-97646b154',
+            insta:'shivam_shandilya9696',
+        },
+    },
+    {
+        name:'Anjali Goswami',
+        pos:'Vice President',
+        imgSrc:'anjali_goswami.png',
+        socials:{
+            github:'anjaligoswami',
+            email:'agcodes86400@gmail.com',
+            linkedin:'anjaligoswami20/',
+            insta:'anjaliigoswamii',
+        },
+    },
+    {
+        name:'Priyanshu Malviya',
+        pos:'Secretary ',
+        imgSrc:'priyanshu_malviya.png',
+        socials:{
+            github:'',
+            email:'priyanshumalviya64@gmail.com',
+            linkedin:'priyanshu-malviya-893741200',
+            insta:'_t.i.w.a.r.y_',
+        },
+    },
+    {
+        name:'Tanweer Ansari',
+        pos:'Joint Secretary and Technical Head',
+        imgSrc:'tanweer_ansari.png',
+        socials:{
+            github:'Tanweer52',
+            email:'ansaritanweer836@gmail.com',
+            linkedin:'tanweer-ansari-724721209/',
+            insta:'tanweer.ansari.1840',
+        },
+    },
+    {
+        name:'Birbal Saw',
+        pos:'Treasurer',
+        imgSrc:'birbal_saw.png',
+        socials:{
+            github:'',
+            email:'birbalsaw2001@gmail.com',
+            linkedin:'birbal-saw',
+            insta:'_birbal_saw_',
+        },
+    },
+    {
+        name:'Aman kumar',
+        pos:'Joint Treasurer',
+        imgSrc:'aman_kumar.png',
+        socials:{
+            github:'',
+            email:'amanchoudhary2912@gmail.com',
+            linkedin:'aman-kumar-915794280',
+            insta:'aman.kumar2912',
+        },
+    },
+    {
+        name:'MD Faizan Yusuf',
+        pos:'Event Co-ordinator ',
+        imgSrc:'faizan_yusuf.png',
+        socials:{
+            github:'',
+            email:'yusuf17faizan@gmail.com',
+            linkedin:'faizan-yusuf-795958225',
+            insta:'yusuf_faizan_12',
+        },
+    },
+    
+    {
+        name:'Gayetri Murmu',
+        pos:'Head Editor',
+        imgSrc:'gayetri_murmu.png',
+        socials:{
+            github:'',
+            email:'gayetrimurmu8@gmail.com',
+            linkedin:'gayetri-murmu-555a6321a',
+            insta:'gayetri_murmu',
+        },
+    },
+    {
+        name:'Rashmi Pradhan',
+        pos:'Alumni-In-Charge',
+        imgSrc:'rashmi_pradhan.png',
+        socials:{
+            github:'',
+            email:'rashmipravaindia@gmail.com',
+            linkedin:'rashmi-p-b487a3118',
+            insta:'',
+        },
+    },
+    {
+        name:'Anjali Mardi',
+        pos:'Public Relation Officer',
+        imgSrc:'anjali_mardi.png',
+        socials:{
+            github:'',
+            email:'anjalimardi763@gmail.com',
+            linkedin:'anjali-mardi-0460a0214',
+            insta:'_anjali_mardi_',
+        },
+    }
+]
+
