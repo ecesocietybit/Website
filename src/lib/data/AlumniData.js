@@ -235,7 +235,7 @@ export const TeamData2k19=[
 export const TeamData2k20=[
     {
         name:'Ritesh Kumar',
-        pos:'President',
+        // pos:'President',
         company:'',
         imgSrc:'ritesh_kumar.png',
         socials:{
@@ -247,7 +247,7 @@ export const TeamData2k20=[
     },
     {
         name:'Shivam',
-        pos:'Vice President ',
+        // pos:'Vice President ',
         imgSrc:'shivam_shandilya.png',
         socials:{
             github:'Shivam-tech9696',
@@ -258,7 +258,7 @@ export const TeamData2k20=[
     },
     {
         name:'Anjali Goswami',
-        pos:'Vice President',
+        // pos:'Vice President',
         imgSrc:'anjali_goswami.png',
         socials:{
             github:'anjaligoswami',
@@ -269,7 +269,7 @@ export const TeamData2k20=[
     },
     {
         name:'Priyanshu Malviya',
-        pos:'Secretary ',
+        // pos:'Secretary ',
         imgSrc:'priyanshu_malviya.png',
         socials:{
             github:'',
@@ -280,7 +280,7 @@ export const TeamData2k20=[
     },
     {
         name:'Tanweer Ansari',
-        pos:'Joint Secretary and Technical Head',
+        // pos:'Joint Secretary and Technical Head',
         imgSrc:'tanweer_ansari.png',
         socials:{
             github:'Tanweer52',
@@ -291,7 +291,7 @@ export const TeamData2k20=[
     },
     {
         name:'Birbal Saw',
-        pos:'Treasurer',
+        // pos:'Treasurer',
         imgSrc:'birbal_saw.png',
         socials:{
             github:'',
@@ -302,7 +302,7 @@ export const TeamData2k20=[
     },
     {
         name:'Aman kumar',
-        pos:'Joint Treasurer',
+        // pos:'Joint Treasurer',
         imgSrc:'aman_kumar.png',
         socials:{
             github:'',
@@ -313,7 +313,7 @@ export const TeamData2k20=[
     },
     {
         name:'MD Faizan Yusuf',
-        pos:'Event Co-ordinator ',
+        // pos:'Event Co-ordinator ',
         imgSrc:'faizan_yusuf.png',
         socials:{
             github:'',
@@ -325,7 +325,7 @@ export const TeamData2k20=[
     
     {
         name:'Gayetri Murmu',
-        pos:'Head Editor',
+        // pos:'Head Editor',
         imgSrc:'gayetri_murmu.png',
         socials:{
             github:'',
@@ -336,7 +336,7 @@ export const TeamData2k20=[
     },
     {
         name:'Rashmi Pradhan',
-        pos:'Alumni-In-Charge',
+        // pos:'Alumni-In-Charge',
         imgSrc:'rashmi_pradhan.png',
         socials:{
             github:'',
@@ -347,7 +347,7 @@ export const TeamData2k20=[
     },
     {
         name:'Anjali Mardi',
-        pos:'Public Relation Officer',
+        // pos:'Public Relation Officer',
         imgSrc:'anjali_mardi.png',
         socials:{
             github:'',
@@ -357,4 +357,6 @@ export const TeamData2k20=[
         },
     }
 ]
+
+
 
