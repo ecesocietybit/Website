@@ -2,7 +2,7 @@ import Head from "next/head";
 import TeamCard from "../components/teamcard/TeamCard";
 import StyledText from "../components/text/StyledText";
 import style from "../components/teamcard/TeamCard.module.css";
-import { TeamData2k20,TeamData2k21,TeamData2k22 } from "@/lib/data/TeamData";
+import { TeamData2k21,TeamData2k22 } from "@/lib/data/TeamData";
 
 export const metadata = {
   title: "Our Team",
@@ -16,7 +16,7 @@ export default function Page() {
       <title>Our Team</title>
     </Head>
     <div className="min-h-screen w-full p-4 bg-[#0D1116] flex flex-col gap-28">
-      <div>
+      {/* <div>
         <StyledText
           primary="#007cf0"
           secondary="#00dfd8"
@@ -40,7 +40,7 @@ export default function Page() {
             );
           })}
         </div>
-      </div>
+      </div> */}
       <div>
         <StyledText
           primary="#007cf0"
