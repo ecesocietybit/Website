@@ -25,7 +25,7 @@ export const TeamData2k21 =[
     {
         name:'Priyanshu katyayni',
         pos:'Vice President',
-        imgSrc:'priyanshu_katyayni.png',
+        imgSrc:'priyanshu.png',
         socials:{
             github:'lonewolf2299',
             email:'priyanshukatyayni229@gmail.com',
@@ -59,7 +59,7 @@ export const TeamData2k21 =[
     {
         name:'Mohit Pandey ',
         pos:'Technical Secretary',
-        imgSrc:'mohit_pandey.png',
+        imgSrc:'mohit.png',
         socials:{
             github:'MOHIT-PANDEY215',
             email:'pandeymohit215@gmail.com',
@@ -190,7 +190,7 @@ export const TeamData2k22 =[
     {
         name:'Shobhit Kashyap',
         pos:'',
-        imgSrc:'shobhit_kashyap.png',
+        imgSrc:'shobhit.png',
         socials:{
             github:'imshobhitk',
             email:'shobhitkashyap007@gmail.com',
