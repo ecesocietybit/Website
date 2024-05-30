@@ -69,7 +69,7 @@ export const TeamData2k21 =[
     },
     
     {
-        name:'Abhay Narayan',
+        name:'Abhay  Narayan',
         pos:'Joint-Treasurer & Event Coordinator',
         imgSrc:'abhay_narayan.png',
         socials:{
@@ -159,6 +159,17 @@ export const TeamData2k21 =[
             email:'eshakumari2002@gmail.com',
             linkedin:'esha-kumari-47b854232',
             insta:'wassup_esha',
+        },
+    },
+    {
+        name:'Chinmay Gari',
+        pos:'Alumni Incharge',
+        imgSrc:'chinmay_gari.png',
+        socials:{
+            github:'',
+            email:'chinmaygari@gmail.com',
+            linkedin:'',
+            insta:'__ch_in_may__',
         },
     }
          
