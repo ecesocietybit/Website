@@ -285,6 +285,17 @@ export const TeamData2k22 =[
             linkedin:'amaanhussain01',
             insta:'amaan_hussain_011',
         }
+    },
+    {
+        name:'Manish Kumar',
+        pos:'',
+        imgSrc:'manish.png',
+        socials:{
+            github:'',
+            email:'kumaarmanish8@gmail.com',
+            linkedin:'manish-kumar',
+            insta:'manish6903_',
+        }
     }
          
 ]
