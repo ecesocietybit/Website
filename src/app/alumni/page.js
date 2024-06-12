@@ -1,7 +1,7 @@
 import TeamCard from "../components/teamcard/TeamCard";
 import StyledText from "../components/text/StyledText";
 import style from "../components/teamcard/TeamCard.module.css";
-import { TeamData2K18, TeamData2k19 } from "@/lib/data/AlumniData";
+import { TeamData2K18, TeamData2k19 ,TeamData2k20} from "@/lib/data/AlumniData";
 import Head from "next/head";
 
 export const metadata = {
@@ -56,6 +56,29 @@ export default function Page() {
                 pos={item.company}
                 imgSrc={'/teams/2K19/'+item.imgSrc}
                 lazyImgSrc={'/teams/2K19/lazy/'+item.imgSrc}
+                socials={item.socials}
+                key={item.name}
+              />
+            );
+          })}
+        </div>
+      </div>
+      <div>
+        <StyledText
+          primary="#007cf0"
+          secondary="#00dfd8"
+          className="text-[36px] font-bold flex flex-col items-center mb-4"
+        >
+          Batch 2K20
+        </StyledText>
+        <div className={style.cardContainer}>
+          {TeamData2k20.map((item) => {
+            return (
+              <TeamCard
+                name={item.name}
+                pos={item.pos}
+                imgSrc={'/teams/2K20/'+item.imgSrc}
+                lazyImgSrc={'/teams/2K20/lazy/'+item.imgSrc}
                 socials={item.socials}
                 key={item.name}
               />
