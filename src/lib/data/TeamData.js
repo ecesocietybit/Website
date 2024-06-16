@@ -46,17 +46,6 @@ export const TeamData2k21 =[
         },
     },
     {
-        name:'Aditya Bhardwaj',
-        pos:'Technical Head',
-        imgSrc:'aditya_bhardwaj.png',
-        socials:{
-            github:'adityaS49',
-            email:'aditya.s21@outlook.com',
-            linkedin:'aditya-bhardwaj-01027b21b/',
-            insta:'_aditya.s21__',
-        },
-    },
-    {
         name:'Mohit Pandey ',
         pos:'Technical Secretary',
         imgSrc:'mohit_pandey.png',
@@ -67,21 +56,17 @@ export const TeamData2k21 =[
             insta:'pandeymohit215',
         },
     },
-    
     {
-        name:'Abhay  Narayan',
-        pos:'Joint-Treasurer & Event Coordinator',
-        imgSrc:'abhay_narayan.png',
+        name:'Aditya Bhardwaj',
+        pos:'Technical Head',
+        imgSrc:'aditya_bhardwaj.png',
         socials:{
-            github:'naraynabhay',
-            email:'abhaynarayan07062002@gmail.com',
-            linkedin:'abhay-narayan-76114b1ba',
-            insta:'abhay_narayan_00',
+            github:'adityaS49',
+            email:'aditya.s21@outlook.com',
+            linkedin:'aditya-bhardwaj-01027b21b/',
+            insta:'_aditya.s21__',
         },
-    },
-    
-    
-    
+    },   
     {
         name:'Tushar kumar',
         pos:'Joint-Secretary & Pro',
@@ -93,17 +78,26 @@ export const TeamData2k21 =[
             insta:'Tushar_1729',
         },
     },
-    
-     
     {
-        name:'Kheya Rani Das',
-        pos:'Public Relation Officer',
-        imgSrc:'kheya_das.png',
+        name:'Esha Kumari',
+        pos:'Joint Secretary',
+        imgSrc:'esha_kumari.png',
         socials:{
-            github:'kheya19',
-            email:'kheyadas1919@gmail.com',
-            linkedin:'kheya-das-73266921a',
-            insta:'kheya__das',
+            github:'Esha-01',
+            email:'eshakumari2002@gmail.com',
+            linkedin:'esha-kumari-47b854232',
+            insta:'wassup_esha',
+        },
+    },
+    {
+        name:'Dipanshu Ranjan',
+        pos:'Treasurer',
+        imgSrc:'dipanshu_ranjan.png',
+        socials:{
+            github:'',
+            email:'dtdtstst1@gmail.com',
+            linkedin:'',
+            insta:'Dipanshu1133',
         },
     },
     {
@@ -118,14 +112,14 @@ export const TeamData2k21 =[
         },
     },
     {
-        name:'Dipanshu Ranjan',
-        pos:'Treasurer',
-        imgSrc:'dipanshu_ranjan.png',
+        name:'Abhay  Narayan',
+        pos:'Joint-Treasurer & Event Coordinator',
+        imgSrc:'abhay_narayan.png',
         socials:{
-            github:'',
-            email:'dtdtstst1@gmail.com',
-            linkedin:'',
-            insta:'Dipanshu1133',
+            github:'naraynabhay',
+            email:'abhaynarayan07062002@gmail.com',
+            linkedin:'abhay-narayan-76114b1ba',
+            insta:'abhay_narayan_00',
         },
     },
     {
@@ -150,17 +144,7 @@ export const TeamData2k21 =[
             insta:'',
         },
     },
-    {
-        name:'Esha Kumari',
-        pos:'Joint Secretary',
-        imgSrc:'esha_kumari.png',
-        socials:{
-            github:'Esha-01',
-            email:'eshakumari2002@gmail.com',
-            linkedin:'esha-kumari-47b854232',
-            insta:'wassup_esha',
-        },
-    },
+    
     {
         name:'Chinmay Gari',
         pos:'Alumni Incharge',
@@ -171,7 +155,18 @@ export const TeamData2k21 =[
             linkedin:'',
             insta:'__ch_in_may__',
         },
-    }
+    },
+    {
+        name:'Kheya Rani Das',
+        pos:'Public Relation Officer',
+        imgSrc:'kheya_das.png',
+        socials:{
+            github:'kheya19',
+            email:'kheyadas1919@gmail.com',
+            linkedin:'kheya-das-73266921a',
+            insta:'kheya__das',
+        },
+    },
          
 ]
 
