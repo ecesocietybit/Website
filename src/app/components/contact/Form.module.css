@@ -11,31 +11,56 @@
   /* padding: 20px 1.5em; */
   margin: auto;
   width: 80%;
+  /* margin-top: 500px; */
   
 }
 .contactLeft {
   display: flex;
   flex-direction: column;
+  
+  /* justify-content: left; */
+  /* align-items: center; */
   width: 45%;
   text-align: left;
-  justify-content: left;
-  margin-top: 5%;
+  /* justify-content: left; */
+  margin-top: 10%;
+  /* background-color: yellow; */
+  /* height: 45%; */
+
 }
 .contactLeftHead{
-  margin-bottom: 7%;
+  margin-bottom: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  /* align-items: ; */
+  text-align: left;
+  /* background-color: red; */
+  /* margin-left: 0; */
+  
  
 }
 .contactHeading{
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   font-size: clamp(2rem,2vw,5rem);
+  /* background-color: red; */
+  /* font-size: xx-small; */
+  
+  
 }
 .contactLeftMail{
-  margin-bottom: 7%;
+  margin-bottom: 6%;
   font-size: clamp(2rem,2vw,5rem);
+  font-size: 30px;
+  /* background-color: white;
+  font-size: 25px; */
+  
 }
 
 .contactLeftSocial{
   font-size: clamp(2rem,2vw,5rem);
+  font-size: 30px;
+ 
 }
 .contactRight {
   display: flex;
@@ -85,6 +110,7 @@
    /* margin-left: 1.2em;  */
    cursor: pointer;
    /* justify-content: center; */
+   /* background-color: red; */
 }
 
 .formBox {
@@ -100,7 +126,9 @@
   gap: 1rem;
   width: 90%;
   height: 95%;
+  /* background-color: yellow; */
   padding: 20px;
+  margin-top: 60px;
 }
 .nameBox {
   display: flex;
@@ -132,7 +160,7 @@
 }
 .text {
   color: white;
-  height: 10rem;
+  height: 7rem;
   border: 1px solid #a9a9a9;
   background: rgba(255, 255, 255, 0.06);
   padding: 10px;
@@ -140,8 +168,9 @@
 .PostComments {
   color: white;
   width: 10rem;
-  height: 4rem;
-  margin-top: 1rem;
+  height: 2.5rem;
+  /* margin-top: 1rem; */
+  margin-top: 5px;
   border-radius: 4px;
   background: linear-gradient(94deg, #00dfd8 0%, #007cf0 99.99%, #007cf0 100%);
   box-shadow: 12px 0px 40px 0px rgba(0, 124, 240, 0.1),
@@ -173,6 +202,57 @@
     justify-content: center;
     align-items: center;
   } 
+  .contactLeftHead{
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    /* align-items: ; */
+    text-align: left;
+    /* background-color: red; */
+    /* margin-left: 0; */
+    /* background-color: white; */
+    align-items: center;
+    
+   
+  }
+  .link{
+    /* height: 2em;
+    width: 2em; */
+    /* margin-left: 1.2em;  */
+    cursor: pointer;
+    /* justify-content: center; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+  .contactHeading{
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    /* background-color: red; */
+    text-align: center;
+    /* font-size: 25px; */
+    
+    
+  }
+  .socialicons{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* font-size: xx-large; */
+  }
+  .contactpara{
+    font-size: x-large;
+    /* background-color: red; */
+    text-align: center;
+    /* background-color: red; */
+  }
   .contactLeft{
     padding: 2rem;
     width: 90%;
@@ -195,6 +275,12 @@
   .formBody {
     width: 100%;
   }
+  .contactpara{
+    font-size: 15px;
+    /* background-color: red; */
+    text-align: center;
+    /* background-color: red; */
+  }
   
 }
 @media(max-width:500px){
@@ -206,4 +292,85 @@
 }
 .items:hover{
   color: aqua;
+}
+
+
+
+/* correction */
+@media(max-width:320px){
+  .contactHeading{
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    /* background-color: white; */
+    font-size: 20px !important;
+    
+    
+  }
+  .contactLeftMail{
+    margin-bottom: 6%;
+    font-size: clamp(2rem,2vw,5rem);
+    /* background-color: white; */
+    font-size: 20px !important;
+    
+  }
+  .contactLeftSocial{
+    font-size: clamp(2rem,2vw,5rem);
+    /* background-color: white; */
+    font-size: 20px !important;
+  }
+  
+}
+@media(max-width:426px){
+  .contactHeading{
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    /* background-color: white; */
+    font-size: 25px !important;
+    
+    
+  }
+  .contactLeftMail{
+    margin-bottom: 6%;
+    font-size: clamp(2rem,2vw,5rem);
+    /* background-color: white; */
+    font-size: 25px !important;
+    
+  }
+  .contactLeftSocial{
+    font-size: clamp(2rem,2vw,5rem);
+    /* background-color: white; */
+    font-size: 25px !important;
+  }
+  
+}
+@media(max-width:767px) {
+  .contactHeading{
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    /* background-color: white; */
+    /* font-size: 25px; */
+    
+    
+  }
+  .contactLeftMail{
+    margin-bottom: 6%;
+    font-size: clamp(2rem,2vw,5rem);
+    /* background-color: white; */
+    /* font-size: 25px; */
+    
+  }
+  .contactLeftSocial{
+    font-size: clamp(2rem,2vw,5rem);
+    /* background-color: white;
+    font-size: 25px; */
+  }
 }
