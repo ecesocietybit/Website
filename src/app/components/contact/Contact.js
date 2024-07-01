@@ -10,7 +10,7 @@ import Link from "next/link";
 import StyledText from "../text/StyledText";
 import Form from "./Form";
 
-const ICON_SIZE = 28;
+const ICON_SIZE = 23;
 const Contact = () => {
   
   return (
@@ -21,25 +21,25 @@ const Contact = () => {
             <StyledText
               primary="#007cf0"
               secondary="#00dfd8"
-              className="text-[36px] font-bold  mb-4"
+              className=" font-bold w-fit mb-0 border-b-2 border-white  "
             >
               Contact Us
             </StyledText>
           </h1>
-          <h1 className={`pt-3 text-1xl text-white  `}>
-            S-13 E.C.E Dept <br /> E.C.E Building B.I.T Sindri
+          <h1 className={`${styles.contactpara}`}>
+            Room No.: S-13<br/> E.C.E Dept <br /> E.C.E Building B.I.T Sindri
           </h1>
         </div>
         <div className={`${styles.contactLeftMail}`}>
           <StyledText
             primary="#007cf0"
             secondary="#00dfd8"
-            className="text-[36px] font-bold  mb-4"
+            className="emailhead font-bold  mb-2 mt-0"
           >
-            Email:
+            Email
           </StyledText>
           <a
-            className={`${styles.link}  flex gap-2 justify-center sm:justify-start `}
+            className={`${styles.link}  flex gap-2 justify-center sm:justify-start items-center `}
             target="_blank"
             rel="noopener noreferrer"
             href={`mailto:ecesociety@bitsindri.ac.in`}
@@ -54,21 +54,21 @@ const Contact = () => {
         </div>
 
         <div className={`${styles.contactLeftSocial}`}>
-          <div className={`text-2xl`}>
+          <div className={``}>
             {" "}
             <StyledText
               primary="#007cf0"
               secondary="#00dfd8"
-              className="text-[36px] font-bold mb-4"
+              className=" font-bold mb-4"
             >
               Social Media:
             </StyledText>
           </div>
 
-          <div className={`flex  gap-6 justify-center sm:justify-start `}>
+          <div className={`${styles.socialicons} sm:justify-start flex justify-evenly `}>
             <Link
               href="https://instagram.com/ecesocietybits?igshid=MzRlODBiNWFlZA== "
-              className={`${styles.link}`}
+              className={`${styles.link} px-[5px]`}
             >
               <AiFillInstagram
                 size={ICON_SIZE}
@@ -79,7 +79,7 @@ const Contact = () => {
 
             <Link
               href="https://www.linkedin.com/company/ece-society-bit-sindri/"
-              className={`${styles.link}`}
+              className={`${styles.link} px-[5px]`}
             >
               <BsLinkedin
                 size={ICON_SIZE}
@@ -90,7 +90,7 @@ const Contact = () => {
 
             <Link
               href="https://github.com/ecesocietybit"
-              className={`${styles.link}`}
+              className={`${styles.link} px-[5px]`}
             >
               <FaGithub
                 size={ICON_SIZE}
