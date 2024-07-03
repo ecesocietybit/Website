@@ -20,7 +20,7 @@
   
   /* justify-content: left; */
   /* align-items: center; */
-  width: 45%;
+  width: 45% ;
   text-align: left;
   /* justify-content: left; */
   margin-top: 10%;
@@ -248,7 +248,7 @@
     /* font-size: xx-large; */
   }
   .contactpara{
-    font-size: x-large;
+    /* font-size: x-large; */
     /* background-color: red; */
     text-align: center;
     /* background-color: red; */
@@ -275,12 +275,7 @@
   .formBody {
     width: 100%;
   }
-  .contactpara{
-    font-size: 15px;
-    /* background-color: red; */
-    text-align: center;
-    /* background-color: red; */
-  }
+  
   
 }
 @media(max-width:500px){
@@ -296,81 +291,643 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* correction */
 @media(max-width:320px){
+  .contactLeftHead{
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+    text-align: left;
+    
+    
+   
+  }
+  .contactpara{
+    font-size: 10px !important;
+
+  }
   .contactHeading{
+    
     margin-bottom: 3%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    font-size: clamp(2rem,2vw,5rem);
-    /* background-color: white; */
-    font-size: 20px !important;
     
+    font-size: 25px !important;
+    margin-top: 20px;
+    font: bold;
+    
+  }
+
+  .contactLeft {
+    
+    display: flex;
+    flex-direction: column;
+    
+   
+    width: 95% !important;
+    text-align: left;
+   
+    margin-top: 10%;
+    
+   
+  
+  }
+  
+  .contactform {
+    padding-top: 30px;
+    display: flex;
+    
+    justify-content:center;
+    background: #111111;
+    box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
+      0px 12px 40px rgba(0, 223, 216, 0.1),
+      -12px 0px 40px rgba(198, 255, 221, 0.1),
+      12px 0px 40px rgba(0, 124, 240, 0.1);
+    border-radius: 8px;
+   
+    width: 100%;
+   
     
   }
   .contactLeftMail{
-    margin-bottom: 6%;
-    font-size: clamp(2rem,2vw,5rem);
-    /* background-color: white; */
-    font-size: 20px !important;
-    
-  }
-  .contactLeftSocial{
-    font-size: clamp(2rem,2vw,5rem);
-    /* background-color: white; */
-    font-size: 20px !important;
-  }
-  
-}
-@media(max-width:426px){
-  .contactHeading{
-    margin-bottom: 3%;
+    margin-bottom: 7%;
     display: flex;
+    
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: clamp(2rem,2vw,5rem);
-    /* background-color: white; */
-    font-size: 25px !important;
     
+    font-size: 25px !important;
     
   }
-  .contactLeftMail{
-    margin-bottom: 6%;
-    font-size: clamp(2rem,2vw,5rem);
-    /* background-color: white; */
-    font-size: 25px !important;
+  .link{
     
+    margin-top: 2px !important;
   }
   .contactLeftSocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: clamp(2rem,2vw,5rem);
-    /* background-color: white; */
-    font-size: 25px !important;
+    
+    font-size: 20px !important;
+
   }
   
 }
-@media(max-width:767px) {
+@media (max-width:376px) {
+  .contactpara{
+    font-size: 15px !important;
+  }
   .contactHeading{
+    text-align: left;
     margin-bottom: 3%;
     display: flex;
     justify-content: left;
     align-items: center;
     font-size: clamp(2rem,2vw,5rem);
-    /* background-color: white; */
-    /* font-size: 25px; */
+    
+    font-size: 20px !important;
+    margin-top: 20px;
+    font: bold;
+
+  }
+
+  .contactLeft {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 95% !important;
+    text-align: left;
+    
+    margin-top: 10%;
+    
+  }
+  
+  .contactform {
+    display: flex;
+    
+    justify-content:center;
+    background: #111111;
+    box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
+      0px 12px 40px rgba(0, 223, 216, 0.1),
+      -12px 0px 40px rgba(198, 255, 221, 0.1),
+      12px 0px 40px rgba(0, 124, 240, 0.1);
+    border-radius: 8px;
+    
+    width: 100%;
     
     
   }
   .contactLeftMail{
-    margin-bottom: 6%;
+    margin-bottom: 7%;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: clamp(2rem,2vw,5rem);
-    /* background-color: white; */
-    /* font-size: 25px; */
+    
+    font-size: 20px !important;
     
   }
+  .link{
+    
+    margin-top: 2px !important;
+  }
   .contactLeftSocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: clamp(2rem,2vw,5rem);
-    /* background-color: white;
-    font-size: 25px; */
+    
+    font-size: 20px !important;
+    
+  }
+}
+@media(max-width:426px){
+  .contactpara{
+    font-size: 15px !important;
+  }
+  .contactHeading{
+    text-align: left;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 25px !important;
+    margin-top: 20px;
+    font: bold;
+
+  }
+
+  .contactLeft {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 95% !important;
+    text-align: left;
+    
+    margin-top: 10%;
+    
+  }
+  
+  .contactform {
+    display: flex;
+    
+    justify-content:center;
+    background: #111111;
+    box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
+      0px 12px 40px rgba(0, 223, 216, 0.1),
+      -12px 0px 40px rgba(198, 255, 221, 0.1),
+      12px 0px 40px rgba(0, 124, 240, 0.1);
+    border-radius: 8px;
+    
+    width: 100%;
+    
+  }
+  .contactLeftMail{
+    margin-bottom: 7%;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 25px !important;
+    
+  }
+  .link{
+    
+    margin-top: 2px !important;
+  }
+  .contactLeftSocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 25px !important;
+   
+  }
+  
+}
+@media(min-width:701px) {
+  
+  .contactpara{
+    font-size: 15px !important;
+  }
+  .contactHeading{
+    text-align: left;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 25px !important;
+    margin-top: 20px;
+    font: bold;
+
+  }
+
+  .contactLeft {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 10% !important;
+    width: 45% !important;
+    text-align: left;
+    
+    margin-top: 10%;
+    
+  }
+  
+  .contactform {
+    display: flex;
+    
+    justify-content:center;
+    background: #111111;
+    box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
+      0px 12px 40px rgba(0, 223, 216, 0.1),
+      -12px 0px 40px rgba(198, 255, 221, 0.1),
+      12px 0px 40px rgba(0, 124, 240, 0.1);
+    border-radius: 8px;
+    
+    width: 100%;
+    
+  }
+  .contactLeftMail{
+    margin-bottom: 4%;
+    display: flex;
+    
+    flex-direction: column;
+    
+    text-align: left;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 25px !important;
+    
+  }
+  .link{
+    
+    margin-top: 2px !important;
+  }
+  .contactLeftSocial{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 25px !important;
+    
+  }
+  .labels {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    
+  }
+  .inputs {
+    height: 2.3rem;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid #a9a9a9;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    text-indent: 1rem;
+    color: white;
+    
+    font-size: 15px;
+  }
+  
+}
+
+@media (min-width:1024px) {
+  .contactpara{
+    font-size: 15px !important;
+  }
+  .contactHeading{
+    text-align: left;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 30px !important;
+    margin-top: 20px;
+    font: bold;
+
+  }
+
+  .contactLeft {
+    padding-top: 30px !important;
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 15% !important;
+    width: 45% !important;
+    text-align: left;
+    
+    margin-top: 10%;
+    
+    
+  }
+  
+  .contactform {
+    display: flex;
+    
+    justify-content:center;
+    background: #111111;
+    box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
+      0px 12px 40px rgba(0, 223, 216, 0.1),
+      -12px 0px 40px rgba(198, 255, 221, 0.1),
+      12px 0px 40px rgba(0, 124, 240, 0.1);
+    border-radius: 8px;
+    
+    width: 100%;
+    
+    
+  }
+  .contactLeftMail{
+    margin-bottom: 4%;
+    display: flex;
+    
+    flex-direction: column;
+    
+    text-align: left;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 30px !important;
+    
+  }
+  .link{
+    
+    margin-top: 2px !important;
+  }
+  .contactLeftSocial{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 30px !important;
+    
+  }
+  .labels {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    
+  }
+  .inputs {
+    height: 2.3rem;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid #a9a9a9;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    text-indent: 1rem;
+    color: white;
+    
+    font-size: 15px;
+  }
+  
+}
+@media (min-width:1300px) {
+  .contactpara{
+    font-size: 15px !important;
+  }
+  .contactHeading{
+    text-align: left;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 30px !important;
+    margin-top: 20px;
+    font: bold;
+
+  }
+
+  .contactLeft {
+    margin-top: 30px !important;
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 45% !important;
+    text-align: left;
+    
+    margin-top: 10%;
+    background-color: yellow;
+    padding-left: 15% !important;
+    
+  }
+  
+  .contactform {
+    display: flex;
+    /* align-items: center; */
+    justify-content:center;
+    background: #111111;
+    box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
+      0px 12px 40px rgba(0, 223, 216, 0.1),
+      -12px 0px 40px rgba(198, 255, 221, 0.1),
+      12px 0px 40px rgba(0, 124, 240, 0.1);
+    border-radius: 8px;
+    
+    width: 100%;
+    
+    
+  }
+  .contactLeftMail{
+    margin-bottom: 4%;
+    display: flex;
+    
+    flex-direction: column;
+    
+    text-align: left;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 30px !important;
+    
+  }
+  .link{
+    
+    margin-top: 2px !important;
+  }
+  .contactLeftSocial{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 30px !important;
+    
+  }
+  .labels {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    
+  }
+  .inputs {
+    height: 2.3rem;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid #a9a9a9;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    text-indent: 1rem;
+    color: white;
+    
+    font-size: 15px;
+  }
+}
+@media (min-width:1440px) {
+  .contactpara{
+    font-size: 15px !important;
+  }
+  .contactHeading{
+    text-align: left;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 30px !important;
+    margin-top: 20px;
+    font: bold;
+
+  }
+
+  .contactLeft {
+    margin-top: 30px !important;
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 45% !important;
+    text-align: left;
+    
+    margin-top: 10%;
+    
+    padding-left: 25% !important;
+    
+  }
+  
+  .contactform {
+    display: flex;
+    justify-content:center;
+    background: #111111;
+    box-shadow: 0px -12px 40px rgba(0, 223, 216, 0.1),
+      0px 12px 40px rgba(0, 223, 216, 0.1),
+      -12px 0px 40px rgba(198, 255, 221, 0.1),
+      12px 0px 40px rgba(0, 124, 240, 0.1);
+    border-radius: 8px;
+    
+    width: 100%;
+    
+  }
+  .contactLeftMail{
+    margin-bottom: 4%;
+    display: flex;
+    
+    flex-direction: column;
+    
+    text-align: left;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 30px !important;
+    
+  }
+  .link{
+    
+    margin-top: 2px !important;
+  }
+  .contactLeftSocial{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: clamp(2rem,2vw,5rem);
+    
+    font-size: 30px !important;
+    
+  }
+  .labels {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    
+  }
+  .inputs {
+    height: 2.3rem;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid #a9a9a9;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    text-indent: 1rem;
+    color: white;
+    
+    font-size: 15px;
   }
 }
