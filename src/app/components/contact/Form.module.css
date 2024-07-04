@@ -24,7 +24,7 @@
   text-align: left;
   /* justify-content: left; */
   margin-top: 10%;
-  /* background-color: yellow; */
+  
   /* height: 45%; */
 
 }
@@ -126,7 +126,7 @@
   gap: 1rem;
   width: 90%;
   height: 95%;
-  /* background-color: yellow; */
+  
   padding: 20px;
   margin-top: 60px;
 }
@@ -771,7 +771,7 @@
     text-align: left;
     
     margin-top: 10%;
-    background-color: yellow;
+    
     padding-left: 15% !important;
     
   }
