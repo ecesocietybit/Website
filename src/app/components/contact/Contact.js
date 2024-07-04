@@ -34,7 +34,7 @@ const Contact = () => {
           <StyledText
             primary="#007cf0"
             secondary="#00dfd8"
-            className="emailhead font-bold  mb-2 mt-0"
+            className="emailhead font-bold  mb-1 mt-0"
           >
             Email
           </StyledText>
@@ -59,9 +59,9 @@ const Contact = () => {
             <StyledText
               primary="#007cf0"
               secondary="#00dfd8"
-              className=" font-bold mb-4"
+              className=" font-bold mb-3 border-white "
             >
-              Social Media:
+              Social Media
             </StyledText>
           </div>
 

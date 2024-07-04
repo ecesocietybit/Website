@@ -207,7 +207,7 @@ export const TeamData2k22 =[
     {
         name:'Ashish Kumar Mahto',
         pos:'',
-        imgSrc:'ashish_kumar.png',
+        imgSrc:'ashish_kumar.jpg',
         socials:{
             github:'ashish3180',
             email:'ashishmehta3189@gmail.com',
