@@ -1,8 +1,8 @@
 import React from 'react'
 import EventCard from '../components/EventCard/EventCard'
-import { EventData } from '@/lib/data/EventData'
+import { EventData } from '@/app/lib/data/EventData'
 import PastCard from '../components/EventCard/PastCard';
-import { PastEvent } from '@/lib/data/PastEvent';
+import { PastEvent } from '@/app/lib/data/PastEvent';
 import style from "../components/EventCard/PastCard.module.css"
 import StyledText from '../components/text/StyledText';
 export const metadata = {

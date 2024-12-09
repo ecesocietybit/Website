@@ -1,6 +1,6 @@
 "use client"
 import {React,useState} from 'react'
-import { AboutTextPara } from '@/lib/data/GalleryData'
+import { AboutTextPara } from '@/app/lib/data/GalleryData'
 import StyledText from '../text/StyledText'
 import GridGallery from '../Gallery/Gallery'
 import AnimatedScrollButton from '../scrollButton/AnimatedScrollButton'
