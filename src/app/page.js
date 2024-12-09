@@ -14,17 +14,30 @@ export const metadata = {
 export default function Page() {
   return (
     <>
-    <Head>
-      <title>ECE Society</title>
-    </Head>
-    <div className=" min-h-screen w-full flex flex-col gap-12 p-4 ">
+      <Head>
       
-      <HeroSection />
-      <LandingAbout/>
-      <Profword />
-      <PostHead/>
-      <Contact/>
-    </div>
+        <title>ECE Society</title>
+
+      </Head>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.embeddedChatbotConfig = {
+              chatbotId: "0aPJZ7Rqq0Klf-E1zC1KG",
+              domain: "www.chatbase.co"
+            };
+          `,
+        }}
+      ></script>
+      <script src="https://www.chatbase.co/embed.min.js" async defer></script>
+      <div className=" min-h-screen w-full flex flex-col gap-12 p-4 ">
+
+        <HeroSection />
+        <LandingAbout />
+        <Profword />
+        <PostHead />
+        <Contact />
+      </div>
     </>
   )
 }
