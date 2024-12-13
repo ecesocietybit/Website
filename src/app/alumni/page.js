@@ -1,7 +1,7 @@
 import TeamCard from "../components/teamcard/TeamCard";
 import StyledText from "../components/text/StyledText";
 import style from "../components/teamcard/TeamCard.module.css";
-import { TeamData2K18, TeamData2k19 ,TeamData2k20} from "@/lib/data/AlumniData";
+import { TeamData2K18, TeamData2k19 ,TeamData2k20} from "@/app/lib/data/AlumniData";
 import Head from "next/head";
 
 export const metadata = {
@@ -76,7 +76,7 @@ export default function Page() {
             return (
               <TeamCard
                 name={item.name}
-                pos={item.pos}
+                pos={item.company}
                 imgSrc={'/teams/2K20/'+item.imgSrc}
                 lazyImgSrc={'/teams/2K20/lazy/'+item.imgSrc}
                 socials={item.socials}

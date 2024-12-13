@@ -1,6 +1,6 @@
 "use client"
 import { useEffect } from 'react';
-import { GalleryData } from "@/lib/data/GalleryData";
+import { GalleryData } from "@/app/lib/data/GalleryData";
 
 import styles from './Gallery.module.css';
 import Image from 'next/image';

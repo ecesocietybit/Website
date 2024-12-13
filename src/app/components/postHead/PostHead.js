@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './PostHead.module.css'
 import TeamCard from '../teamcard/TeamCard'
-import { TeamData2k21 } from '@/lib/data/TeamData'
+import { TeamData2k21 } from '@/app/lib/data/TeamData'
 import StyledText from '../text/StyledText'
 
 const PostHead = () => {
