@@ -172,26 +172,15 @@ export const TeamData2k21 =[
 
 export const TeamData2k22 =[
     {
-        name:'Shreya Paul',
+        name:'Amaan Hussain',
         pos:'',
-        imgSrc:'shreya_paul.png',
+        imgSrc:'Amaan2.png',
         socials:{
-            github:'shreyapaul01',
-            email:'shreyapaul100@yahoo.com',
-            linkedin:'shreya-paul-a84606257',
-            insta:'its.me._.shreya',
-        },
-    },
-    {
-        name:'Om Kumar Soni',
-        pos:'',
-        imgSrc:'om_soni2.png',
-        socials:{
-            github:'omkumarsoni2919',
-            email:'myomkumarsoni@gmail.com',
-            linkedin:'om-soni-67a918256',
-            insta:'omkumarsoni19',
-        },
+            github:'Amaanhussain11',
+            email:'amaanhussain983@gmail.com',
+            linkedin:'amaanhussain01',
+            insta:'amaan_hussain_011',
+        }
     },
     {
         name:'Shobhit Kashyap',
@@ -205,14 +194,25 @@ export const TeamData2k22 =[
         },
     },
     {
-        name:'Deepak kumar Rajak',
+        name:'Gourav Mondal',
         pos:'',
-        imgSrc:'deepak_rajak.png',
+        imgSrc:'Gourav2.png',
         socials:{
-            github:'Iamdeepak4551 ',
-            email:'iamdeepak4551@gmail.com',
-            linkedin:'deepak-kumar-rajak-41a9bb222',
-            insta:'Iamdeepak4551',
+            github:'Gourav123-sys',
+            email:'mondalgourav227@gmail.com',
+            linkedin:'gourav-mondal-55a812204',
+            insta:'gour_av_30',
+        }
+    },
+    {
+        name:'Ashish Kumar Mahto',
+        pos:'',
+        imgSrc:'ashish_kumar.jpg',
+        socials:{
+            github:'ashish3180',
+            email:'ashishmehta3189@gmail.com',
+            linkedin:'ashish-kumar-mahto-624a13256',
+            insta:'ashish_kr_3180',
         },
     },
     {
@@ -224,17 +224,6 @@ export const TeamData2k22 =[
             email:'amishashurin@gmail.com',
             linkedin:'',
             insta:'amisha_soren8',
-        },
-    },
-    {
-        name:'Ashish Kumar Mahto',
-        pos:'',
-        imgSrc:'ashish_kumar.png',
-        socials:{
-            github:'ashish3180',
-            email:'ashishmehta3189@gmail.com',
-            linkedin:'ashish-kumar-mahto-624a13256',
-            insta:'ashish_kr_3180',
         },
     },
     {
@@ -259,28 +248,45 @@ export const TeamData2k22 =[
             insta:'leanwithkumar',
         }
     },
+    
+    
     {
-        name:'Gourav Mondal',
+        name:'Shreya Paul',
         pos:'',
-        imgSrc:'Gourav2.png',
+        imgSrc:'shreya_paul.png',
         socials:{
-            github:'Gourav123-sys',
-            email:'mondalgourav227@gmail.com',
-            linkedin:'gourav-mondal-55a812204',
-            insta:'gour_av_30',
-        }
+            github:'shreyapaul01',
+            email:'shreyapaul100@yahoo.com',
+            linkedin:'shreya-paul-a84606257',
+            insta:'its.me._.shreya',
+        },
     },
     {
-        name:'Amaan Hussain',
+        name:'Om Kumar Soni',
         pos:'',
-        imgSrc:'Amaan2.png',
+        imgSrc:'om_soni2.png',
         socials:{
-            github:'Amaanhussain11',
-            email:'amaanhussain983@gmail.com',
-            linkedin:'amaanhussain01',
-            insta:'amaan_hussain_011',
-        }
+            github:'omkumarsoni2919',
+            email:'myomkumarsoni@gmail.com',
+            linkedin:'om-soni-67a918256',
+            insta:'omkumarsoni19',
+        },
     },
+   
+    {
+        name:'Deepak kumar Rajak',
+        pos:'',
+        imgSrc:'deepak_rajak.png',
+        socials:{
+            github:'Iamdeepak4551 ',
+            email:'iamdeepak4551@gmail.com',
+            linkedin:'deepak-kumar-rajak-41a9bb222',
+            insta:'Iamdeepak4551',
+        },
+    },
+   
+    
+    
     {
         name:'Manish Kumar',
         pos:'',

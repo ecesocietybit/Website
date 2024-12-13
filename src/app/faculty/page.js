@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../components/facultyCard/Card";
 import Head from "next/head";
-import { FacultyData, Views } from "@/lib/data/FacultyData";
+import { FacultyData, Views } from "@/app/lib/data/FacultyData";
 import style from "../components/facultyCard/Card.module.css";
 import StyledText from "../components/text/StyledText";
 

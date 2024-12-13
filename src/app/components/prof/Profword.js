@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './Profword.module.css'
-import { ProfData } from "@/lib/data/ProfData";
+import { ProfData } from "@/app/lib/data/ProfData";
 import ProfDetail from '../profdetail/ProfDetail';
 import StyledText from '../text/StyledText'
 const Profword = () => {

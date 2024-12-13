@@ -235,8 +235,8 @@ export const TeamData2k19=[
 export const TeamData2k20=[
     {
         name:'Ritesh Kumar',
-        // pos:'President',
-        company:'',
+        pos:'',
+        company:'Associate Engineer at Inverted Energy',
         imgSrc:'ritesh_kumar.png',
         socials:{
             github:'RajRitesh',

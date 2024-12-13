@@ -11,15 +11,24 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+
+      
+
       <body className={`${inter.className} bg-[#0D1116] text-white`}>
         <Navbar />
-        <Sidebar/>
-        
+        <Sidebar />
+
         {children}
-        <Analytics/>
-        
-        <Footer/>
+        <Analytics />
+
+        <Footer />
       </body>
+
+      
+
+
+      
+
     </html>
   );
 }
