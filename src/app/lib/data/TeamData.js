@@ -205,6 +205,17 @@ export const TeamData2k22 =[
         }
     },
     {
+        name:'Om Kumar Soni',
+        pos:'',
+        imgSrc:'om_soni2.png',
+        socials:{
+            github:'omkumarsoni2919',
+            email:'myomkumarsoni@gmail.com',
+            linkedin:'om-soni-67a918256',
+            insta:'omkumarsoni19',
+        },
+    },
+    {
         name:'Ashish Kumar Mahto',
         pos:'',
         imgSrc:'ashish_kumar.jpg',
@@ -224,6 +235,17 @@ export const TeamData2k22 =[
             email:'amishashurin@gmail.com',
             linkedin:'',
             insta:'amisha_soren8',
+        },
+    },
+    {
+        name:'Shreya Paul',
+        pos:'',
+        imgSrc:'shreya_paul.png',
+        socials:{
+            github:'shreyapaul01',
+            email:'shreyapaul100@yahoo.com',
+            linkedin:'shreya-paul-a84606257',
+            insta:'its.me._.shreya',
         },
     },
     {
@@ -250,28 +272,8 @@ export const TeamData2k22 =[
     },
     
     
-    {
-        name:'Shreya Paul',
-        pos:'',
-        imgSrc:'shreya_paul.png',
-        socials:{
-            github:'shreyapaul01',
-            email:'shreyapaul100@yahoo.com',
-            linkedin:'shreya-paul-a84606257',
-            insta:'its.me._.shreya',
-        },
-    },
-    {
-        name:'Om Kumar Soni',
-        pos:'',
-        imgSrc:'om_soni2.png',
-        socials:{
-            github:'omkumarsoni2919',
-            email:'myomkumarsoni@gmail.com',
-            linkedin:'om-soni-67a918256',
-            insta:'omkumarsoni19',
-        },
-    },
+    
+    
    
     {
         name:'Deepak kumar Rajak',
@@ -296,6 +298,27 @@ export const TeamData2k22 =[
             email:'kumaarmanish8@gmail.com',
             linkedin:'manish-kumar',
             insta:'manish6903_',
+        }
+    },
+    {
+        name:'Harsh Raj',
+        pos:'',
+        imgSrc:'harsh.png',
+        socials:{
+            github:'',
+            email:'rharsh808@gmail.com',
+            linkedin:'itsharshraj',
+            insta:'tech_nicalharsh',
+        }
+    },{
+        name:'Harsh Raj',
+        pos:'',
+        imgSrc:'harsh.png',
+        socials:{
+            github:'',
+            email:'rharsh808@gmail.com',
+            linkedin:'itsharshraj',
+            insta:'tech_nicalharsh',
         }
     }
          
