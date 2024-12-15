@@ -310,16 +310,6 @@ export const TeamData2k22 =[
             linkedin:'itsharshraj',
             insta:'tech_nicalharsh',
         }
-    },{
-        name:'Harsh Raj',
-        pos:'',
-        imgSrc:'harsh.png',
-        socials:{
-            github:'',
-            email:'rharsh808@gmail.com',
-            linkedin:'itsharshraj',
-            insta:'tech_nicalharsh',
-        }
     }
          
 ]
