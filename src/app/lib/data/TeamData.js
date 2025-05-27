@@ -304,10 +304,10 @@ export const TeamData2k22 =[
         pos:'',
         imgSrc:'Shikha Rani Singh.jpg',
         socials:{
-            github:'https://github.com/Shikha01052001',
+            github:'Shikha01052001',
             email:'shikharanisingh639@gmail.com',
-            linkedin:'https://www.linkedin.com/in/shikha-singh-11824a2a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-            insta:'https://www.instagram.com/shikha_singh0105?igsh=MThvMW8yY3g1c2kxZQ==',
+            linkedin:'shikha-singh-11824a2a3',
+            insta:'shikha_singh0105',
         }
     },
 
@@ -318,8 +318,8 @@ export const TeamData2k22 =[
         socials:{
             github:'',
             email:'rharsh808@gmail.com',
-            linkedin:'https://www.linkedin.com/in/harsh-raj-208ba2252?trk=contact-info',
-            insta:'https://www.instagram.com/tech_nicalharsh?igsh=d3VjdWl5Z2FqYnh6',
+            linkedin:'harsh-raj-208ba2252',
+            insta:'tech_nicalharsh',
         }
     },
 
@@ -328,10 +328,10 @@ export const TeamData2k22 =[
         pos:'',
         imgSrc:'Chahat Singh.jpg',
         socials:{
-            github:'https://github.com/chahat-git',
+            github:'chahat-git',
             email:'nairasingh151@gmail.com',
-            linkedin:'https://www.linkedin.com/in/chahat-singh-a709b4251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-            insta:'https://www.instagram.com/chahatsingh0306?igsh=MTZmOXhlOWhiaG15cQ==',
+            linkedin:'chahat-singh-a709b4251',
+            insta:'chahatsingh0306',
         }
     }
 
