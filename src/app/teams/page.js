@@ -2,7 +2,7 @@ import Head from "next/head";
 import TeamCard from "../components/teamcard/TeamCard";
 import StyledText from "../components/text/StyledText";
 import style from "../components/teamcard/TeamCard.module.css";
-import { TeamData2k21,TeamData2k22 } from "@/app/lib/data/TeamData";
+import {TeamData2k22 } from "@/app/lib/data/TeamData";
 
 export const metadata = {
   title: "Our Team",
@@ -41,7 +41,7 @@ export default function Page() {
           })}
         </div>
       </div> */}
-      <div>
+      {/* <div>
         <StyledText
           primary="#007cf0"
           secondary="#00dfd8"
@@ -63,7 +63,7 @@ export default function Page() {
             );
           })}
         </div>
-      </div>
+      </div> */}
       <div>
         <StyledText
           primary="#007cf0"
