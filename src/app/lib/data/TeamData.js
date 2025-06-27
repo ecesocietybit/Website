@@ -13,7 +13,7 @@ export const TeamData2k21 =[
     {
         name:'Samia Nishaat',
         pos:'Vice President',
-        imgSrc:'samia_nishaat.png',
+        imgSrc:'Samia Nishaat.png',
         socials:{
             github:'',
             email:'samiabksc@gmail.com',
@@ -196,7 +196,7 @@ export const TeamData2k22 =[
     {
         name:'Gourav Mondal',
         pos:'',
-        imgSrc:'Gourav2.png',
+        imgSrc:'Gourav Mondal.jpg',
         socials:{
             github:'Gourav123-sys',
             email:'mondalgourav227@gmail.com',
@@ -229,7 +229,7 @@ export const TeamData2k22 =[
     {
         name:'Amisha Kumari Soren ',
         pos:'',
-        imgSrc:'amisha_kumari.png',
+        imgSrc:'Amisha Kumari Soren.jpg',
         socials:{
             github:'',
             email:'amishashurin@gmail.com',
@@ -262,7 +262,7 @@ export const TeamData2k22 =[
     {
         name:'Abhay Kumar',
         pos:'',
-        imgSrc:'abhay_kumar.png',
+        imgSrc:'ABHAY KUMAR.jpg',
         socials:{
             github:'leanwithkumar',
             email:'mrhustle936@gmail.com',
@@ -300,17 +300,225 @@ export const TeamData2k22 =[
             insta:'manish6903_',
         }
     },
-    {
+
+     {
+        name:'Shikha Rani Singh ',
+        pos:'',
+        imgSrc:'Shikha Rani Singh.jpg',
+        socials:{
+            github:'Shikha01052001',
+            email:'shikharanisingh639@gmail.com',
+            linkedin:'shikha-singh-11824a2a3',
+            insta:'shikha_singh0105',
+        }
+    },
+
+     {
         name:'Harsh Raj',
         pos:'',
-        imgSrc:'harsh.png',
+        imgSrc:'HARSH.jpg',
         socials:{
             github:'',
             email:'rharsh808@gmail.com',
-            linkedin:'itsharshraj',
+            linkedin:'harsh-raj-208ba2252',
             insta:'tech_nicalharsh',
         }
+    },
+
+     {
+        name:'Chahat Kumari',
+        pos:'',
+        imgSrc:'Chahat Singh.jpg',
+        socials:{
+            github:'chahat-git',
+            email:'nairasingh151@gmail.com',
+            linkedin:'chahat-singh-a709b4251',
+            insta:'chahatsingh0306',
+        }
     }
+
+         
+]
+
+
+export const TeamData2k23 =[
+    {
+        name:'Punam Kumari',
+        pos:'',
+        imgSrc:'Punam.jpg',
+        socials:{
+            github:'',
+            email:'punamkhushi0@gmail.com',
+            linkedin:'punam-kumari-b17b0a282',
+            insta:'',
+        }
+    },
+    {
+        name:'Ayush Kumar',
+        pos:'',
+        imgSrc:'Ayush Kumar.jpg',
+        socials:{
+            github:'',
+            email:'ak8419957@gmail.com',
+            linkedin:'ayush-kumar-a02950250',
+            insta:'ayushkumar_0912',
+        },
+    },
+    {
+        name:'Khushwant',
+        pos:'',
+        imgSrc:'KHUSHWANT SINGH.jpg',
+        socials:{
+            github:'Khushwant0902',
+            email:'khushwantmdp09022004@gmail.com',
+            linkedin:'khushwant-singh-a98025291',
+            insta:'khushwant7382',
+        }
+    },
+    {
+        name:'Neeraj Kachhap',
+        pos:'',
+        imgSrc:'Neeraj Kachhap.jpg',
+        socials:{
+            github:'neeraj-boop',
+            email:'neerajforwork23@gmail.com',
+            linkedin:'neeraj-kachhap-081911303',
+            insta:'neerajkap2k',
+        },
+    },
+    {
+        name:'Karan Kumar Mahato   ',
+        pos:'',
+        imgSrc:'Karan Raj.jpg',
+        socials:{
+            github:'Karankumar2403',
+            email:'itskaranraj009@gmail.com',
+            linkedin:'karan-kumar-mahato-a6a72021b',
+            insta:'__.karann.n__',
+        },
+    },
+    {
+        name:'Anshuman Raj',
+        pos:'',
+        imgSrc:'Anshuman Raj.jpg',
+        socials:{
+            github:'Anshuman-Raj-07',
+            email:'anshumanraj99566@gmail.com',
+            linkedin:'anshuman-raj-b93021291',
+            insta:'justanshu07',
+        },
+    },
+    {
+        name:'Ayushi  ',
+        pos:'',
+        imgSrc:'Ayushi Raj.jpg',
+        socials:{
+            github:'ayushiraj0',
+            email:'ayushiraj0908@gmail.com',
+            linkedin:'ayushi-raj-689169256',
+            insta:'ayushiraj08',
+        }
+    },
+    
+    
+    {
+        name:'Kabyanshu kumar ',
+        pos:'',
+        imgSrc:'kabyanshu kumar.jpg',
+        socials:{
+            github:'',
+            email:'kabyanshukumar2005@gmail.com',
+            linkedin:'',
+            insta:'Kbanshu_',
+        },
+    },
+    {
+        name:'Shivam Agarwal ',
+        pos:'',
+        imgSrc:'Shivam Agarwal.jpg',
+        socials:{
+            github:'',
+            email:'agarwalshivam1107@gmail.com',
+            linkedin:'',
+            insta:'',
+        },
+    },
+   
+    {
+        name:'Prince Raj',
+        pos:'',
+        imgSrc:'Prince Raj.jpg',
+        socials:{
+            github:'princeraj24',
+            email:'princeraj2403i@gmail.com',
+            linkedin:'itsprince-raj',
+            insta:'prince_raj2403',
+        },
+    },
+   
+      {
+        name:'Anuj Kumar Pandey ',
+        pos:'',
+        imgSrc:'Anuj kumar Pandey.jpg',
+        socials:{
+            github:'',
+            email:'anujkpandey2004@gmail.com',
+            linkedin:'',
+            insta:'',
+        },
+    },
+    
+    {
+        name:'Rohit Pandey ',
+        pos:'',
+        imgSrc:'Rohit Pandey.jpg',
+        socials:{
+            github:'@Rohit54ai',
+            email:'rohitpandeyrp6785@gmail.com',
+            linkedin:'rohit-pandey-64a5202a5',
+            insta:'',
+        }
+    },
+
+    {
+        name:'Rishabh Dev ',
+        pos:'',
+        imgSrc:'Rishabh.jpg',
+        socials:{
+            github:'',
+            email:'officialrishabh2207@gmail.com',
+            linkedin:'rishabh-dev-a287b629a',
+            insta:'rizz_2254',
+        },
+    },
+
+   
+
+    {
+        name:'Kishor Kumar Tudu ',
+        pos:'',
+        imgSrc:'Kishor Tudu.jpeg',
+        socials:{
+            github:'KishorTudu',
+            email:'mcshover321john@gmail.com',
+            linkedin:'https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav',
+            insta:'kishor_tudu_47',
+        },
+    },
+
+    {
+        name:'Aryan Kumar ',
+        pos:'',
+        imgSrc:'Aryan Kumar.jpg',
+        socials:{
+            github:'',
+            email:'aryankumar151005@gmail.com',
+            linkedin:'aryan-kumar-6b383028b',
+            insta:'',
+        },
+    }
+
+  
          
 ]
 
