@@ -41,7 +41,7 @@ export default function Page() {
           })}
         </div>
       </div> */}
-      <div>
+      {/* <div>
         <StyledText
           primary="#007cf0"
           secondary="#00dfd8"
@@ -63,7 +63,7 @@ export default function Page() {
             );
           })}
         </div>
-      </div>
+      </div> */}
       <div>
         <StyledText
           primary="#007cf0"
