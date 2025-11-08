@@ -207,7 +207,7 @@ export const TeamData2k22 =[
      {
         name:'Harsh Raj',
         pos:'Secretary',
-        imgSrc:'HARSH.jpg',
+        imgSrc:'harsh.png',
         socials:{
             github:'',
             email:'rharsh808@gmail.com',
