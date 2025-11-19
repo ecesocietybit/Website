@@ -1,42 +1,56 @@
  export const GalleryData = [
     {
+        id:0,
+        event:'CodeSprint 25',
+        event:'CodeSprint 25',
+        title:'Finals',
+        imgSrc:'10.jpg',
+    },
+    {
         id:1,
+        event:'Drone Bootcamp 24',
+        event:'Drone Bootcamp 24',
+        title:'Drone Assembly',
+        imgSrc:'9.png',
+    },
+    {
+        id:2,
         event:'TechUtsav 23',
         event:'TechUtsav 23',
         title:'Organising Body',
         imgSrc:'1.png',
     },
     {
-        id:2,
+        id:3,
         event:'TechUtsav 23',
         title:'Shastrarth',
         imgSrc:'2.png',
     },
-    {    id:3,
+    {    id:4,
         event:'TechUtsav 23',
         title: 'Model Exhibition',
         imgSrc:'3.png'
     },
     {
-        id:4,
+        id:5,
         event:'TechUtsav 23',title: 'Model Exhibition',
         imgSrc:'4.png'
     },
-    {    id:5,
+    {    id:6,
         event:'TechUtsav 23',title: 'Prize Distribution',
         imgSrc:'5.png'
     },
-    {    id:8,
+    {    id:9,
         event:'TechUtsav 23',title: 'Prize Distribution',
         imgSrc:'8.png'
     },
     {   
-        id:6,
+        id:7,
         event:'TechUtsav 23',title: 'Prize Distribution',
         imgSrc:'6.png'
     },
     {   
-        id:7,
+        id:8,
         event:'TechUtsav 23',title: 'ECE Society Family',
         imgSrc:'7.png'
     },

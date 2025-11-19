@@ -2,6 +2,24 @@
 export const EventData = [
 
     {
+        title:'GATE PREPATATION SESSION',
+        imgSrc:'gate_prep.png',
+        content:'A session on gate preparation tips',
+        date:'Oct 17, 2025 10:00:00'
+    },
+    {
+        title:'CODESPRINT',
+        imgSrc:'codesprint.png',
+        content:'A coding competition',
+        date:'Apr 12, 2025 10:00:00'
+    },
+    {
+        title:'DRONE BOOTCAMP',
+        imgSrc:'drone_bootcamp.png',
+        content:'Drone assembly bootcamp',
+        date:'Dec 3, 2024 10:00:00'
+    },
+    {
         title:'PARIKSHIT',
         imgSrc:'parikshit_event.png',
         content:'This is a science quiz',

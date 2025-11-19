@@ -1,5 +1,23 @@
 export const PastEvent=[
     {
+        title:'GATE PREPATATION SESSION',
+        imgSrc:'gate_prep.png',
+        content:'A session on gate preparation tips',
+        link:'',
+    },
+    {
+        title:'CODESPRINT',
+        imgSrc:'codesprint.png',
+        content:'A coding competition',
+        link:'',
+    },
+    {
+        title:'DRONE BOOTCAMP',
+        imgSrc:'drone_bootcamp.png',
+        content:'Drone assembly bootcamp',
+        link:'',
+    },
+    {
         title:'PARIKSHIT',
         imgSrc:'parikshit.png',
         content:'This is a science quiz',

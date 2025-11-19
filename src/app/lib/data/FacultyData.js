@@ -1,10 +1,10 @@
 export const FacultyData = [
     {
-        name:'Dr. Madan Gopal Tiary',
+        name:'Dr. Amar Prakash Sinha',
         desg:'Professor & Head',
-        imgSrc:'mg_tiary.png',
-        email:'mgtiary.ece@bitsindri.ac.in',
-        mobile:'9475332733',
+        imgSrc:'ap_sinha.png',
+        email:' amarpsinha@gmail.com',
+        mobile:'9430935294'
         
     },
     {
@@ -15,11 +15,12 @@ export const FacultyData = [
         mobile:'+4540614248'
     },
     {
-        name:'Amar Prakash Sinha',
-        desg:'Associate Professor',
-        imgSrc:'ap_sinha.png',
-        email:' amarpsinha@gmail.com',
-        mobile:'9430935294'
+        name:'Dr. Madan Gopal Tiary',
+        desg:'Assistant Professor   ',
+        imgSrc:'mg_tiary.png',
+        email:' mgtiary.ece@bitsindri.ac.in',
+        mobile:'9475332733'
+        
     },
     {
         name:'Dr. Imteyaz Ahmad',
