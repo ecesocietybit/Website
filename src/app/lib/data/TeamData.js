@@ -545,7 +545,7 @@ export const TeamData2k24 = [
     {
         name:'Anish Kumar',
         pos:'Media and Marketing Lead',
-        imgSrc:'Anish.jpg',
+        imgSrc:'Anish.png',
         socials:{
             github:'',
             email:'anishkumar7462095813@gmail.com',
