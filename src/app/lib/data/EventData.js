@@ -1,6 +1,23 @@
 
 export const EventData = [
-
+    {
+        title:'FROM CAMPUS TO CAREER',
+        imgSrc:'c2c1.jpeg',
+        content:'Session 1',
+        date:'Sep 15, 2026 10:00:00'
+    },
+    {
+        title:'GATE PREP. EXPERT TALK',
+        imgSrc:'gate.jpeg',
+        content:'Expert talk on GATE preparation',
+        date:'Oct 18, 2025 10:00:00'
+    },
+    {
+        title:'CODESPRINT',
+        imgSrc:'codesprint_event.jpeg',
+        content:'A coding competition',
+        date:'Apr 15, 2025 10:00:00'
+    },
     {
         title:'PARIKSHIT',
         imgSrc:'parikshit_event.png',

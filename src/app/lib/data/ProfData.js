@@ -1,12 +1,12 @@
 export const ProfData=[
     {
-        name:'Prof. M.G Tiary',
+        name:'Dr. Amar Prakash Sinha',
         pos:'Patron ',
-        imgsrc:'mg_tiary.png',
+        imgsrc:'ap_sinha.png',
         dept:'E.C.E Society',
         socials:{
             github:'',
-            email:'mgtiary.ece@bitsindri.ac.in',
+            email:'amarpsinha@gmail.com',
             linkedin:'',
             insta:'',
         },
