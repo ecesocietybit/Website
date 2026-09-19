@@ -348,7 +348,7 @@ export const TeamData2k23 = [
     {
         name:'Karan Kumar Mahato',
         pos:'President',
-        imgSrc:'Karan.jpg',
+        imgSrc:'Karan.png',
         socials:{
             github:'Karankumar2403',
             email:'karannn2403@gmail.com',
@@ -360,7 +360,7 @@ export const TeamData2k23 = [
     {
         name:'Rishabh Dev',
         pos:'General Secretary',
-        imgSrc:'Rishabh11.jpeg',
+        imgSrc:'Rishabh11.png',
         socials:{
             github:'',
             email:'officialrishabh2207@gmail.com',
@@ -372,7 +372,7 @@ export const TeamData2k23 = [
     {
         name:'Kabyanshu kumar',
         pos:'Vice President',
-        imgSrc:'Kabyanshu.jpg',
+        imgSrc:'Kabyanshu.png',
         socials:{
             github:'kbanshu',
             email:'kabyanshukumar2005@gmail.com',
@@ -396,7 +396,7 @@ export const TeamData2k23 = [
     {
         name:'Prince Raj',
         pos:'Joint Secretary',
-        imgSrc:'Prince1.jpeg',
+        imgSrc:'Prince1.png',
         socials:{
             github:'princeraj24',
             email:'princeraj2403i@gmail.com',
@@ -408,7 +408,7 @@ export const TeamData2k23 = [
     {
         name:'Anuj Kumar Pandey',
         pos:'Joint Secretary',
-        imgSrc:'Anuj.jpg',
+        imgSrc:'Anuj.png',
         socials:{
             github:'',
             email:'anujkpandey2004@gmail.com',
@@ -420,7 +420,7 @@ export const TeamData2k23 = [
     {
         name:'Punam Kumari',
         pos:'Technical Head & Treasurer',
-        imgSrc:'Punam.jpeg',
+        imgSrc:'Punam.png',
         socials:{
             github:'punam1705',
             email:'punamkhushi0@gmail.com',
@@ -432,7 +432,7 @@ export const TeamData2k23 = [
     {
         name:'Anshuman Raj',
         pos:'Technical Secretary',
-        imgSrc:'Anshuman Raj.jpg',
+        imgSrc:'Anshuman Raj.png',
         socials:{
             github:'Anshuman-Raj-07',
             email:'anshumanraj99566@gmail.com',
@@ -445,7 +445,7 @@ export const TeamData2k23 = [
     {
         name:'Khushwant',
         pos:'Treasurer',
-        imgSrc:'KHUSHWANT SINGH.jpg',
+        imgSrc:'KHUSHWANT SINGH.png',
         socials:{
             github:'Khushwant0902',
             email:'khushwantmdp09022004@gmail.com',
@@ -457,7 +457,7 @@ export const TeamData2k23 = [
     {
         name:'Shivam Agarwal',
         pos:'Joint Treasurer',
-        imgSrc:'Shivam1.jpg',
+        imgSrc:'Shivam.png',
         socials:{
             github:'ShivamAgarwal1711',
             email:'agarwalshivam1107@gmail.com',
@@ -469,7 +469,7 @@ export const TeamData2k23 = [
     {
         name:'Ayushi',
         pos:'Design Head',
-        imgSrc:'Ayushi.jpg',
+        imgSrc:'Ayushi.png',
         socials:{
             github:'ayushiraj0',
             email:'ayushiraj0908@gmail.com',
@@ -481,7 +481,7 @@ export const TeamData2k23 = [
     {
         name:'Neeraj Kachhap',
         pos:'Editor-in-Chief',
-        imgSrc:'Neeraj.jpeg',
+        imgSrc:'Neeraj.png',
         socials:{
             github:'neeraj-boop',
             email:'neerajforwork23@gmail.com',
@@ -493,7 +493,7 @@ export const TeamData2k23 = [
     {
         name:'Rohit Pandey',
         pos:'Alumni Incharge',
-        imgSrc:'Rohit Pandey.jpg',
+        imgSrc:'Rohit.png',
         socials:{
             github:'@Rohit54ai',
             email:'rohitpandeyrp6785@gmail.com',
@@ -505,7 +505,7 @@ export const TeamData2k23 = [
     {
         name:'Aryan Kumar',
         pos:'Event Executive',
-        imgSrc:'Aryan.jpg',
+        imgSrc:'Aryan.png',
         socials:{
             github:'',
             email:'aryankumar151005@gmail.com',
@@ -517,7 +517,7 @@ export const TeamData2k23 = [
     {
         name:'Kishor Kumar Tudu',
         pos:'Public Relation Officer',
-        imgSrc:'Kishor Tudu.jpeg',
+        imgSrc:'Kishor Tudu.png',
         socials:{
             github:'KishorTudu',
             email:'mcshover321john@gmail.com',

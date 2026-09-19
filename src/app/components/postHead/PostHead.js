@@ -17,7 +17,7 @@ const PostHead = () => {
         <div className={`${style.container}`}>
         <div className={`flex gap-8 p-8 ${style.box}`}>
             {TeamData2k23.map((item) => {
-                    //{item.imgSrc=item.imgSrc.replace('.jpg','.png')}
+                    {item.imgSrc=item.imgSrc.replace('.jpg','.png')}
                     
                     return (
                     <div className='w-full' key={item.name}>
