@@ -24,9 +24,9 @@ const PostHead = () => {
                         <TeamCard
                         name={item.name}
                         pos={item.pos}
-                        imgSrc={'/teams/2k23/'+item.imgSrc}
+                        imgSrc={'/teams/2K23/'+item.imgSrc}
                         lazyImgSrc=   
-                         {'/teams/2k23/lazy/'+item.imgSrc}
+                         {'/teams/2K23/lazy/'+item.imgSrc}
                         socials={item.socials}
                     />
                     </div>
